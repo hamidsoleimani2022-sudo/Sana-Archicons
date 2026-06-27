@@ -131,10 +131,10 @@ export default function ContactPage() {
                   <div>
                     <p className="text-xs uppercase tracking-widest text-muted">{t("phoneLabel")}</p>
                     <a
-                      href="tel:+31"
+                      href="tel:+31655861642"
                       className="mt-0.5 text-sm font-medium text-foreground transition-colors hover:text-emerald"
                     >
-                      +31 (0) — —
+                      +31 6 55861642
                     </a>
                   </div>
                 </li>
