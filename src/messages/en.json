@@ -55,7 +55,82 @@
     "s4Title": "Process Automation",
     "s4Desc": "Smart workflows, integrations and more efficient business processes with AI tools — less manual work, more focus on what truly matters.",
     "s4Cta": "Learn more",
+    "s5Title": "Energy Label Assessment",
+    "s5Desc": "As a certified advisor we draw up the official energy label for your home and register it in line with current regulations — including the new energy label from 29 May 2026.",
+    "s5Cta": "Learn more",
+    "s6Title": "Energy Label Improvement Plan",
+    "s6Desc": "A concrete improvement plan with measures — insulation, installations, generation — ranked by cost and payback period, so you reach a better label step by step.",
+    "s6Cta": "Learn more",
     "learnMore": "Learn more"
+  },
+  "EnergyLabel": {
+    "eyebrow": "The energy label explained",
+    "title": "What does your label mean, and what can you improve?",
+    "subtitle": "Click a class to see what it means — and the next step we usually recommend.",
+    "hint": "Energy index per class (indicative values) — click or use the Tab key to explore.",
+    "groupLabel": "Energy label classes A through G",
+    "adviceLabel": "Our advice",
+    "detailDefault": "Click a label to see the explanation and our advice.",
+    "classes": {
+      "A": {
+        "naam": "Very efficient",
+        "toelichting": "An excellently insulated, energy-efficient home with efficient installations and often its own generation (solar panels).",
+        "advies": "Maintain the level and optimise comfort — think smart control and monitoring of consumption."
+      },
+      "B": {
+        "naam": "Efficient",
+        "toelichting": "A well-insulated home with efficient installations; just a small step away from the top level.",
+        "advies": "With targeted improvements to insulation or generation you can reach label A relatively easily."
+      },
+      "C": {
+        "naam": "Average (NL average)",
+        "toelichting": "Comparable to the average Dutch home — reasonable, but there is gain to be had.",
+        "advies": "An improvement plan with insulation and a more efficient heat source moves you towards label A or B."
+      },
+      "D": {
+        "naam": "Moderate",
+        "toelichting": "The home uses more than average; insulation and installations are partly outdated.",
+        "advies": "Start with the shell (roof, façade, glazing); that delivers the most comfort and the fastest payback."
+      },
+      "E": {
+        "naam": "Below average",
+        "toelichting": "Limited insulation and outdated installations lead to higher energy use.",
+        "advies": "A phased improvement plan avoids unnecessary costs and often makes subsidies attainable."
+      },
+      "F": {
+        "naam": "Limited efficiency",
+        "toelichting": "An energy-inefficient home with little insulation and inefficient heating.",
+        "advies": "The greatest gains are here — we draw up a plan that fits your budget."
+      },
+      "G": {
+        "naam": "Not efficient",
+        "toelichting": "The least efficient class: barely any insulation and heavily outdated installations.",
+        "advies": "With a step-by-step improvement plan and available subsidies, large leaps become possible."
+      }
+    }
+  },
+  "EnergyPlan": {
+    "eyebrow": "Towards a better label",
+    "title": "Your improvement plan in four steps",
+    "subtitle": "From survey to delivery — concrete, ranked by cost and payback period, with support for subsidies.",
+    "steps": [
+      {
+        "title": "Home survey",
+        "desc": "We map your home: year of construction, surfaces, insulation and installations — on site or based on documents."
+      },
+      {
+        "title": "Energy label & scoring",
+        "desc": "A detailed scoring forms the basis for the official energy label and shows your current starting point."
+      },
+      {
+        "title": "Tailored improvement plan",
+        "desc": "Concrete measures — insulation, installations, generation — ranked by cost and payback period, with the expected new label."
+      },
+      {
+        "title": "Guidance & subsidy",
+        "desc": "We support implementation and subsidy applications (such as ISDE) so you benefit fully from available schemes."
+      }
+    ]
   },
   "About": {
     "title": "About us",

@@ -55,7 +55,82 @@
     "s4Title": "Procesautomatisering",
     "s4Desc": "Slimme workflows, integraties en efficiëntere bedrijfsprocessen met AI-tools — minder handwerk, meer focus op wat echt telt.",
     "s4Cta": "Meer weten",
+    "s5Title": "Energielabel bepalen",
+    "s5Desc": "Als erkend adviseur stellen wij het officiële energielabel voor uw woning op en registreren dit conform de geldende regelgeving — inclusief het nieuwe energielabel vanaf 29 mei 2026.",
+    "s5Cta": "Meer weten",
+    "s6Title": "Verbeterplan energielabel",
+    "s6Desc": "Een concreet verbeterplan met maatregelen — isolatie, installaties, opwek — gerangschikt op kosten en terugverdientijd, zodat u stap voor stap naar een beter label gaat.",
+    "s6Cta": "Meer weten",
     "learnMore": "Meer weten"
+  },
+  "EnergyLabel": {
+    "eyebrow": "Het energielabel uitgelegd",
+    "title": "Wat betekent uw label, en wat kunt u verbeteren?",
+    "subtitle": "Klik op een klasse om te zien wat deze betekent — en welke vervolgstap wij meestal adviseren.",
+    "hint": "Energie-index per klasse (richtwaarden) — klik of gebruik de Tab-toets om te verkennen.",
+    "groupLabel": "Energielabel klassen A tot en met G",
+    "adviceLabel": "Ons advies",
+    "detailDefault": "Klik op een label om de toelichting en het advies te zien.",
+    "classes": {
+      "A": {
+        "naam": "Zeer zuinig",
+        "toelichting": "Een uitstekend geïsoleerde, energiezuinige woning met efficiënte installaties en vaak eigen opwek (zonnepanelen).",
+        "advies": "Behoud het niveau en optimaliseer het comfort — denk aan slimme sturing en monitoring van het verbruik."
+      },
+      "B": {
+        "naam": "Zuinig",
+        "toelichting": "Een goed geïsoleerde woning met efficiënte installaties; nog een kleine stap naar het hoogste niveau.",
+        "advies": "Met gerichte verbeteringen aan isolatie of opwek bereikt u relatief eenvoudig label A."
+      },
+      "C": {
+        "naam": "Gemiddeld (NL-gemiddelde)",
+        "toelichting": "Vergelijkbaar met de gemiddelde Nederlandse woning — redelijk, maar er is winst te behalen.",
+        "advies": "Een verbeterplan met isolatie en een efficiëntere warmtebron tilt u richting label A of B."
+      },
+      "D": {
+        "naam": "Matig",
+        "toelichting": "De woning verbruikt meer dan gemiddeld; isolatie en installaties zijn deels verouderd.",
+        "advies": "Begin bij de schil (dak, gevel, glas); dat levert het meeste comfort en de snelste terugverdientijd."
+      },
+      "E": {
+        "naam": "Onder gemiddeld",
+        "toelichting": "Beperkte isolatie en verouderde installaties zorgen voor een hoger energieverbruik.",
+        "advies": "Een gefaseerd verbeterplan voorkomt onnodige kosten en maakt subsidie vaak haalbaar."
+      },
+      "F": {
+        "naam": "Beperkt zuinig",
+        "toelichting": "Een energie-onzuinige woning met weinig isolatie en inefficiënte verwarming.",
+        "advies": "Hier is de meeste winst te behalen — wij stellen een plan op dat past bij uw budget."
+      },
+      "G": {
+        "naam": "Niet zuinig",
+        "toelichting": "De minst zuinige klasse: nauwelijks isolatie en sterk verouderde installaties.",
+        "advies": "Met een stapsgewijs verbeterplan en beschikbare subsidies maakt u grote sprongen mogelijk."
+      }
+    }
+  },
+  "EnergyPlan": {
+    "eyebrow": "Naar een beter label",
+    "title": "Uw verbeterplan in vier stappen",
+    "subtitle": "Van opname tot uitvoering — concreet, gerangschikt op kosten en terugverdientijd, met begeleiding bij subsidies.",
+    "steps": [
+      {
+        "title": "Opname woning",
+        "desc": "Wij brengen uw woning in kaart: bouwjaar, oppervlaktes, isolatie en installaties — op locatie of op basis van documenten."
+      },
+      {
+        "title": "Energielabel & puntentelling",
+        "desc": "Een gedetailleerde puntentelling vormt de basis voor het officiële energielabel en geeft uw huidige uitgangspunt weer."
+      },
+      {
+        "title": "Verbeterplan op maat",
+        "desc": "Concrete maatregelen — isolatie, installaties, opwek — gerangschikt op kosten en terugverdientijd, met het te verwachten nieuwe label."
+      },
+      {
+        "title": "Begeleiding & subsidie",
+        "desc": "Wij ondersteunen bij de uitvoering en bij subsidieaanvragen (zoals ISDE), zodat u optimaal profiteert van beschikbare regelingen."
+      }
+    ]
   },
   "About": {
     "title": "Over ons",

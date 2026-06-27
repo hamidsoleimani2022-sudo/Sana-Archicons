@@ -3,7 +3,15 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Reveal } from "@/components/reveal";
-import { Building2, Zap, BrainCircuit, Workflow, ArrowRight } from "lucide-react";
+import {
+  Building2,
+  Zap,
+  BrainCircuit,
+  Workflow,
+  Gauge,
+  TrendingUp,
+  ArrowRight,
+} from "lucide-react";
 
 const items = [
   { icon: Building2, key: "s1", href: "/services" },
@@ -12,8 +20,15 @@ const items = [
   { icon: Workflow, key: "s4", href: "/services" },
 ] as const;
 
-export function Services() {
+// Extra energie-diensten — alleen op de Diensten-pagina (full)
+const energyItems = [
+  { icon: Gauge, key: "s5", href: "/services" },
+  { icon: TrendingUp, key: "s6", href: "/services" },
+] as const;
+
+export function Services({ full = false }: { full?: boolean }) {
   const t = useTranslations("Services");
+  const cards = full ? [...items, ...energyItems] : items;
 
   return (
     <section className="relative mx-auto max-w-7xl px-5 py-20">
@@ -26,8 +41,12 @@ export function Services() {
         </div>
       </Reveal>
 
-      <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-        {items.map(({ icon: Icon, key, href }, i) => (
+      <div
+        className={`mt-14 grid gap-6 sm:grid-cols-2 ${
+          full ? "lg:grid-cols-3" : "lg:grid-cols-4"
+        }`}
+      >
+        {cards.map(({ icon: Icon, key, href }, i) => (
           <Reveal key={key} delay={i * 0.08}>
             <Link
               href={href}
