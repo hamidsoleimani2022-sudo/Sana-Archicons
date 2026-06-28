@@ -50,11 +50,8 @@
     "s2Desc": "An energy scan plus a concrete improvement plan with measures — insulation, installations, generation — ranked by cost and payback period. Including sustainability advice and support with subsidy applications, so you reach a better energy label step by step.",
     "s2Cta": "Learn more",
     "s3Title": "AI Consultancy",
-    "s3Desc": "A clear AI roadmap: where AI delivers value right away, which opportunities fit your organisation and how to start with artificial intelligence responsibly.",
+    "s3Desc": "Websites, AI agents, process automation, maintenance and advice — everything to work smarter, faster and more efficiently with AI.",
     "s3Cta": "Book a consult",
-    "s4Title": "Process Automation",
-    "s4Desc": "Smart workflows, integrations and more efficient business processes with AI tools — less manual work, more focus on what truly matters.",
-    "s4Cta": "Learn more",
     "s5Title": "Energy Label Assessment",
     "s5Desc": "As a certified advisor we draw up the official energy label for your home and register it in line with current regulations — including the new energy label from 29 May 2026.",
     "s5Cta": "Learn more",
@@ -165,6 +162,7 @@
     "offers": [
       { "title": "Website development", "desc": "Fast, modern and mobile-friendly websites — from landing page to a complete business site, optimised to be found." },
       { "title": "Building AI agents", "desc": "Tailor-made AI assistants and chatbots that answer questions, qualify leads and automate tasks — 24/7." },
+      { "title": "Process automation", "desc": "Smart workflows and integrations with AI tools that remove manual work — fewer errors, more focus on what truly matters." },
       { "title": "Website maintenance", "desc": "A maintenance plan that keeps your site secure, fast and current: updates, backups, security and small changes." },
       { "title": "Advice & optimisation", "desc": "We analyse your website and advise concrete improvements in speed, findability (SEO) and conversion." }
     ],

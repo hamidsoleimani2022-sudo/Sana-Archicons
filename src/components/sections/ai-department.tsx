@@ -3,9 +3,17 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Reveal } from "@/components/reveal";
-import { Code2, Bot, Wrench, LineChart, Check, ArrowRight } from "lucide-react";
+import {
+  Code2,
+  Bot,
+  Workflow,
+  Wrench,
+  LineChart,
+  Check,
+  ArrowRight,
+} from "lucide-react";
 
-const offerIcons = [Code2, Bot, Wrench, LineChart];
+const offerIcons = [Code2, Bot, Workflow, Wrench, LineChart];
 
 export function AIDepartment({ showHeading = true }: { showHeading?: boolean }) {
   const t = useTranslations("AI");
@@ -35,7 +43,7 @@ export function AIDepartment({ showHeading = true }: { showHeading?: boolean }) 
         >
           {t("offerTitle")}
         </h3>
-        <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {offerIcons.map((Icon, i) => (
             <div
               key={i}

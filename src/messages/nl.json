@@ -50,11 +50,8 @@
     "s2Desc": "Energiescan én een concreet verbeterplan met maatregelen — isolatie, installaties, opwek — gerangschikt op kosten en terugverdientijd. Inclusief verduurzamingsadvies en begeleiding bij subsidieaanvragen, zodat u stap voor stap naar een beter energielabel gaat.",
     "s2Cta": "Meer weten",
     "s3Title": "AI Consultancy",
-    "s3Desc": "Een helder AI-stappenplan: waar levert AI direct waarde, welke kansen passen bij uw organisatie en hoe begint u verantwoord met kunstmatige intelligentie.",
+    "s3Desc": "Websites, AI-agents, procesautomatisering, onderhoud en advies — alles om slimmer, sneller en efficiënter te werken met AI.",
     "s3Cta": "Plan een consult",
-    "s4Title": "Procesautomatisering",
-    "s4Desc": "Slimme workflows, integraties en efficiëntere bedrijfsprocessen met AI-tools — minder handwerk, meer focus op wat echt telt.",
-    "s4Cta": "Meer weten",
     "s5Title": "Energielabel bepalen",
     "s5Desc": "Als erkend adviseur stellen wij het officiële energielabel voor uw woning op en registreren dit conform de geldende regelgeving — inclusief het nieuwe energielabel vanaf 29 mei 2026.",
     "s5Cta": "Meer weten",
@@ -165,6 +162,7 @@
     "offers": [
       { "title": "Website-ontwikkeling", "desc": "Snelle, moderne en mobielvriendelijke websites — van landingspagina tot complete bedrijfssite, geoptimaliseerd voor vindbaarheid." },
       { "title": "AI-agents bouwen", "desc": "Op maat gemaakte AI-assistenten en chatbots die vragen beantwoorden, leads kwalificeren en taken automatiseren — 24/7." },
+      { "title": "Procesautomatisering", "desc": "Slimme workflows en integraties met AI-tools die handmatig werk wegnemen — minder fouten, meer focus op wat echt telt." },
       { "title": "Webonderhoud", "desc": "Een onderhoudsabonnement dat uw site veilig, snel en actueel houdt: updates, back-ups, beveiliging en kleine wijzigingen." },
       { "title": "Advies & optimalisatie", "desc": "Wij analyseren uw website en adviseren concrete verbeteringen op het gebied van snelheid, vindbaarheid (SEO) en conversie." }
     ],

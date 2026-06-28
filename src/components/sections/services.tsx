@@ -6,7 +6,6 @@ import { Reveal } from "@/components/reveal";
 import {
   Building2,
   BrainCircuit,
-  Workflow,
   Gauge,
   TrendingUp,
   Calculator,
@@ -16,8 +15,7 @@ import {
 const items = [
   { icon: Building2, key: "s1", href: "/services" },
   { icon: TrendingUp, key: "s2", href: "/services/verbeterplan" }, // Verbeterplan (energieadvies + verbeterplan energielabel samengevoegd)
-  { icon: BrainCircuit, key: "s3", href: "/services/ai-consultancy" },
-  { icon: Workflow, key: "s4", href: "/services" },
+  { icon: BrainCircuit, key: "s3", href: "/services/ai-consultancy" }, // AI incl. procesautomatisering
 ] as const;
 
 // Extra woning-diensten — alleen op de Diensten-pagina (full)
@@ -50,8 +48,8 @@ export function Services({
       )}
 
       <div
-        className={`grid gap-6 sm:grid-cols-2 ${showHeading ? "mt-14 " : ""}${
-          full ? "lg:grid-cols-3" : "lg:grid-cols-4"
+        className={`grid gap-6 sm:grid-cols-2 lg:grid-cols-3 ${
+          showHeading ? "mt-14" : ""
         }`}
       >
         {cards.map(({ icon: Icon, key, href }, i) => (
