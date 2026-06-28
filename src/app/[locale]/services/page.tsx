@@ -17,7 +17,7 @@ export default async function ServicesPage({
   return (
     <>
       <PageHeader title={t("title")} subtitle={t("subtitle")} eyebrow="Sana Archicons" />
-      <Services full />
+      <Services full showHeading={false} />
       <EnergyLabel />
       <EnergyPlan />
       <CtaBanner />

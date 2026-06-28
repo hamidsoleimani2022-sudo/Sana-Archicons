@@ -26,23 +26,31 @@ const energyItems = [
   { icon: Calculator, key: "s6", href: "/services" },
 ] as const;
 
-export function Services({ full = false }: { full?: boolean }) {
+export function Services({
+  full = false,
+  showHeading = true,
+}: {
+  full?: boolean;
+  showHeading?: boolean;
+}) {
   const t = useTranslations("Services");
   const cards = full ? [...items, ...energyItems] : items;
 
   return (
     <section className="relative mx-auto max-w-7xl px-5 py-20">
-      <Reveal>
-        <div className="mx-auto max-w-2xl text-center">
-          <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
-            {t("title")}
-          </h2>
-          <p className="mt-4 text-muted">{t("subtitle")}</p>
-        </div>
-      </Reveal>
+      {showHeading && (
+        <Reveal>
+          <div className="mx-auto max-w-2xl text-center">
+            <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
+              {t("title")}
+            </h2>
+            <p className="mt-4 text-muted">{t("subtitle")}</p>
+          </div>
+        </Reveal>
+      )}
 
       <div
-        className={`mt-14 grid gap-6 sm:grid-cols-2 ${
+        className={`grid gap-6 sm:grid-cols-2 ${showHeading ? "mt-14 " : ""}${
           full ? "lg:grid-cols-3" : "lg:grid-cols-4"
         }`}
       >
