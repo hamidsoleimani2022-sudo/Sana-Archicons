@@ -68,33 +68,58 @@
     "title": "What does your label mean, and what can you improve?",
     "subtitle": "Click a class to see what it means — and the next step we usually recommend.",
     "hint": "Energy index per class (indicative values) — click or use the Tab key to explore.",
-    "groupLabel": "Energy label classes A through G",
+    "groupLabel": "Energy label classes A+++++ through G",
     "adviceLabel": "Our advice",
     "detailDefault": "Click a label to see the explanation and our advice.",
     "classes": {
-      "A": {
+      "Aplus5": {
+        "naam": "Extremely efficient",
+        "toelichting": "The most efficient class — a (near) energy-neutral home with top insulation, efficient systems and its own generation.",
+        "advies": "Nothing to improve label-wise; focus on comfort, monitoring and smart energy management."
+      },
+      "Aplus4": {
+        "naam": "Exceptionally efficient",
+        "toelichting": "Very good insulation, a heat pump and solar panels keep consumption to a minimum.",
+        "advies": "Maintain the level; small optimisations in generation or storage (home battery) are still possible."
+      },
+      "Aplus3": {
         "naam": "Very efficient",
-        "toelichting": "An excellently insulated, energy-efficient home with efficient installations and often its own generation (solar panels).",
-        "advies": "Maintain the level and optimise comfort — think smart control and monitoring of consumption."
+        "toelichting": "High-quality insulation and efficient, often electric heating.",
+        "advies": "With extra generation (solar) you reach the highest classes."
+      },
+      "Aplus2": {
+        "naam": "Highly efficient",
+        "toelichting": "Good insulation and an efficient heat source; a comfortable, economical home.",
+        "advies": "Optimise insulation or add generation to climb further."
+      },
+      "Aplus1": {
+        "naam": "Extra efficient",
+        "toelichting": "Better than a standard A home, with above-average insulation and systems.",
+        "advies": "Targeted improvements to glazing, insulation or systems take you to A++ or higher."
+      },
+      "A": {
+        "naam": "Efficient",
+        "toelichting": "A well-performing home with modern insulation and systems.",
+        "advies": "With solar panels or a heat pump you move into the plus classes."
       },
       "B": {
-        "naam": "Efficient",
-        "toelichting": "A well-insulated home with efficient installations; just a small step away from the top level.",
-        "advies": "With targeted improvements to insulation or generation you can reach label A relatively easily."
+        "naam": "Fairly efficient",
+        "toelichting": "A solid home with room for improvement.",
+        "advies": "Improve insulation or systems to reach A or higher."
       },
       "C": {
-        "naam": "Average (NL average)",
+        "naam": "Average (NL)",
         "toelichting": "Comparable to the average Dutch home — reasonable, but there is gain to be had.",
-        "advies": "An improvement plan with insulation and a more efficient heat source moves you towards label A or B."
+        "advies": "An improvement plan with insulation and a more efficient heat source moves you towards A or B."
       },
       "D": {
         "naam": "Moderate",
-        "toelichting": "The home uses more than average; insulation and installations are partly outdated.",
+        "toelichting": "The home uses more than average; insulation and systems are partly outdated.",
         "advies": "Start with the shell (roof, façade, glazing); that delivers the most comfort and the fastest payback."
       },
       "E": {
         "naam": "Below average",
-        "toelichting": "Limited insulation and outdated installations lead to higher energy use.",
+        "toelichting": "Limited insulation and outdated systems lead to higher energy use.",
         "advies": "A phased improvement plan avoids unnecessary costs and often makes subsidies attainable."
       },
       "F": {
@@ -104,8 +129,8 @@
       },
       "G": {
         "naam": "Not efficient",
-        "toelichting": "The least efficient class: barely any insulation and heavily outdated installations.",
-        "advies": "With a step-by-step improvement plan and available subsidies, large leaps become possible."
+        "toelichting": "The least efficient class: barely any insulation and heavily outdated systems.",
+        "advies": "With a step-by-step plan and available subsidies, large leaps become possible."
       }
     }
   },

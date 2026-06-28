@@ -4,22 +4,28 @@ import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { Reveal } from "@/components/reveal";
 
-// Standaard EU-energielabel kleuren (groen A → rood G) met richtwaarde-breedtes.
+// Officiële NL-energielabelschaal A+++++ → G (groen naar rood) met richtwaarde-breedtes.
 const CLASSES = [
-  { letter: "A", w: 92, bar: "#00a651" },
-  { letter: "B", w: 82, bar: "#52ae32" },
-  { letter: "C", w: 70, bar: "#a9cf38" },
-  { letter: "D", w: 58, bar: "#f6c700" },
-  { letter: "E", w: 46, bar: "#f59c00" },
-  { letter: "F", w: 34, bar: "#ee6f00" },
-  { letter: "G", w: 22, bar: "#e30613" },
+  { id: "Aplus5", label: "A+++++", w: 99, bar: "#008a3e" },
+  { id: "Aplus4", label: "A++++", w: 94, bar: "#00a04a" },
+  { id: "Aplus3", label: "A+++", w: 89, bar: "#34ab3a" },
+  { id: "Aplus2", label: "A++", w: 84, bar: "#5cb22f" },
+  { id: "Aplus1", label: "A+", w: 79, bar: "#80ba27" },
+  { id: "A", label: "A", w: 73, bar: "#a6c61e" },
+  { id: "B", label: "B", w: 66, bar: "#ccd300" },
+  { id: "C", label: "C", w: 59, bar: "#f4d100" },
+  { id: "D", label: "D", w: 51, bar: "#f7a800" },
+  { id: "E", label: "E", w: 43, bar: "#f3851a" },
+  { id: "F", label: "F", w: 36, bar: "#ee6321" },
+  { id: "G", label: "G", w: 30, bar: "#e30613" },
 ] as const;
 
-type Letter = (typeof CLASSES)[number]["letter"];
+type ClassId = (typeof CLASSES)[number]["id"];
 
 export function EnergyLabel() {
   const t = useTranslations("EnergyLabel");
-  const [selected, setSelected] = useState<Letter | null>(null);
+  const [selected, setSelected] = useState<ClassId | null>(null);
+  const current = CLASSES.find((c) => c.id === selected);
 
   return (
     <section className="relative mx-auto max-w-7xl px-5 py-20">
@@ -37,34 +43,34 @@ export function EnergyLabel() {
 
       <Reveal delay={0.1}>
         <div className="mx-auto mt-12 grid max-w-5xl gap-6 lg:grid-cols-[1.1fr_0.9fr]">
-          {/* Klassen A–G */}
+          {/* Klassen A+++++ → G */}
           <div className="rounded-2xl border border-line/70 bg-navy/40 p-5 sm:p-6">
             <p className="mb-4 text-sm text-muted">{t("hint")}</p>
             <div
-              className="flex flex-col gap-2.5"
+              className="flex flex-col gap-2"
               role="group"
               aria-label={t("groupLabel")}
             >
-              {CLASSES.map(({ letter, w, bar }) => {
-                const active = selected === letter;
+              {CLASSES.map(({ id, label, w, bar }) => {
+                const active = selected === id;
                 return (
                   <button
-                    key={letter}
+                    key={id}
                     type="button"
                     aria-pressed={active}
-                    onClick={() => setSelected(letter)}
+                    onClick={() => setSelected(id)}
                     className={`flex min-h-11 items-center gap-3 rounded-xl p-1.5 text-left transition-all hover:bg-navy-soft focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald ${
                       active ? "bg-navy-soft ring-2 ring-emerald" : ""
                     }`}
                   >
-                    <span className="flex h-9 w-9 flex-none items-center justify-center rounded-lg bg-navy text-base font-extrabold text-foreground">
-                      {letter}
+                    <span className="flex h-9 min-w-9 flex-none items-center justify-center rounded-lg bg-navy px-2 text-sm font-extrabold text-foreground">
+                      {label}
                     </span>
                     <span
-                      className="flex h-9 items-center rounded-lg px-3 text-sm font-semibold text-[#0a0e14] transition-all"
+                      className="flex h-9 items-center whitespace-nowrap rounded-lg px-3 text-sm font-semibold text-[#0a0e14] transition-all"
                       style={{ width: `${w}%`, backgroundColor: bar }}
                     >
-                      {t(`classes.${letter}.naam`)}
+                      {t(`classes.${id}.naam`)}
                     </span>
                   </button>
                 );
@@ -77,31 +83,28 @@ export function EnergyLabel() {
             className="rounded-2xl border border-line/70 bg-navy/40 p-6"
             aria-live="polite"
           >
-            {selected ? (
+            {current ? (
               <div>
                 <div className="flex items-center gap-3">
                   <span
-                    className="flex h-12 w-12 items-center justify-center rounded-xl text-xl font-extrabold text-[#0a0e14]"
-                    style={{
-                      backgroundColor: CLASSES.find((c) => c.letter === selected)!
-                        .bar,
-                    }}
+                    className="flex h-12 min-w-12 items-center justify-center rounded-xl px-2.5 text-lg font-extrabold text-[#0a0e14]"
+                    style={{ backgroundColor: current.bar }}
                   >
-                    {selected}
+                    {current.label}
                   </span>
                   <h3 className="text-lg font-bold text-foreground">
-                    {t(`classes.${selected}.naam`)}
+                    {t(`classes.${current.id}.naam`)}
                   </h3>
                 </div>
                 <p className="mt-4 text-sm leading-relaxed text-muted">
-                  {t(`classes.${selected}.toelichting`)}
+                  {t(`classes.${current.id}.toelichting`)}
                 </p>
                 <div className="mt-5 rounded-xl border border-emerald/30 bg-emerald/10 p-4">
                   <p className="text-xs font-semibold uppercase tracking-wider text-emerald">
                     {t("adviceLabel")}
                   </p>
                   <p className="mt-1.5 text-sm leading-relaxed text-foreground">
-                    {t(`classes.${selected}.advies`)}
+                    {t(`classes.${current.id}.advies`)}
                   </p>
                 </div>
               </div>

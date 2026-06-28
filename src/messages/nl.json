@@ -68,24 +68,49 @@
     "title": "Wat betekent uw label, en wat kunt u verbeteren?",
     "subtitle": "Klik op een klasse om te zien wat deze betekent — en welke vervolgstap wij meestal adviseren.",
     "hint": "Energie-index per klasse (richtwaarden) — klik of gebruik de Tab-toets om te verkennen.",
-    "groupLabel": "Energielabel klassen A tot en met G",
+    "groupLabel": "Energielabel klassen A+++++ tot en met G",
     "adviceLabel": "Ons advies",
     "detailDefault": "Klik op een label om de toelichting en het advies te zien.",
     "classes": {
-      "A": {
+      "Aplus5": {
+        "naam": "Extreem zuinig",
+        "toelichting": "De allerzuinigste klasse — een (vrijwel) energieneutrale woning met topisolatie, efficiënte installaties en eigen opwek.",
+        "advies": "Qua label valt er niets te verbeteren; richt u op comfort, monitoring en slim energiebeheer."
+      },
+      "Aplus4": {
+        "naam": "Uitzonderlijk zuinig",
+        "toelichting": "Zeer goede isolatie, een warmtepomp en zonnepanelen zorgen voor een minimaal verbruik.",
+        "advies": "Behoud het niveau; kleine optimalisaties in opwek of opslag (thuisbatterij) zijn nog mogelijk."
+      },
+      "Aplus3": {
         "naam": "Zeer zuinig",
-        "toelichting": "Een uitstekend geïsoleerde, energiezuinige woning met efficiënte installaties en vaak eigen opwek (zonnepanelen).",
-        "advies": "Behoud het niveau en optimaliseer het comfort — denk aan slimme sturing en monitoring van het verbruik."
+        "toelichting": "Hoogwaardige isolatie en efficiënte, vaak elektrische verwarming.",
+        "advies": "Met extra opwek (zonnepanelen) zet u de stap naar de hoogste klassen."
+      },
+      "Aplus2": {
+        "naam": "Heel zuinig",
+        "toelichting": "Goede isolatie en een efficiënte warmtebron; een comfortabele, zuinige woning.",
+        "advies": "Optimaliseer de isolatie of voeg opwek toe om verder te stijgen."
+      },
+      "Aplus1": {
+        "naam": "Extra zuinig",
+        "toelichting": "Beter dan een standaard A-woning, met bovengemiddelde isolatie en installaties.",
+        "advies": "Gerichte verbeteringen aan glas, isolatie of installatie brengen u naar A++ of hoger."
+      },
+      "A": {
+        "naam": "Zuinig",
+        "toelichting": "Een goed presterende woning met moderne isolatie en installaties.",
+        "advies": "Met zonnepanelen of een warmtepomp komt u in de plus-klassen."
       },
       "B": {
-        "naam": "Zuinig",
-        "toelichting": "Een goed geïsoleerde woning met efficiënte installaties; nog een kleine stap naar het hoogste niveau.",
-        "advies": "Met gerichte verbeteringen aan isolatie of opwek bereikt u relatief eenvoudig label A."
+        "naam": "Vrij zuinig",
+        "toelichting": "Degelijke woning met nog ruimte voor verbetering.",
+        "advies": "Verbeter de isolatie of installaties om naar A of hoger te gaan."
       },
       "C": {
-        "naam": "Gemiddeld (NL-gemiddelde)",
+        "naam": "Gemiddeld (NL)",
         "toelichting": "Vergelijkbaar met de gemiddelde Nederlandse woning — redelijk, maar er is winst te behalen.",
-        "advies": "Een verbeterplan met isolatie en een efficiëntere warmtebron tilt u richting label A of B."
+        "advies": "Een verbeterplan met isolatie en een efficiëntere warmtebron tilt u richting A of B."
       },
       "D": {
         "naam": "Matig",
