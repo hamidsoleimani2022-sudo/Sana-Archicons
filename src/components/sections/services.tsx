@@ -15,15 +15,15 @@ import {
 
 const items = [
   { icon: Building2, key: "s1", href: "/services" },
-  { icon: TrendingUp, key: "s2", href: "/services" }, // Verbeterplan (energieadvies + verbeterplan energielabel samengevoegd)
+  { icon: TrendingUp, key: "s2", href: "/services/verbeterplan" }, // Verbeterplan (energieadvies + verbeterplan energielabel samengevoegd)
   { icon: BrainCircuit, key: "s3", href: "/booking" },
   { icon: Workflow, key: "s4", href: "/services" },
 ] as const;
 
 // Extra woning-diensten — alleen op de Diensten-pagina (full)
 const energyItems = [
-  { icon: Gauge, key: "s5", href: "/services" },
-  { icon: Calculator, key: "s6", href: "/services" },
+  { icon: Gauge, key: "s5", href: "/services/energielabel" },
+  { icon: Calculator, key: "s6", href: "/services/wws" },
 ] as const;
 
 export function Services({

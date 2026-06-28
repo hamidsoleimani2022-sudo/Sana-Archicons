@@ -30,26 +30,32 @@ const factorIcons = [
 
 const SOURCE_URL = "https://huurprijscheck.huurcommissie.nl/zelfstandige-woonruimte";
 
-export function WWS() {
+export function WWS({ showHeading = true }: { showHeading?: boolean }) {
   const t = useTranslations("WWS");
 
   return (
     <section className="relative mx-auto max-w-7xl px-5 py-20">
-      <Reveal>
-        <div className="mx-auto max-w-2xl text-center">
-          <span className="text-xs font-semibold uppercase tracking-[0.22em] text-emerald">
-            {t("eyebrow")}
-          </span>
-          <h2 className="mt-3 text-3xl font-extrabold tracking-tight sm:text-4xl">
-            {t("title")}
-          </h2>
-          <p className="mt-4 text-muted">{t("subtitle")}</p>
-        </div>
-      </Reveal>
+      {showHeading && (
+        <Reveal>
+          <div className="mx-auto max-w-2xl text-center">
+            <span className="text-xs font-semibold uppercase tracking-[0.22em] text-emerald">
+              {t("eyebrow")}
+            </span>
+            <h2 className="mt-3 text-3xl font-extrabold tracking-tight sm:text-4xl">
+              {t("title")}
+            </h2>
+            <p className="mt-4 text-muted">{t("subtitle")}</p>
+          </div>
+        </Reveal>
+      )}
 
       {/* Wat telt mee in de punten */}
       <Reveal delay={0.1}>
-        <h3 className="mt-14 text-center text-lg font-bold text-foreground">
+        <h3
+          className={`text-center text-lg font-bold text-foreground ${
+            showHeading ? "mt-14" : ""
+          }`}
+        >
           {t("factorsTitle")}
         </h3>
         <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">

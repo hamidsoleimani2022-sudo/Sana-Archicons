@@ -1,21 +1,25 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { PageHeader } from "@/components/page-header";
-import { Services } from "@/components/sections/services";
+import { EnergyLabel } from "@/components/sections/energy-label";
 import { CtaBanner } from "@/components/sections/cta";
 
-export default async function ServicesPage({
+export default async function EnergielabelPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations("Services");
+  const t = await getTranslations("EnergyLabel");
 
   return (
     <>
-      <PageHeader title={t("title")} subtitle={t("subtitle")} eyebrow="Sana Archicons" />
-      <Services full showHeading={false} />
+      <PageHeader
+        eyebrow={t("eyebrow")}
+        title={t("title")}
+        subtitle={t("subtitle")}
+      />
+      <EnergyLabel showHeading={false} />
       <CtaBanner />
     </>
   );

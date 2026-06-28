@@ -22,27 +22,33 @@ const CLASSES = [
 
 type ClassId = (typeof CLASSES)[number]["id"];
 
-export function EnergyLabel() {
+export function EnergyLabel({ showHeading = true }: { showHeading?: boolean }) {
   const t = useTranslations("EnergyLabel");
   const [selected, setSelected] = useState<ClassId | null>(null);
   const current = CLASSES.find((c) => c.id === selected);
 
   return (
     <section className="relative mx-auto max-w-7xl px-5 py-20">
-      <Reveal>
-        <div className="mx-auto max-w-2xl text-center">
-          <span className="text-xs font-semibold uppercase tracking-[0.22em] text-emerald">
-            {t("eyebrow")}
-          </span>
-          <h2 className="mt-3 text-3xl font-extrabold tracking-tight sm:text-4xl">
-            {t("title")}
-          </h2>
-          <p className="mt-4 text-muted">{t("subtitle")}</p>
-        </div>
-      </Reveal>
+      {showHeading && (
+        <Reveal>
+          <div className="mx-auto max-w-2xl text-center">
+            <span className="text-xs font-semibold uppercase tracking-[0.22em] text-emerald">
+              {t("eyebrow")}
+            </span>
+            <h2 className="mt-3 text-3xl font-extrabold tracking-tight sm:text-4xl">
+              {t("title")}
+            </h2>
+            <p className="mt-4 text-muted">{t("subtitle")}</p>
+          </div>
+        </Reveal>
+      )}
 
       <Reveal delay={0.1}>
-        <div className="mx-auto mt-12 grid max-w-5xl gap-6 lg:grid-cols-[1.1fr_0.9fr]">
+        <div
+          className={`mx-auto grid max-w-5xl gap-6 lg:grid-cols-[1.1fr_0.9fr] ${
+            showHeading ? "mt-12" : ""
+          }`}
+        >
           {/* Klassen A+++++ → G */}
           <div className="rounded-2xl border border-line/70 bg-navy/40 p-5 sm:p-6">
             <p className="mb-4 text-sm text-muted">{t("hint")}</p>
