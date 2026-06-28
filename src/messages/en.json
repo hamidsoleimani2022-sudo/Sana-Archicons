@@ -46,8 +46,8 @@
     "s1Title": "Construction Advisory",
     "s1Desc": "Professional construction advice for renovations, refurbishments and new-build projects — from technical surveys to on-site supervision.",
     "s1Cta": "Learn more",
-    "s2Title": "Energy Advisory",
-    "s2Desc": "Energy scans, sustainability advice and support with subsidy applications — we help make your property or organisation more energy-efficient and future-proof.",
+    "s2Title": "Improvement Plan",
+    "s2Desc": "An energy scan plus a concrete improvement plan with measures — insulation, installations, generation — ranked by cost and payback period. Including sustainability advice and support with subsidy applications, so you reach a better energy label step by step.",
     "s2Cta": "Learn more",
     "s3Title": "AI Consultancy",
     "s3Desc": "A clear AI roadmap: where AI delivers value right away, which opportunities fit your organisation and how to start with artificial intelligence responsibly.",
@@ -58,9 +58,6 @@
     "s5Title": "Energy Label Assessment",
     "s5Desc": "As a certified advisor we draw up the official energy label for your home and register it in line with current regulations — including the new energy label from 29 May 2026.",
     "s5Cta": "Learn more",
-    "s6Title": "Energy Label Improvement Plan",
-    "s6Desc": "A concrete improvement plan with measures — insulation, installations, generation — ranked by cost and payback period, so you reach a better label step by step.",
-    "s6Cta": "Learn more",
     "learnMore": "Learn more"
   },
   "EnergyLabel": {

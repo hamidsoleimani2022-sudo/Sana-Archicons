@@ -5,7 +5,6 @@ import { Link } from "@/i18n/navigation";
 import { Reveal } from "@/components/reveal";
 import {
   Building2,
-  Zap,
   BrainCircuit,
   Workflow,
   Gauge,
@@ -15,15 +14,14 @@ import {
 
 const items = [
   { icon: Building2, key: "s1", href: "/services" },
-  { icon: Zap, key: "s2", href: "/services" },
+  { icon: TrendingUp, key: "s2", href: "/services" }, // Verbeterplan (energieadvies + verbeterplan energielabel samengevoegd)
   { icon: BrainCircuit, key: "s3", href: "/booking" },
   { icon: Workflow, key: "s4", href: "/services" },
 ] as const;
 
-// Extra energie-diensten — alleen op de Diensten-pagina (full)
+// Extra energie-dienst — alleen op de Diensten-pagina (full)
 const energyItems = [
   { icon: Gauge, key: "s5", href: "/services" },
-  { icon: TrendingUp, key: "s6", href: "/services" },
 ] as const;
 
 export function Services({ full = false }: { full?: boolean }) {
