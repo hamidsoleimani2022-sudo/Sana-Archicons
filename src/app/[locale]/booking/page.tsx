@@ -13,7 +13,7 @@ export default async function BookingPage({
 
   return (
     <>
-      <PageHeader title={t("title")} subtitle={t("subtitle")} eyebrow="60 min · € 85" />
+      <PageHeader title={t("title")} subtitle={t("subtitle")} eyebrow="15 min · Gratis" />
       <section className="mx-auto max-w-5xl px-5 py-14">
         <CalBooking calLink="hamid-soleimani-ge0bxu" />
       </section>
