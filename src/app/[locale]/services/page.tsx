@@ -3,6 +3,7 @@ import { PageHeader } from "@/components/page-header";
 import { Services } from "@/components/sections/services";
 import { EnergyLabel } from "@/components/sections/energy-label";
 import { EnergyPlan } from "@/components/sections/energy-plan";
+import { WWS } from "@/components/sections/wws";
 import { CtaBanner } from "@/components/sections/cta";
 
 export default async function ServicesPage({
@@ -20,6 +21,7 @@ export default async function ServicesPage({
       <Services full showHeading={false} />
       <EnergyLabel />
       <EnergyPlan />
+      <WWS />
       <CtaBanner />
     </>
   );

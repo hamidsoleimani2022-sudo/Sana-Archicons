@@ -157,6 +157,39 @@
       }
     ]
   },
+  "WWS": {
+    "eyebrow": "Housing Points System (WWS)",
+    "title": "Know the maximum rent your property may charge",
+    "subtitle": "The Dutch housing valuation system (WWS) uses an objective points assessment to set the maximum (legal) rent of a self-contained home. We carry out that assessment precisely for you — so you can be sure you charge the right rent and demonstrably comply with the Affordable Rent Act.",
+    "factorsTitle": "What counts towards the points",
+    "factors": [
+      { "title": "Floor area", "desc": "Rooms and other spaces, measured precisely." },
+      { "title": "Energy label", "desc": "A better label directly earns more points." },
+      { "title": "WOZ value", "desc": "The official property value is factored in." },
+      { "title": "Kitchen", "desc": "Worktop length and the quality of the fit-out." },
+      { "title": "Sanitary", "desc": "Toilet, bathroom and available facilities." },
+      { "title": "Outdoor space", "desc": "Garden, balcony, terrace or roof terrace." },
+      { "title": "Heating", "desc": "Type of heating and the number of heated rooms." },
+      { "title": "Monument & extras", "desc": "Listed status and special amenities." }
+    ],
+    "segmentsTitle": "From points to rental segment",
+    "segments": [
+      { "range": "up to 143 points", "label": "Social rent", "desc": "Regulated segment with a lower maximum rent." },
+      { "range": "144 – 186 points", "label": "Mid-market rent", "desc": "Regulated under the Affordable Rent Act since 1 July 2024." },
+      { "range": "187 points or more", "label": "Free sector", "desc": "Freely set rent, beyond the points cap." }
+    ],
+    "note": "Maximum rents and point thresholds are indexed annually. We always calculate with the current figures.",
+    "benefitsTitle": "Your advantage with Sana Archicons",
+    "benefits": [
+      "An objective, verifiable points assessment under the official WWS.",
+      "Certainty that you charge the right, maximum rent — neither too low nor too high.",
+      "Demonstrable compliance with the Affordable Rent Act, avoiding disputes and refunds.",
+      "A clear report you can use directly for renting out, purchase or valuation."
+    ],
+    "sourceLabel": "Source",
+    "sourceText": "Based on the Huurprijscheck of the Dutch Rent Tribunal (Huurcommissie).",
+    "cta": "Request your WWS points assessment"
+  },
   "About": {
     "title": "About us",
     "subtitle": "Sana Archicons",

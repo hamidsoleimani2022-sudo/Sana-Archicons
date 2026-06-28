@@ -157,6 +157,39 @@
       }
     ]
   },
+  "WWS": {
+    "eyebrow": "Woningwaarderingsstelsel (WWS)",
+    "title": "Weet wat uw woning maximaal mag opbrengen",
+    "subtitle": "Het Woningwaarderingsstelsel (WWS) bepaalt met een objectieve puntentelling de maximale (wettelijke) huurprijs van een zelfstandige woning. Wij voeren die telling nauwkeurig voor u uit — zodat u zeker weet dat u de juiste huur vraagt en aantoonbaar voldoet aan de Wet betaalbare huur.",
+    "factorsTitle": "Wat telt mee in de punten",
+    "factors": [
+      { "title": "Oppervlakte", "desc": "Vertrekken en overige ruimten, nauwkeurig ingemeten." },
+      { "title": "Energielabel", "desc": "Een beter label levert direct meer punten op." },
+      { "title": "WOZ-waarde", "desc": "De WOZ-waarde weegt mee in de waardering." },
+      { "title": "Keuken", "desc": "Lengte van het aanrecht en de kwaliteit van de inrichting." },
+      { "title": "Sanitair", "desc": "Toilet, badkamer en aanwezige voorzieningen." },
+      { "title": "Buitenruimte", "desc": "Tuin, balkon, terras of dakterras." },
+      { "title": "Verwarming", "desc": "Type verwarming en het aantal verwarmde vertrekken." },
+      { "title": "Monument & extra's", "desc": "Rijksmonument en bijzondere voorzieningen." }
+    ],
+    "segmentsTitle": "Van punten naar huursegment",
+    "segments": [
+      { "range": "t/m 143 punten", "label": "Sociale huur", "desc": "Gereguleerd segment met een lagere maximale huurprijs." },
+      { "range": "144 – 186 punten", "label": "Middenhuur", "desc": "Sinds 1 juli 2024 gereguleerd onder de Wet betaalbare huur." },
+      { "range": "187 punten of meer", "label": "Vrije sector", "desc": "Vrij te bepalen huurprijs, los van het puntenmaximum." }
+    ],
+    "note": "Maximale huurprijzen en puntgrenzen worden jaarlijks geïndexeerd. Wij rekenen altijd met de actuele bedragen.",
+    "benefitsTitle": "Uw voordeel met Sana Archicons",
+    "benefits": [
+      "Een objectieve, controleerbare puntentelling volgens het officiële WWS.",
+      "Zekerheid dat u de juiste, maximale huurprijs vraagt — niet te laag én niet te hoog.",
+      "Aantoonbaar voldoen aan de Wet betaalbare huur, zodat u geschillen en terugbetaling voorkomt.",
+      "Een helder rapport dat u direct kunt gebruiken bij verhuur, aankoop of taxatie."
+    ],
+    "sourceLabel": "Bron",
+    "sourceText": "Gebaseerd op de Huurprijscheck van de Huurcommissie.",
+    "cta": "Vraag uw WWS-puntentelling aan"
+  },
   "About": {
     "title": "Over ons",
     "subtitle": "Sana Archicons",
