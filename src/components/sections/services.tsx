@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 
 const items = [
-  { icon: Building2, key: "s1", href: "/services" },
+  { icon: Building2, key: "s1", href: "/services/bouwkundig" },
   { icon: TrendingUp, key: "s2", href: "/services/verbeterplan" }, // Verbeterplan (energieadvies + verbeterplan energielabel samengevoegd)
   { icon: BrainCircuit, key: "s3", href: "/services/ai-consultancy" }, // AI incl. procesautomatisering
 ] as const;

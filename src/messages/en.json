@@ -226,6 +226,133 @@
     "sourceText": "Based on the Huurprijscheck of the Dutch Rent Tribunal (Huurcommissie).",
     "cta": "Request your WWS points assessment"
   },
+  "Bouwkundig": {
+    "eyebrow": "Building survey when buying",
+    "title": "Building survey advice when buying a home",
+    "subtitle": "An independent technical building survey gives you a clear picture of the structural condition of the property, its deferred maintenance and the expected costs before you buy — so you can decide and negotiate with confidence.",
+    "scopeTitle": "What does the survey cover?",
+    "scopeIntro": "We visually assess all accessible building elements, from foundation to roof, using the NTA 8060 methodology. On request we deliver the report in line with the official Nationale Hypotheek Garantie (NHG) model building report, which your mortgage lender may require.",
+    "groups": [
+      {
+        "title": "Foundation & substructure",
+        "items": [
+          "Foundation, cracking and settlement",
+          "Crawl space and ventilation",
+          "Cellar and ground floor",
+          "Rising and penetrating damp"
+        ]
+      },
+      {
+        "title": "Façades & building envelope",
+        "items": [
+          "Brickwork and cracks",
+          "Pointing and façade finish",
+          "Window frames, windows and doors",
+          "Wood rot and woodworm"
+        ]
+      },
+      {
+        "title": "Roof & roof structure",
+        "items": [
+          "Roof covering (tiles, bitumen, slate)",
+          "Roof structure and timber",
+          "Chimney and lead/zinc work",
+          "Gutters and rainwater drainage"
+        ]
+      },
+      {
+        "title": "Interior & finishes",
+        "items": [
+          "Floors, walls and ceilings",
+          "Stairs and balustrades",
+          "Bathroom, toilet and kitchen",
+          "Tiling and sealant joints"
+        ]
+      },
+      {
+        "title": "Installations",
+        "items": [
+          "Central heating boiler and heating",
+          "Electrical system and meter box",
+          "Ventilation and mechanical extraction",
+          "Sewerage and sanitary"
+        ]
+      },
+      {
+        "title": "Safety & health",
+        "items": [
+          "Asbestos-suspect materials (flagging)",
+          "Mould and damp problems",
+          "Insulation and energy condition",
+          "Lead pipes"
+        ]
+      }
+    ],
+    "processTitle": "Our analysis in four steps",
+    "steps": [
+      {
+        "title": "On-site visual survey",
+        "desc": "We walk through the property step by step and assess all visible and accessible building elements, from foundation to roof, photographing any defects."
+      },
+      {
+        "title": "Condition rating per element",
+        "desc": "Each element receives an objective condition score from 1 (excellent) to 6 (very poor) according to NEN 2767, together translated into an A–G class."
+      },
+      {
+        "title": "Clear reporting",
+        "desc": "Within a few working days you receive a report with photos, a description of the defects and a cost estimate for deferred maintenance and maintenance for the coming years."
+      },
+      {
+        "title": "Advice & negotiation",
+        "desc": "You use the report in price negotiations or as a resolutive condition in the purchase agreement, so you can withdraw from the purchase penalty-free in case of major defects."
+      }
+    ],
+    "conditionTitle": "How do we assess the condition?",
+    "conditionText": "Each building element receives an objective condition score from 1 (excellent) to 6 (very poor) according to NEN 2767. The NTA 8060 methodology is designed specifically for home surveys during buying and selling and translates the property into a class from A to G — comparable to the energy label.",
+    "highlightsTitle": "Deferred maintenance & financial advice",
+    "highlights": [
+      {
+        "title": "Cost estimate in two horizons",
+        "desc": "The report indicates the cost of immediately necessary repairs (deferred maintenance) as well as the expected maintenance for the coming years."
+      },
+      {
+        "title": "The 10% rule with NHG",
+        "desc": "If you buy with a Nationale Hypotheek Garantie, a building report may be mandatory when the immediately necessary repairs are estimated to exceed 10% of the private sale value."
+      },
+      {
+        "title": "Resolutive condition",
+        "desc": "You can set a threshold amount (often € 5,000–€ 10,000 or 2–3% of the purchase price) in the contract; if repair costs turn out higher, you can withdraw penalty-free."
+      },
+      {
+        "title": "Independent advice",
+        "desc": "The author of the report may in no way be involved in the purchase, sale, mediation or financing — guaranteeing an objective and reliable judgement."
+      }
+    ],
+    "costNoteTitle": "What does a survey cost?",
+    "costNote": "A technical building survey costs roughly € 300 for members of Vereniging Eigen Huis and usually € 450–€ 800 at other firms, depending on the size of the property and any additional research. Prices are indicative; always request a tailored quote.",
+    "improveTitle": "From survey to improvement plan",
+    "improveText": "After the survey we link the findings to a concrete improvement and sustainability plan: from clearing deferred maintenance to insulation and installations, ranked by urgency, cost and payback time — including support with subsidies.",
+    "sourcesTitle": "Sources",
+    "sourcesIntro": "This information is based on the following reliable, public sources:",
+    "sources": [
+      {
+        "label": "Nationale Hypotheek Garantie (NHG) — Conditions & standards and model building report",
+        "url": "https://www.nhg.nl/voorwaarden-en-normen/"
+      },
+      {
+        "label": "Vereniging Eigen Huis — Technical building survey",
+        "url": "https://www.eigenhuis.nl/huis-kopen/bouwtechnische-keuring"
+      },
+      {
+        "label": "NEN — Condition measurement NEN 2767",
+        "url": "https://www.nen.nl/bouw/beheer-en-onderhoud/conditiemeting"
+      },
+      {
+        "label": "NRBI — Dutch Register of Building Inspectors (NTA 8060 / NHG)",
+        "url": "https://nrbi.nl/"
+      }
+    ]
+  },
   "About": {
     "title": "About us",
     "subtitle": "Sana Archicons",

@@ -226,6 +226,133 @@
     "sourceText": "Gebaseerd op de Huurprijscheck van de Huurcommissie.",
     "cta": "Vraag uw WWS-puntentelling aan"
   },
+  "Bouwkundig": {
+    "eyebrow": "Bouwkundige keuring bij aankoop",
+    "title": "Bouwkundig advies bij het kopen van een woning",
+    "subtitle": "Een onafhankelijke bouwtechnische keuring geeft u vóór de koop helder inzicht in de bouwkundige staat van de woning, het achterstallig onderhoud en de te verwachten kosten — zodat u met vertrouwen kunt beslissen en onderhandelen.",
+    "scopeTitle": "Welke onderdelen vallen onder de keuring?",
+    "scopeIntro": "Wij beoordelen visueel alle bereikbare bouwdelen, van fundering tot dak, volgens de methodiek van NTA 8060. Op verzoek leveren wij het rapport conform het model-bouwkundig rapport van de Nationale Hypotheek Garantie (NHG), dat uw hypotheekverstrekker kan vragen.",
+    "groups": [
+      {
+        "title": "Fundering & onderbouw",
+        "items": [
+          "Fundering, scheurvorming en zettingen",
+          "Kruipruimte en ventilatie",
+          "Kelder en begane-grondvloer",
+          "Optrekkend en doorslaand vocht"
+        ]
+      },
+      {
+        "title": "Gevels & buitenschil",
+        "items": [
+          "Metselwerk en scheuren",
+          "Voegwerk en gevelafwerking",
+          "Kozijnen, ramen en deuren",
+          "Houtrot en houtworm"
+        ]
+      },
+      {
+        "title": "Dak & dakconstructie",
+        "items": [
+          "Dakbedekking (pannen, bitumen, leien)",
+          "Dakconstructie en houtwerk",
+          "Schoorsteen en lood-/zinkwerk",
+          "Goten en hemelwaterafvoer"
+        ]
+      },
+      {
+        "title": "Binnen & afwerking",
+        "items": [
+          "Vloeren, wanden en plafonds",
+          "Trappen en balustrades",
+          "Badkamer, toilet en keuken",
+          "Tegelwerk en kitvoegen"
+        ]
+      },
+      {
+        "title": "Installaties",
+        "items": [
+          "Cv-ketel en verwarming",
+          "Elektra en meterkast",
+          "Ventilatie en mechanische afzuiging",
+          "Riolering en sanitair"
+        ]
+      },
+      {
+        "title": "Veiligheid & gezondheid",
+        "items": [
+          "Asbestverdachte materialen (signalering)",
+          "Schimmel en vochtproblemen",
+          "Isolatie en energetische staat",
+          "Loden leidingen"
+        ]
+      }
+    ],
+    "processTitle": "Onze analyse in vier stappen",
+    "steps": [
+      {
+        "title": "Visuele opname op locatie",
+        "desc": "Wij lopen de woning stap voor stap door en beoordelen alle zichtbare en bereikbare bouwdelen, van fundering tot dak, en maken foto's van de gebreken."
+      },
+      {
+        "title": "Conditiebeoordeling per bouwdeel",
+        "desc": "Elk onderdeel krijgt een objectieve conditiescore van 1 (uitstekend) tot 6 (zeer slecht) volgens NEN 2767, samen vertaald naar een klasse A–G."
+      },
+      {
+        "title": "Heldere rapportage",
+        "desc": "Binnen enkele werkdagen ontvangt u een rapport met foto's, een omschrijving van de gebreken en een kostenindicatie van achterstallig onderhoud en het onderhoud voor de komende jaren."
+      },
+      {
+        "title": "Advies & onderhandeling",
+        "desc": "U gebruikt het rapport bij de prijsonderhandeling of als ontbindende voorwaarde in de koopovereenkomst, zodat u boetevrij kunt afzien van de koop bij forse gebreken."
+      }
+    ],
+    "conditionTitle": "Hoe beoordelen wij de conditie?",
+    "conditionText": "Elk bouwdeel krijgt een objectieve conditiescore van 1 (uitstekend) tot 6 (zeer slecht) volgens NEN 2767. De methodiek van NTA 8060 is speciaal bedoeld voor woningkeuringen bij aan- en verkoop en vertaalt de woning naar een klasse van A tot en met G — vergelijkbaar met het energielabel.",
+    "highlightsTitle": "Achterstallig onderhoud & financieel advies",
+    "highlights": [
+      {
+        "title": "Kostenindicatie in twee termijnen",
+        "desc": "Het rapport geeft een indicatie van de kosten voor direct noodzakelijk herstel (achterstallig onderhoud) én van het te verwachten onderhoud voor de komende jaren."
+      },
+      {
+        "title": "De 10%-regel bij NHG",
+        "desc": "Koopt u met Nationale Hypotheek Garantie, dan kan een bouwkundig rapport verplicht zijn wanneer het direct noodzakelijk herstel naar schatting meer dan 10% van de onderhandse verkoopwaarde bedraagt."
+      },
+      {
+        "title": "Ontbindende voorwaarde",
+        "desc": "U kunt een drempelbedrag (vaak € 5.000–€ 10.000 of 2–3% van de koopsom) in het koopcontract opnemen; vallen de herstelkosten hoger uit, dan kunt u boetevrij ontbinden."
+      },
+      {
+        "title": "Onafhankelijk advies",
+        "desc": "De opsteller van het rapport mag op geen enkele wijze betrokken zijn bij de koop, verkoop, bemiddeling of financiering — dat borgt een objectief en betrouwbaar oordeel."
+      }
+    ],
+    "costNoteTitle": "Wat kost een keuring?",
+    "costNote": "Een bouwtechnische keuring kost indicatief € 300 voor leden van Vereniging Eigen Huis en doorgaans € 450–€ 800 bij andere bureaus, afhankelijk van de grootte van de woning en eventueel aanvullend onderzoek. Prijzen zijn richtbedragen; vraag altijd een offerte op maat.",
+    "improveTitle": "Van keuring naar verbeterplan",
+    "improveText": "Na de keuring koppelen wij de bevindingen aan een concreet verbeter- en verduurzamingsplan: van het wegwerken van achterstallig onderhoud tot isolatie en installaties, gerangschikt op urgentie, kosten en terugverdientijd — inclusief begeleiding bij subsidies.",
+    "sourcesTitle": "Bronnen",
+    "sourcesIntro": "Deze informatie is gebaseerd op de volgende betrouwbare, openbare bronnen:",
+    "sources": [
+      {
+        "label": "Nationale Hypotheek Garantie (NHG) — Voorwaarden & Normen en model-bouwkundig rapport",
+        "url": "https://www.nhg.nl/voorwaarden-en-normen/"
+      },
+      {
+        "label": "Vereniging Eigen Huis — Bouwtechnische keuring",
+        "url": "https://www.eigenhuis.nl/huis-kopen/bouwtechnische-keuring"
+      },
+      {
+        "label": "NEN — Conditiemeting NEN 2767",
+        "url": "https://www.nen.nl/bouw/beheer-en-onderhoud/conditiemeting"
+      },
+      {
+        "label": "NRBI — Nederlands Register Bouwkundig Inspecteurs (NTA 8060 / NHG)",
+        "url": "https://nrbi.nl/"
+      }
+    ]
+  },
   "About": {
     "title": "Over ons",
     "subtitle": "Sana Archicons",
