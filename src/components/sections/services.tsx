@@ -9,6 +9,7 @@ import {
   Workflow,
   Gauge,
   TrendingUp,
+  Calculator,
   ArrowRight,
 } from "lucide-react";
 
@@ -19,9 +20,10 @@ const items = [
   { icon: Workflow, key: "s4", href: "/services" },
 ] as const;
 
-// Extra energie-dienst — alleen op de Diensten-pagina (full)
+// Extra woning-diensten — alleen op de Diensten-pagina (full)
 const energyItems = [
   { icon: Gauge, key: "s5", href: "/services" },
+  { icon: Calculator, key: "s6", href: "/services" },
 ] as const;
 
 export function Services({ full = false }: { full?: boolean }) {
