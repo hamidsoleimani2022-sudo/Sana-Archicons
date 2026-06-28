@@ -157,6 +157,44 @@
       }
     ]
   },
+  "AI": {
+    "eyebrow": "AI-afdeling",
+    "title": "Slimme websites, AI-agents en zorgeloos onderhoud",
+    "subtitle": "Onze AI-afdeling bouwt moderne websites en AI-agents, automatiseert uw processen en houdt alles veilig en up-to-date — zodat u zich kunt richten op uw werk.",
+    "offerTitle": "Wat wij doen",
+    "offers": [
+      { "title": "Website-ontwikkeling", "desc": "Snelle, moderne en mobielvriendelijke websites — van landingspagina tot complete bedrijfssite, geoptimaliseerd voor vindbaarheid." },
+      { "title": "AI-agents bouwen", "desc": "Op maat gemaakte AI-assistenten en chatbots die vragen beantwoorden, leads kwalificeren en taken automatiseren — 24/7." },
+      { "title": "Webonderhoud", "desc": "Een onderhoudsabonnement dat uw site veilig, snel en actueel houdt: updates, back-ups, beveiliging en kleine wijzigingen." },
+      { "title": "Advies & optimalisatie", "desc": "Wij analyseren uw website en adviseren concrete verbeteringen op het gebied van snelheid, vindbaarheid (SEO) en conversie." }
+    ],
+    "plansTitle": "Onderhoudsabonnement",
+    "plansSubtitle": "Jaarlijks onderhoud zodat uw website veilig, snel en up-to-date blijft. Kies het pakket dat bij u past.",
+    "popular": "Populair",
+    "perYear": "/ jaar",
+    "plans": [
+      {
+        "name": "Basis",
+        "price": "€ 295",
+        "desc": "Voor een eenvoudige, zorgeloze website.",
+        "features": ["Software- en beveiligingsupdates", "Maandelijkse back-up & controle", "Tot 1 uur kleine wijzigingen per maand", "Reactie binnen 3 werkdagen"]
+      },
+      {
+        "name": "Plus",
+        "price": "€ 595",
+        "desc": "Voor groeiende bedrijven die actief blijven.",
+        "features": ["Alles uit Basis", "Tot 3 uur wijzigingen per maand", "Prestatie- en uptime-monitoring", "Periodieke content-updates", "Reactie binnen 1 werkdag"]
+      },
+      {
+        "name": "Pro",
+        "price": "€ 1.150",
+        "desc": "Voor websites met AI-agents en doorlopende groei.",
+        "features": ["Alles uit Plus", "Onderhoud van uw AI-agent(s)", "Doorlopende optimalisatie (SEO & snelheid)", "Kwartaalrapport met verbeteradvies", "Prioriteit support"]
+      }
+    ],
+    "cta": "Plan een consult",
+    "quoteNote": "Liever maatwerk? Vraag een vrijblijvende offerte aan."
+  },
   "WWS": {
     "eyebrow": "Woningwaarderingsstelsel (WWS)",
     "title": "Weet wat uw woning maximaal mag opbrengen",

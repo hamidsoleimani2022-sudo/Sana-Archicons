@@ -157,6 +157,44 @@
       }
     ]
   },
+  "AI": {
+    "eyebrow": "AI department",
+    "title": "Smart websites, AI agents and worry-free maintenance",
+    "subtitle": "Our AI department builds modern websites and AI agents, automates your processes and keeps everything secure and up to date — so you can focus on your work.",
+    "offerTitle": "What we do",
+    "offers": [
+      { "title": "Website development", "desc": "Fast, modern and mobile-friendly websites — from landing page to a complete business site, optimised to be found." },
+      { "title": "Building AI agents", "desc": "Tailor-made AI assistants and chatbots that answer questions, qualify leads and automate tasks — 24/7." },
+      { "title": "Website maintenance", "desc": "A maintenance plan that keeps your site secure, fast and current: updates, backups, security and small changes." },
+      { "title": "Advice & optimisation", "desc": "We analyse your website and advise concrete improvements in speed, findability (SEO) and conversion." }
+    ],
+    "plansTitle": "Maintenance subscription",
+    "plansSubtitle": "Yearly maintenance so your website stays secure, fast and up to date. Choose the plan that suits you.",
+    "popular": "Popular",
+    "perYear": "/ year",
+    "plans": [
+      {
+        "name": "Basic",
+        "price": "€ 295",
+        "desc": "For a simple, worry-free website.",
+        "features": ["Software and security updates", "Monthly backup & check", "Up to 1 hour of small changes per month", "Response within 3 business days"]
+      },
+      {
+        "name": "Plus",
+        "price": "€ 595",
+        "desc": "For growing businesses that stay active.",
+        "features": ["Everything in Basic", "Up to 3 hours of changes per month", "Performance & uptime monitoring", "Periodic content updates", "Response within 1 business day"]
+      },
+      {
+        "name": "Pro",
+        "price": "€ 1,150",
+        "desc": "For websites with AI agents and ongoing growth.",
+        "features": ["Everything in Plus", "Maintenance of your AI agent(s)", "Continuous optimisation (SEO & speed)", "Quarterly report with improvement advice", "Priority support"]
+      }
+    ],
+    "cta": "Book a consult",
+    "quoteNote": "Prefer a custom solution? Request a no-obligation quote."
+  },
   "WWS": {
     "eyebrow": "Housing Points System (WWS)",
     "title": "Know the maximum rent your property may charge",

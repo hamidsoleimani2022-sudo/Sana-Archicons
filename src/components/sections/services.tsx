@@ -16,7 +16,7 @@ import {
 const items = [
   { icon: Building2, key: "s1", href: "/services" },
   { icon: TrendingUp, key: "s2", href: "/services/verbeterplan" }, // Verbeterplan (energieadvies + verbeterplan energielabel samengevoegd)
-  { icon: BrainCircuit, key: "s3", href: "/booking" },
+  { icon: BrainCircuit, key: "s3", href: "/services/ai-consultancy" },
   { icon: Workflow, key: "s4", href: "/services" },
 ] as const;
 
