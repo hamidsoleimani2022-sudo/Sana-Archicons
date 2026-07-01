@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
@@ -55,6 +56,11 @@ export default async function LocaleLayout({
           <main className="flex-1">{children}</main>
           <Footer />
         </NextIntlClientProvider>
+        {/* Chat-widget (agent): dezelfde brain als de Telegram-bot. */}
+        <Script
+          src="https://trilingual-chatbot-two.vercel.app/widget.js"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
