@@ -46,17 +46,20 @@
     "s1Title": "Construction Advisory",
     "s1Desc": "Professional construction advice for renovations, refurbishments and new-build projects — from technical surveys to on-site supervision.",
     "s1Cta": "Learn more",
-    "s2Title": "Improvement Plan",
-    "s2Desc": "An energy scan plus a concrete improvement plan with measures — insulation, installations, generation — ranked by cost and payback period. Including sustainability advice and support with subsidy applications, so you reach a better energy label step by step.",
+    "s2Title": "Energy Advisory",
+    "s2Desc": "Energy scans, sustainability advice and support with subsidy applications — we help make your property or organisation more energy-efficient and future-proof.",
     "s2Cta": "Learn more",
     "s3Title": "AI Consultancy",
-    "s3Desc": "Websites, AI agents, process automation, maintenance and advice — everything to work smarter, faster and more efficiently with AI.",
+    "s3Desc": "A clear AI roadmap: where AI delivers value right away, which opportunities fit your organisation and how to start with artificial intelligence responsibly.",
     "s3Cta": "Book a consult",
+    "s4Title": "Process Automation",
+    "s4Desc": "Smart workflows, integrations and more efficient business processes with AI tools — less manual work, more focus on what truly matters.",
+    "s4Cta": "Learn more",
     "s5Title": "Energy Label Assessment",
     "s5Desc": "As a certified advisor we draw up the official energy label for your home and register it in line with current regulations — including the new energy label from 29 May 2026.",
     "s5Cta": "Learn more",
-    "s6Title": "Housing Points System (WWS)",
-    "s6Desc": "An objective points assessment under the Dutch housing valuation system (WWS) — we determine the number of points and the maximum (legal) rent of your property, including the impact of floor area, amenities and energy label.",
+    "s6Title": "Energy Label Improvement Plan",
+    "s6Desc": "A concrete improvement plan with measures — insulation, installations, generation — ranked by cost and payback period, so you reach a better label step by step.",
     "s6Cta": "Learn more",
     "learnMore": "Learn more"
   },
@@ -65,58 +68,33 @@
     "title": "What does your label mean, and what can you improve?",
     "subtitle": "Click a class to see what it means — and the next step we usually recommend.",
     "hint": "Energy index per class (indicative values) — click or use the Tab key to explore.",
-    "groupLabel": "Energy label classes A+++++ through G",
+    "groupLabel": "Energy label classes A through G",
     "adviceLabel": "Our advice",
     "detailDefault": "Click a label to see the explanation and our advice.",
     "classes": {
-      "Aplus5": {
-        "naam": "Extremely efficient",
-        "toelichting": "The most efficient class — a (near) energy-neutral home with top insulation, efficient systems and its own generation.",
-        "advies": "Nothing to improve label-wise; focus on comfort, monitoring and smart energy management."
-      },
-      "Aplus4": {
-        "naam": "Exceptionally efficient",
-        "toelichting": "Very good insulation, a heat pump and solar panels keep consumption to a minimum.",
-        "advies": "Maintain the level; small optimisations in generation or storage (home battery) are still possible."
-      },
-      "Aplus3": {
-        "naam": "Very efficient",
-        "toelichting": "High-quality insulation and efficient, often electric heating.",
-        "advies": "With extra generation (solar) you reach the highest classes."
-      },
-      "Aplus2": {
-        "naam": "Highly efficient",
-        "toelichting": "Good insulation and an efficient heat source; a comfortable, economical home.",
-        "advies": "Optimise insulation or add generation to climb further."
-      },
-      "Aplus1": {
-        "naam": "Extra efficient",
-        "toelichting": "Better than a standard A home, with above-average insulation and systems.",
-        "advies": "Targeted improvements to glazing, insulation or systems take you to A++ or higher."
-      },
       "A": {
-        "naam": "Efficient",
-        "toelichting": "A well-performing home with modern insulation and systems.",
-        "advies": "With solar panels or a heat pump you move into the plus classes."
+        "naam": "Very efficient",
+        "toelichting": "An excellently insulated, energy-efficient home with efficient installations and often its own generation (solar panels).",
+        "advies": "Maintain the level and optimise comfort — think smart control and monitoring of consumption."
       },
       "B": {
-        "naam": "Fairly efficient",
-        "toelichting": "A solid home with room for improvement.",
-        "advies": "Improve insulation or systems to reach A or higher."
+        "naam": "Efficient",
+        "toelichting": "A well-insulated home with efficient installations; just a small step away from the top level.",
+        "advies": "With targeted improvements to insulation or generation you can reach label A relatively easily."
       },
       "C": {
-        "naam": "Average (NL)",
+        "naam": "Average (NL average)",
         "toelichting": "Comparable to the average Dutch home — reasonable, but there is gain to be had.",
-        "advies": "An improvement plan with insulation and a more efficient heat source moves you towards A or B."
+        "advies": "An improvement plan with insulation and a more efficient heat source moves you towards label A or B."
       },
       "D": {
         "naam": "Moderate",
-        "toelichting": "The home uses more than average; insulation and systems are partly outdated.",
+        "toelichting": "The home uses more than average; insulation and installations are partly outdated.",
         "advies": "Start with the shell (roof, façade, glazing); that delivers the most comfort and the fastest payback."
       },
       "E": {
         "naam": "Below average",
-        "toelichting": "Limited insulation and outdated systems lead to higher energy use.",
+        "toelichting": "Limited insulation and outdated installations lead to higher energy use.",
         "advies": "A phased improvement plan avoids unnecessary costs and often makes subsidies attainable."
       },
       "F": {
@@ -126,8 +104,8 @@
       },
       "G": {
         "naam": "Not efficient",
-        "toelichting": "The least efficient class: barely any insulation and heavily outdated systems.",
-        "advies": "With a step-by-step plan and available subsidies, large leaps become possible."
+        "toelichting": "The least efficient class: barely any insulation and heavily outdated installations.",
+        "advies": "With a step-by-step improvement plan and available subsidies, large leaps become possible."
       }
     }
   },
@@ -151,205 +129,6 @@
       {
         "title": "Guidance & subsidy",
         "desc": "We support implementation and subsidy applications (such as ISDE) so you benefit fully from available schemes."
-      }
-    ]
-  },
-  "AI": {
-    "eyebrow": "AI department",
-    "title": "Smart websites, AI agents and worry-free maintenance",
-    "subtitle": "Our AI department builds modern websites and AI agents, automates your processes and keeps everything secure and up to date — so you can focus on your work.",
-    "offerTitle": "What we do",
-    "offers": [
-      { "title": "Website development", "desc": "Fast, modern and mobile-friendly websites — from landing page to a complete business site, optimised to be found." },
-      { "title": "Building AI agents", "desc": "Tailor-made AI assistants and chatbots that answer questions, qualify leads and automate tasks — 24/7." },
-      { "title": "Process automation", "desc": "Smart workflows and integrations with AI tools that remove manual work — fewer errors, more focus on what truly matters." },
-      { "title": "Website maintenance", "desc": "A maintenance plan that keeps your site secure, fast and current: updates, backups, security and small changes." },
-      { "title": "Advice & optimisation", "desc": "We analyse your website and advise concrete improvements in speed, findability (SEO) and conversion." }
-    ],
-    "plansTitle": "Maintenance subscription",
-    "plansSubtitle": "Yearly maintenance so your website stays secure, fast and up to date. Choose the plan that suits you.",
-    "popular": "Popular",
-    "perYear": "/ year",
-    "plans": [
-      {
-        "name": "Basic",
-        "price": "€ 295",
-        "desc": "For a simple, worry-free website.",
-        "features": ["Software and security updates", "Monthly backup & check", "Up to 1 hour of small changes per month", "Response within 3 business days"]
-      },
-      {
-        "name": "Plus",
-        "price": "€ 595",
-        "desc": "For growing businesses that stay active.",
-        "features": ["Everything in Basic", "Up to 3 hours of changes per month", "Performance & uptime monitoring", "Periodic content updates", "Response within 1 business day"]
-      },
-      {
-        "name": "Pro",
-        "price": "€ 1,150",
-        "desc": "For websites with AI agents and ongoing growth.",
-        "features": ["Everything in Plus", "Maintenance of your AI agent(s)", "Continuous optimisation (SEO & speed)", "Quarterly report with improvement advice", "Priority support"]
-      }
-    ],
-    "cta": "Book a consult",
-    "quoteNote": "Prefer a custom solution? Request a no-obligation quote."
-  },
-  "WWS": {
-    "eyebrow": "Housing Points System (WWS)",
-    "title": "Know the maximum rent your property may charge",
-    "subtitle": "The Dutch housing valuation system (WWS) uses an objective points assessment to set the maximum (legal) rent of a self-contained home. We carry out that assessment precisely for you — so you can be sure you charge the right rent and demonstrably comply with the Affordable Rent Act.",
-    "factorsTitle": "What counts towards the points",
-    "factors": [
-      { "title": "Floor area", "desc": "Rooms and other spaces, measured precisely." },
-      { "title": "Energy label", "desc": "A better label directly earns more points." },
-      { "title": "WOZ value", "desc": "The official property value is factored in." },
-      { "title": "Kitchen", "desc": "Worktop length and the quality of the fit-out." },
-      { "title": "Sanitary", "desc": "Toilet, bathroom and available facilities." },
-      { "title": "Outdoor space", "desc": "Garden, balcony, terrace or roof terrace." },
-      { "title": "Heating", "desc": "Type of heating and the number of heated rooms." },
-      { "title": "Monument & extras", "desc": "Listed status and special amenities." }
-    ],
-    "segmentsTitle": "From points to rental segment",
-    "segments": [
-      { "range": "up to 143 points", "label": "Social rent", "desc": "Regulated segment with a lower maximum rent." },
-      { "range": "144 – 186 points", "label": "Mid-market rent", "desc": "Regulated under the Affordable Rent Act since 1 July 2024." },
-      { "range": "187 points or more", "label": "Free sector", "desc": "Freely set rent, beyond the points cap." }
-    ],
-    "note": "Maximum rents and point thresholds are indexed annually. We always calculate with the current figures.",
-    "benefitsTitle": "Your advantage with Sana Archicons",
-    "benefits": [
-      "An objective, verifiable points assessment under the official WWS.",
-      "Certainty that you charge the right, maximum rent — neither too low nor too high.",
-      "Demonstrable compliance with the Affordable Rent Act, avoiding disputes and refunds.",
-      "A clear report you can use directly for renting out, purchase or valuation."
-    ],
-    "sourceLabel": "Source",
-    "sourceText": "Based on the Huurprijscheck of the Dutch Rent Tribunal (Huurcommissie).",
-    "cta": "Request your WWS points assessment"
-  },
-  "Bouwkundig": {
-    "eyebrow": "Building survey when buying",
-    "title": "Building survey advice when buying a home",
-    "subtitle": "An independent technical building survey gives you a clear picture of the structural condition of the property, its deferred maintenance and the expected costs before you buy — so you can decide and negotiate with confidence.",
-    "scopeTitle": "What does the survey cover?",
-    "scopeIntro": "We visually assess all accessible building elements, from foundation to roof, using the NTA 8060 methodology. On request we deliver the report in line with the official Nationale Hypotheek Garantie (NHG) model building report, which your mortgage lender may require.",
-    "groups": [
-      {
-        "title": "Foundation & substructure",
-        "items": [
-          "Foundation, cracking and settlement",
-          "Crawl space and ventilation",
-          "Cellar and ground floor",
-          "Rising and penetrating damp"
-        ]
-      },
-      {
-        "title": "Façades & building envelope",
-        "items": [
-          "Brickwork and cracks",
-          "Pointing and façade finish",
-          "Window frames, windows and doors",
-          "Wood rot and woodworm"
-        ]
-      },
-      {
-        "title": "Roof & roof structure",
-        "items": [
-          "Roof covering (tiles, bitumen, slate)",
-          "Roof structure and timber",
-          "Chimney and lead/zinc work",
-          "Gutters and rainwater drainage"
-        ]
-      },
-      {
-        "title": "Interior & finishes",
-        "items": [
-          "Floors, walls and ceilings",
-          "Stairs and balustrades",
-          "Bathroom, toilet and kitchen",
-          "Tiling and sealant joints"
-        ]
-      },
-      {
-        "title": "Installations",
-        "items": [
-          "Central heating boiler and heating",
-          "Electrical system and meter box",
-          "Ventilation and mechanical extraction",
-          "Sewerage and sanitary"
-        ]
-      },
-      {
-        "title": "Safety & health",
-        "items": [
-          "Asbestos-suspect materials (flagging)",
-          "Mould and damp problems",
-          "Insulation and energy condition",
-          "Lead pipes"
-        ]
-      }
-    ],
-    "processTitle": "Our analysis in four steps",
-    "steps": [
-      {
-        "title": "On-site visual survey",
-        "desc": "We walk through the property step by step and assess all visible and accessible building elements, from foundation to roof, photographing any defects."
-      },
-      {
-        "title": "Condition rating per element",
-        "desc": "Each element receives an objective condition score from 1 (excellent) to 6 (very poor) according to NEN 2767, together translated into an A–G class."
-      },
-      {
-        "title": "Clear reporting",
-        "desc": "Within a few working days you receive a report with photos, a description of the defects and a cost estimate for deferred maintenance and maintenance for the coming years."
-      },
-      {
-        "title": "Advice & negotiation",
-        "desc": "You use the report in price negotiations or as a resolutive condition in the purchase agreement, so you can withdraw from the purchase penalty-free in case of major defects."
-      }
-    ],
-    "conditionTitle": "How do we assess the condition?",
-    "conditionText": "Each building element receives an objective condition score from 1 (excellent) to 6 (very poor) according to NEN 2767. The NTA 8060 methodology is designed specifically for home surveys during buying and selling and translates the property into a class from A to G — comparable to the energy label.",
-    "highlightsTitle": "Deferred maintenance & financial advice",
-    "highlights": [
-      {
-        "title": "Cost estimate in two horizons",
-        "desc": "The report indicates the cost of immediately necessary repairs (deferred maintenance) as well as the expected maintenance for the coming years."
-      },
-      {
-        "title": "The 10% rule with NHG",
-        "desc": "If you buy with a Nationale Hypotheek Garantie, a building report may be mandatory when the immediately necessary repairs are estimated to exceed 10% of the private sale value."
-      },
-      {
-        "title": "Resolutive condition",
-        "desc": "You can set a threshold amount (often € 5,000–€ 10,000 or 2–3% of the purchase price) in the contract; if repair costs turn out higher, you can withdraw penalty-free."
-      },
-      {
-        "title": "Independent advice",
-        "desc": "The author of the report may in no way be involved in the purchase, sale, mediation or financing — guaranteeing an objective and reliable judgement."
-      }
-    ],
-    "costNoteTitle": "What does a survey cost?",
-    "costNote": "A technical building survey costs roughly € 300 for members of Vereniging Eigen Huis and usually € 450–€ 800 at other firms, depending on the size of the property and any additional research. Prices are indicative; always request a tailored quote.",
-    "improveTitle": "From survey to improvement plan",
-    "improveText": "After the survey we link the findings to a concrete improvement and sustainability plan: from clearing deferred maintenance to insulation and installations, ranked by urgency, cost and payback time — including support with subsidies.",
-    "sourcesTitle": "Sources",
-    "sourcesIntro": "This information is based on the following reliable, public sources:",
-    "sources": [
-      {
-        "label": "Nationale Hypotheek Garantie (NHG) — Conditions & standards and model building report",
-        "url": "https://www.nhg.nl/voorwaarden-en-normen/"
-      },
-      {
-        "label": "Vereniging Eigen Huis — Technical building survey",
-        "url": "https://www.eigenhuis.nl/huis-kopen/bouwtechnische-keuring"
-      },
-      {
-        "label": "NEN — Condition measurement NEN 2767",
-        "url": "https://www.nen.nl/bouw/beheer-en-onderhoud/conditiemeting"
-      },
-      {
-        "label": "NRBI — Dutch Register of Building Inspectors (NTA 8060 / NHG)",
-        "url": "https://nrbi.nl/"
       }
     ]
   },
@@ -384,9 +163,9 @@
     "subtitle": "Reserve a personal advisory session. Pick a time, pay securely and your appointment is set.",
     "sessionTitle": "Personal AI consult",
     "sessionDesc": "A focused one-on-one conversation about your AI challenge, with concrete next steps.",
-    "duration": "30 minutes",
-    "price": "Free",
-    "type": "At the office",
+    "duration": "60 minutes",
+    "price": "€ 85",
+    "type": "By phone or on location",
     "step1": "Pick date & time",
     "step2": "Your details",
     "step3": "Payment",
@@ -403,7 +182,7 @@
     "notes": "Topic / question (optional)",
     "continue": "Continue",
     "back": "Back",
-    "payNow": "Confirm booking",
+    "payNow": "Pay € 85 and confirm",
     "loginRequired": "Log in to book an appointment",
     "loginRequiredDesc": "Create an account or log in so you can manage your appointments.",
     "notConfigured": "The booking database isn't connected yet. Add the Supabase keys to store reservations.",

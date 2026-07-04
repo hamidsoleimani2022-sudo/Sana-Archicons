@@ -1,6 +1,8 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { PageHeader } from "@/components/page-header";
 import { Services } from "@/components/sections/services";
+import { EnergyLabel } from "@/components/sections/energy-label";
+import { EnergyPlan } from "@/components/sections/energy-plan";
 import { CtaBanner } from "@/components/sections/cta";
 
 export default async function ServicesPage({
@@ -15,7 +17,9 @@ export default async function ServicesPage({
   return (
     <>
       <PageHeader title={t("title")} subtitle={t("subtitle")} eyebrow="Sana Archicons" />
-      <Services full showHeading={false} />
+      <Services full />
+      <EnergyLabel />
+      <EnergyPlan />
       <CtaBanner />
     </>
   );

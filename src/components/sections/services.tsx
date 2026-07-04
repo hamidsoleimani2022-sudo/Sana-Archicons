@@ -5,51 +5,45 @@ import { Link } from "@/i18n/navigation";
 import { Reveal } from "@/components/reveal";
 import {
   Building2,
+  Zap,
   BrainCircuit,
+  Workflow,
   Gauge,
   TrendingUp,
-  Calculator,
   ArrowRight,
 } from "lucide-react";
 
 const items = [
-  { icon: Building2, key: "s1", href: "/services/bouwkundig" },
-  { icon: TrendingUp, key: "s2", href: "/services/verbeterplan" }, // Verbeterplan (energieadvies + verbeterplan energielabel samengevoegd)
-  { icon: BrainCircuit, key: "s3", href: "/services/ai-consultancy" }, // AI incl. procesautomatisering
+  { icon: Building2, key: "s1", href: "/services" },
+  { icon: Zap, key: "s2", href: "/services" },
+  { icon: BrainCircuit, key: "s3", href: "/booking" },
+  { icon: Workflow, key: "s4", href: "/services" },
 ] as const;
 
-// Extra woning-diensten — alleen op de Diensten-pagina (full)
+// Extra energie-diensten — alleen op de Diensten-pagina (full)
 const energyItems = [
-  { icon: Gauge, key: "s5", href: "/services/energielabel" },
-  { icon: Calculator, key: "s6", href: "/services/wws" },
+  { icon: Gauge, key: "s5", href: "/services" },
+  { icon: TrendingUp, key: "s6", href: "/services" },
 ] as const;
 
-export function Services({
-  full = false,
-  showHeading = true,
-}: {
-  full?: boolean;
-  showHeading?: boolean;
-}) {
+export function Services({ full = false }: { full?: boolean }) {
   const t = useTranslations("Services");
   const cards = full ? [...items, ...energyItems] : items;
 
   return (
     <section className="relative mx-auto max-w-7xl px-5 py-20">
-      {showHeading && (
-        <Reveal>
-          <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
-              {t("title")}
-            </h2>
-            <p className="mt-4 text-muted">{t("subtitle")}</p>
-          </div>
-        </Reveal>
-      )}
+      <Reveal>
+        <div className="mx-auto max-w-2xl text-center">
+          <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
+            {t("title")}
+          </h2>
+          <p className="mt-4 text-muted">{t("subtitle")}</p>
+        </div>
+      </Reveal>
 
       <div
-        className={`grid gap-6 sm:grid-cols-2 lg:grid-cols-3 ${
-          showHeading ? "mt-14" : ""
+        className={`mt-14 grid gap-6 sm:grid-cols-2 ${
+          full ? "lg:grid-cols-3" : "lg:grid-cols-4"
         }`}
       >
         {cards.map(({ icon: Icon, key, href }, i) => (

@@ -46,17 +46,20 @@
     "s1Title": "Bouwkundig Advies",
     "s1Desc": "Professioneel bouwkundig advies voor renovaties, verbouwingen en nieuwbouwprojecten — van technisch onderzoek tot begeleiding op locatie.",
     "s1Cta": "Meer weten",
-    "s2Title": "Verbeterplan",
-    "s2Desc": "Energiescan én een concreet verbeterplan met maatregelen — isolatie, installaties, opwek — gerangschikt op kosten en terugverdientijd. Inclusief verduurzamingsadvies en begeleiding bij subsidieaanvragen, zodat u stap voor stap naar een beter energielabel gaat.",
+    "s2Title": "Energieadvies",
+    "s2Desc": "Energiescan, verduurzamingsadvies en begeleiding bij subsidieaanvragen — wij helpen uw pand of organisatie energiezuiniger en toekomstbestendig te maken.",
     "s2Cta": "Meer weten",
     "s3Title": "AI Consultancy",
-    "s3Desc": "Websites, AI-agents, procesautomatisering, onderhoud en advies — alles om slimmer, sneller en efficiënter te werken met AI.",
+    "s3Desc": "Een helder AI-stappenplan: waar levert AI direct waarde, welke kansen passen bij uw organisatie en hoe begint u verantwoord met kunstmatige intelligentie.",
     "s3Cta": "Plan een consult",
+    "s4Title": "Procesautomatisering",
+    "s4Desc": "Slimme workflows, integraties en efficiëntere bedrijfsprocessen met AI-tools — minder handwerk, meer focus op wat echt telt.",
+    "s4Cta": "Meer weten",
     "s5Title": "Energielabel bepalen",
     "s5Desc": "Als erkend adviseur stellen wij het officiële energielabel voor uw woning op en registreren dit conform de geldende regelgeving — inclusief het nieuwe energielabel vanaf 29 mei 2026.",
     "s5Cta": "Meer weten",
-    "s6Title": "Woningwaarderingsstelsel (WWS)",
-    "s6Desc": "Een objectieve puntentelling volgens het Woningwaarderingsstelsel — wij bepalen het aantal punten en de maximale (wettelijke) huurprijs van uw woning, inclusief de invloed van oppervlakte, voorzieningen en energielabel.",
+    "s6Title": "Verbeterplan energielabel",
+    "s6Desc": "Een concreet verbeterplan met maatregelen — isolatie, installaties, opwek — gerangschikt op kosten en terugverdientijd, zodat u stap voor stap naar een beter label gaat.",
     "s6Cta": "Meer weten",
     "learnMore": "Meer weten"
   },
@@ -65,49 +68,24 @@
     "title": "Wat betekent uw label, en wat kunt u verbeteren?",
     "subtitle": "Klik op een klasse om te zien wat deze betekent — en welke vervolgstap wij meestal adviseren.",
     "hint": "Energie-index per klasse (richtwaarden) — klik of gebruik de Tab-toets om te verkennen.",
-    "groupLabel": "Energielabel klassen A+++++ tot en met G",
+    "groupLabel": "Energielabel klassen A tot en met G",
     "adviceLabel": "Ons advies",
     "detailDefault": "Klik op een label om de toelichting en het advies te zien.",
     "classes": {
-      "Aplus5": {
-        "naam": "Extreem zuinig",
-        "toelichting": "De allerzuinigste klasse — een (vrijwel) energieneutrale woning met topisolatie, efficiënte installaties en eigen opwek.",
-        "advies": "Qua label valt er niets te verbeteren; richt u op comfort, monitoring en slim energiebeheer."
-      },
-      "Aplus4": {
-        "naam": "Uitzonderlijk zuinig",
-        "toelichting": "Zeer goede isolatie, een warmtepomp en zonnepanelen zorgen voor een minimaal verbruik.",
-        "advies": "Behoud het niveau; kleine optimalisaties in opwek of opslag (thuisbatterij) zijn nog mogelijk."
-      },
-      "Aplus3": {
-        "naam": "Zeer zuinig",
-        "toelichting": "Hoogwaardige isolatie en efficiënte, vaak elektrische verwarming.",
-        "advies": "Met extra opwek (zonnepanelen) zet u de stap naar de hoogste klassen."
-      },
-      "Aplus2": {
-        "naam": "Heel zuinig",
-        "toelichting": "Goede isolatie en een efficiënte warmtebron; een comfortabele, zuinige woning.",
-        "advies": "Optimaliseer de isolatie of voeg opwek toe om verder te stijgen."
-      },
-      "Aplus1": {
-        "naam": "Extra zuinig",
-        "toelichting": "Beter dan een standaard A-woning, met bovengemiddelde isolatie en installaties.",
-        "advies": "Gerichte verbeteringen aan glas, isolatie of installatie brengen u naar A++ of hoger."
-      },
       "A": {
-        "naam": "Zuinig",
-        "toelichting": "Een goed presterende woning met moderne isolatie en installaties.",
-        "advies": "Met zonnepanelen of een warmtepomp komt u in de plus-klassen."
+        "naam": "Zeer zuinig",
+        "toelichting": "Een uitstekend geïsoleerde, energiezuinige woning met efficiënte installaties en vaak eigen opwek (zonnepanelen).",
+        "advies": "Behoud het niveau en optimaliseer het comfort — denk aan slimme sturing en monitoring van het verbruik."
       },
       "B": {
-        "naam": "Vrij zuinig",
-        "toelichting": "Degelijke woning met nog ruimte voor verbetering.",
-        "advies": "Verbeter de isolatie of installaties om naar A of hoger te gaan."
+        "naam": "Zuinig",
+        "toelichting": "Een goed geïsoleerde woning met efficiënte installaties; nog een kleine stap naar het hoogste niveau.",
+        "advies": "Met gerichte verbeteringen aan isolatie of opwek bereikt u relatief eenvoudig label A."
       },
       "C": {
-        "naam": "Gemiddeld (NL)",
+        "naam": "Gemiddeld (NL-gemiddelde)",
         "toelichting": "Vergelijkbaar met de gemiddelde Nederlandse woning — redelijk, maar er is winst te behalen.",
-        "advies": "Een verbeterplan met isolatie en een efficiëntere warmtebron tilt u richting A of B."
+        "advies": "Een verbeterplan met isolatie en een efficiëntere warmtebron tilt u richting label A of B."
       },
       "D": {
         "naam": "Matig",
@@ -154,205 +132,6 @@
       }
     ]
   },
-  "AI": {
-    "eyebrow": "AI-afdeling",
-    "title": "Slimme websites, AI-agents en zorgeloos onderhoud",
-    "subtitle": "Onze AI-afdeling bouwt moderne websites en AI-agents, automatiseert uw processen en houdt alles veilig en up-to-date — zodat u zich kunt richten op uw werk.",
-    "offerTitle": "Wat wij doen",
-    "offers": [
-      { "title": "Website-ontwikkeling", "desc": "Snelle, moderne en mobielvriendelijke websites — van landingspagina tot complete bedrijfssite, geoptimaliseerd voor vindbaarheid." },
-      { "title": "AI-agents bouwen", "desc": "Op maat gemaakte AI-assistenten en chatbots die vragen beantwoorden, leads kwalificeren en taken automatiseren — 24/7." },
-      { "title": "Procesautomatisering", "desc": "Slimme workflows en integraties met AI-tools die handmatig werk wegnemen — minder fouten, meer focus op wat echt telt." },
-      { "title": "Webonderhoud", "desc": "Een onderhoudsabonnement dat uw site veilig, snel en actueel houdt: updates, back-ups, beveiliging en kleine wijzigingen." },
-      { "title": "Advies & optimalisatie", "desc": "Wij analyseren uw website en adviseren concrete verbeteringen op het gebied van snelheid, vindbaarheid (SEO) en conversie." }
-    ],
-    "plansTitle": "Onderhoudsabonnement",
-    "plansSubtitle": "Jaarlijks onderhoud zodat uw website veilig, snel en up-to-date blijft. Kies het pakket dat bij u past.",
-    "popular": "Populair",
-    "perYear": "/ jaar",
-    "plans": [
-      {
-        "name": "Basis",
-        "price": "€ 295",
-        "desc": "Voor een eenvoudige, zorgeloze website.",
-        "features": ["Software- en beveiligingsupdates", "Maandelijkse back-up & controle", "Tot 1 uur kleine wijzigingen per maand", "Reactie binnen 3 werkdagen"]
-      },
-      {
-        "name": "Plus",
-        "price": "€ 595",
-        "desc": "Voor groeiende bedrijven die actief blijven.",
-        "features": ["Alles uit Basis", "Tot 3 uur wijzigingen per maand", "Prestatie- en uptime-monitoring", "Periodieke content-updates", "Reactie binnen 1 werkdag"]
-      },
-      {
-        "name": "Pro",
-        "price": "€ 1.150",
-        "desc": "Voor websites met AI-agents en doorlopende groei.",
-        "features": ["Alles uit Plus", "Onderhoud van uw AI-agent(s)", "Doorlopende optimalisatie (SEO & snelheid)", "Kwartaalrapport met verbeteradvies", "Prioriteit support"]
-      }
-    ],
-    "cta": "Plan een consult",
-    "quoteNote": "Liever maatwerk? Vraag een vrijblijvende offerte aan."
-  },
-  "WWS": {
-    "eyebrow": "Woningwaarderingsstelsel (WWS)",
-    "title": "Weet wat uw woning maximaal mag opbrengen",
-    "subtitle": "Het Woningwaarderingsstelsel (WWS) bepaalt met een objectieve puntentelling de maximale (wettelijke) huurprijs van een zelfstandige woning. Wij voeren die telling nauwkeurig voor u uit — zodat u zeker weet dat u de juiste huur vraagt en aantoonbaar voldoet aan de Wet betaalbare huur.",
-    "factorsTitle": "Wat telt mee in de punten",
-    "factors": [
-      { "title": "Oppervlakte", "desc": "Vertrekken en overige ruimten, nauwkeurig ingemeten." },
-      { "title": "Energielabel", "desc": "Een beter label levert direct meer punten op." },
-      { "title": "WOZ-waarde", "desc": "De WOZ-waarde weegt mee in de waardering." },
-      { "title": "Keuken", "desc": "Lengte van het aanrecht en de kwaliteit van de inrichting." },
-      { "title": "Sanitair", "desc": "Toilet, badkamer en aanwezige voorzieningen." },
-      { "title": "Buitenruimte", "desc": "Tuin, balkon, terras of dakterras." },
-      { "title": "Verwarming", "desc": "Type verwarming en het aantal verwarmde vertrekken." },
-      { "title": "Monument & extra's", "desc": "Rijksmonument en bijzondere voorzieningen." }
-    ],
-    "segmentsTitle": "Van punten naar huursegment",
-    "segments": [
-      { "range": "t/m 143 punten", "label": "Sociale huur", "desc": "Gereguleerd segment met een lagere maximale huurprijs." },
-      { "range": "144 – 186 punten", "label": "Middenhuur", "desc": "Sinds 1 juli 2024 gereguleerd onder de Wet betaalbare huur." },
-      { "range": "187 punten of meer", "label": "Vrije sector", "desc": "Vrij te bepalen huurprijs, los van het puntenmaximum." }
-    ],
-    "note": "Maximale huurprijzen en puntgrenzen worden jaarlijks geïndexeerd. Wij rekenen altijd met de actuele bedragen.",
-    "benefitsTitle": "Uw voordeel met Sana Archicons",
-    "benefits": [
-      "Een objectieve, controleerbare puntentelling volgens het officiële WWS.",
-      "Zekerheid dat u de juiste, maximale huurprijs vraagt — niet te laag én niet te hoog.",
-      "Aantoonbaar voldoen aan de Wet betaalbare huur, zodat u geschillen en terugbetaling voorkomt.",
-      "Een helder rapport dat u direct kunt gebruiken bij verhuur, aankoop of taxatie."
-    ],
-    "sourceLabel": "Bron",
-    "sourceText": "Gebaseerd op de Huurprijscheck van de Huurcommissie.",
-    "cta": "Vraag uw WWS-puntentelling aan"
-  },
-  "Bouwkundig": {
-    "eyebrow": "Bouwkundige keuring bij aankoop",
-    "title": "Bouwkundig advies bij het kopen van een woning",
-    "subtitle": "Een onafhankelijke bouwtechnische keuring geeft u vóór de koop helder inzicht in de bouwkundige staat van de woning, het achterstallig onderhoud en de te verwachten kosten — zodat u met vertrouwen kunt beslissen en onderhandelen.",
-    "scopeTitle": "Welke onderdelen vallen onder de keuring?",
-    "scopeIntro": "Wij beoordelen visueel alle bereikbare bouwdelen, van fundering tot dak, volgens de methodiek van NTA 8060. Op verzoek leveren wij het rapport conform het model-bouwkundig rapport van de Nationale Hypotheek Garantie (NHG), dat uw hypotheekverstrekker kan vragen.",
-    "groups": [
-      {
-        "title": "Fundering & onderbouw",
-        "items": [
-          "Fundering, scheurvorming en zettingen",
-          "Kruipruimte en ventilatie",
-          "Kelder en begane-grondvloer",
-          "Optrekkend en doorslaand vocht"
-        ]
-      },
-      {
-        "title": "Gevels & buitenschil",
-        "items": [
-          "Metselwerk en scheuren",
-          "Voegwerk en gevelafwerking",
-          "Kozijnen, ramen en deuren",
-          "Houtrot en houtworm"
-        ]
-      },
-      {
-        "title": "Dak & dakconstructie",
-        "items": [
-          "Dakbedekking (pannen, bitumen, leien)",
-          "Dakconstructie en houtwerk",
-          "Schoorsteen en lood-/zinkwerk",
-          "Goten en hemelwaterafvoer"
-        ]
-      },
-      {
-        "title": "Binnen & afwerking",
-        "items": [
-          "Vloeren, wanden en plafonds",
-          "Trappen en balustrades",
-          "Badkamer, toilet en keuken",
-          "Tegelwerk en kitvoegen"
-        ]
-      },
-      {
-        "title": "Installaties",
-        "items": [
-          "Cv-ketel en verwarming",
-          "Elektra en meterkast",
-          "Ventilatie en mechanische afzuiging",
-          "Riolering en sanitair"
-        ]
-      },
-      {
-        "title": "Veiligheid & gezondheid",
-        "items": [
-          "Asbestverdachte materialen (signalering)",
-          "Schimmel en vochtproblemen",
-          "Isolatie en energetische staat",
-          "Loden leidingen"
-        ]
-      }
-    ],
-    "processTitle": "Onze analyse in vier stappen",
-    "steps": [
-      {
-        "title": "Visuele opname op locatie",
-        "desc": "Wij lopen de woning stap voor stap door en beoordelen alle zichtbare en bereikbare bouwdelen, van fundering tot dak, en maken foto's van de gebreken."
-      },
-      {
-        "title": "Conditiebeoordeling per bouwdeel",
-        "desc": "Elk onderdeel krijgt een objectieve conditiescore van 1 (uitstekend) tot 6 (zeer slecht) volgens NEN 2767, samen vertaald naar een klasse A–G."
-      },
-      {
-        "title": "Heldere rapportage",
-        "desc": "Binnen enkele werkdagen ontvangt u een rapport met foto's, een omschrijving van de gebreken en een kostenindicatie van achterstallig onderhoud en het onderhoud voor de komende jaren."
-      },
-      {
-        "title": "Advies & onderhandeling",
-        "desc": "U gebruikt het rapport bij de prijsonderhandeling of als ontbindende voorwaarde in de koopovereenkomst, zodat u boetevrij kunt afzien van de koop bij forse gebreken."
-      }
-    ],
-    "conditionTitle": "Hoe beoordelen wij de conditie?",
-    "conditionText": "Elk bouwdeel krijgt een objectieve conditiescore van 1 (uitstekend) tot 6 (zeer slecht) volgens NEN 2767. De methodiek van NTA 8060 is speciaal bedoeld voor woningkeuringen bij aan- en verkoop en vertaalt de woning naar een klasse van A tot en met G — vergelijkbaar met het energielabel.",
-    "highlightsTitle": "Achterstallig onderhoud & financieel advies",
-    "highlights": [
-      {
-        "title": "Kostenindicatie in twee termijnen",
-        "desc": "Het rapport geeft een indicatie van de kosten voor direct noodzakelijk herstel (achterstallig onderhoud) én van het te verwachten onderhoud voor de komende jaren."
-      },
-      {
-        "title": "De 10%-regel bij NHG",
-        "desc": "Koopt u met Nationale Hypotheek Garantie, dan kan een bouwkundig rapport verplicht zijn wanneer het direct noodzakelijk herstel naar schatting meer dan 10% van de onderhandse verkoopwaarde bedraagt."
-      },
-      {
-        "title": "Ontbindende voorwaarde",
-        "desc": "U kunt een drempelbedrag (vaak € 5.000–€ 10.000 of 2–3% van de koopsom) in het koopcontract opnemen; vallen de herstelkosten hoger uit, dan kunt u boetevrij ontbinden."
-      },
-      {
-        "title": "Onafhankelijk advies",
-        "desc": "De opsteller van het rapport mag op geen enkele wijze betrokken zijn bij de koop, verkoop, bemiddeling of financiering — dat borgt een objectief en betrouwbaar oordeel."
-      }
-    ],
-    "costNoteTitle": "Wat kost een keuring?",
-    "costNote": "Een bouwtechnische keuring kost indicatief € 300 voor leden van Vereniging Eigen Huis en doorgaans € 450–€ 800 bij andere bureaus, afhankelijk van de grootte van de woning en eventueel aanvullend onderzoek. Prijzen zijn richtbedragen; vraag altijd een offerte op maat.",
-    "improveTitle": "Van keuring naar verbeterplan",
-    "improveText": "Na de keuring koppelen wij de bevindingen aan een concreet verbeter- en verduurzamingsplan: van het wegwerken van achterstallig onderhoud tot isolatie en installaties, gerangschikt op urgentie, kosten en terugverdientijd — inclusief begeleiding bij subsidies.",
-    "sourcesTitle": "Bronnen",
-    "sourcesIntro": "Deze informatie is gebaseerd op de volgende betrouwbare, openbare bronnen:",
-    "sources": [
-      {
-        "label": "Nationale Hypotheek Garantie (NHG) — Voorwaarden & Normen en model-bouwkundig rapport",
-        "url": "https://www.nhg.nl/voorwaarden-en-normen/"
-      },
-      {
-        "label": "Vereniging Eigen Huis — Bouwtechnische keuring",
-        "url": "https://www.eigenhuis.nl/huis-kopen/bouwtechnische-keuring"
-      },
-      {
-        "label": "NEN — Conditiemeting NEN 2767",
-        "url": "https://www.nen.nl/bouw/beheer-en-onderhoud/conditiemeting"
-      },
-      {
-        "label": "NRBI — Nederlands Register Bouwkundig Inspecteurs (NTA 8060 / NHG)",
-        "url": "https://nrbi.nl/"
-      }
-    ]
-  },
   "About": {
     "title": "Over ons",
     "subtitle": "Sana Archicons",
@@ -384,9 +163,9 @@
     "subtitle": "Reserveer een persoonlijk adviesgesprek. Kies een moment, reken veilig af en uw afspraak staat vast.",
     "sessionTitle": "Persoonlijk AI-consult",
     "sessionDesc": "Een gericht een-op-een gesprek over uw AI-vraagstuk, met concrete vervolgstappen.",
-    "duration": "30 minuten",
-    "price": "Gratis",
-    "type": "Op kantoor",
+    "duration": "60 minuten",
+    "price": "€ 85",
+    "type": "Telefonisch of op locatie",
     "step1": "Kies datum & tijd",
     "step2": "Uw gegevens",
     "step3": "Betalen",
@@ -403,7 +182,7 @@
     "notes": "Onderwerp / vraag (optioneel)",
     "continue": "Doorgaan",
     "back": "Terug",
-    "payNow": "Bevestig afspraak",
+    "payNow": "Betaal € 85 en bevestig",
     "loginRequired": "Log in om een afspraak te maken",
     "loginRequiredDesc": "Maak een account of log in zodat u uw afspraken kunt beheren.",
     "notConfigured": "De boekingsdatabase is nog niet verbonden. Voeg de Supabase-sleutels toe om reserveringen op te slaan.",

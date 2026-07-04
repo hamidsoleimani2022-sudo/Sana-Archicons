@@ -17,30 +17,24 @@ const steps: { icon: LucideIcon; num: string }[] = [
   { icon: BadgeEuro, num: "04" },
 ];
 
-export function EnergyPlan({ showHeading = true }: { showHeading?: boolean }) {
+export function EnergyPlan() {
   const t = useTranslations("EnergyPlan");
 
   return (
     <section className="relative mx-auto max-w-7xl px-5 py-20">
-      {showHeading && (
-        <Reveal>
-          <div className="mx-auto max-w-2xl text-center">
-            <span className="text-xs font-semibold uppercase tracking-[0.22em] text-emerald">
-              {t("eyebrow")}
-            </span>
-            <h2 className="mt-3 text-3xl font-extrabold tracking-tight sm:text-4xl">
-              {t("title")}
-            </h2>
-            <p className="mt-4 text-muted">{t("subtitle")}</p>
-          </div>
-        </Reveal>
-      )}
+      <Reveal>
+        <div className="mx-auto max-w-2xl text-center">
+          <span className="text-xs font-semibold uppercase tracking-[0.22em] text-emerald">
+            {t("eyebrow")}
+          </span>
+          <h2 className="mt-3 text-3xl font-extrabold tracking-tight sm:text-4xl">
+            {t("title")}
+          </h2>
+          <p className="mt-4 text-muted">{t("subtitle")}</p>
+        </div>
+      </Reveal>
 
-      <div
-        className={`grid gap-6 sm:grid-cols-2 lg:grid-cols-4 ${
-          showHeading ? "mt-14" : ""
-        }`}
-      >
+      <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {steps.map(({ icon: Icon, num }, i) => (
           <Reveal key={num} delay={i * 0.08}>
             <div className="flex h-full flex-col rounded-2xl border border-line/70 bg-navy/40 p-6">

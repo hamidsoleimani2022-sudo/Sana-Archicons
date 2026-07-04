@@ -1,6 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { PageHeader } from "@/components/page-header";
-import { CalBooking } from "@/components/booking/cal-booking";
+import { BookingFlow } from "@/components/booking/booking-flow";
 
 export default async function BookingPage({
   params,
@@ -13,9 +13,9 @@ export default async function BookingPage({
 
   return (
     <>
-      <PageHeader title={t("title")} subtitle={t("subtitle")} eyebrow="30 min · Gratis" />
+      <PageHeader title={t("title")} subtitle={t("subtitle")} eyebrow="60 min · € 85" />
       <section className="mx-auto max-w-5xl px-5 py-14">
-        <CalBooking calLink="hamid-soleimani-ge0bxu" />
+        <BookingFlow />
       </section>
     </>
   );

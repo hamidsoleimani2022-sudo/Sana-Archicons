@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
@@ -7,6 +6,7 @@ import { setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import Script from "next/script";
 import "../globals.css";
 
 const geistSans = Geist({
@@ -56,9 +56,11 @@ export default async function LocaleLayout({
           <main className="flex-1">{children}</main>
           <Footer />
         </NextIntlClientProvider>
-        {/* Chat-widget (agent): dezelfde brain als de Telegram-bot. */}
+        
+        {/* Central Intelligent Chatbot Widget */}
         <Script
-          src="https://trilingual-chatbot-two.vercel.app/widget.js"
+          src="https://opoencode-chatbot.vercel.app/widget.js"
+          data-lang={locale}
           strategy="afterInteractive"
         />
       </body>

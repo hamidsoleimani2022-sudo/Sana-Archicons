@@ -164,7 +164,7 @@ export default function ContactPage() {
               <div className="absolute -right-8 -top-8 h-32 w-32 rounded-full bg-emerald/10 blur-2xl" />
               <p className="relative text-sm font-medium text-muted">{t("orBook")}</p>
               <p className="relative mt-2 text-lg font-bold text-foreground">
-                30 min · Gratis · Op kantoor
+                60 min · €85 · Telefonisch of op locatie
               </p>
               <Link
                 href="/booking"
