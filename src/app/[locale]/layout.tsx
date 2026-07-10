@@ -6,7 +6,7 @@ import { setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
-import Script from "next/script";
+import { ChatWidget } from "@/components/chat/chat-widget";
 import "../globals.css";
 
 const geistSans = Geist({
@@ -55,14 +55,9 @@ export default async function LocaleLayout({
           <Navbar />
           <main className="flex-1">{children}</main>
           <Footer />
+          {/* Eigen Sana-chatwidget (RAG-chatbot, zelfde brein als /assistant) */}
+          <ChatWidget />
         </NextIntlClientProvider>
-        
-        {/* Central Intelligent Chatbot Widget */}
-        <Script
-          src="https://opoencode-chatbot.vercel.app/widget.js"
-          data-lang={locale}
-          strategy="afterInteractive"
-        />
       </body>
     </html>
   );

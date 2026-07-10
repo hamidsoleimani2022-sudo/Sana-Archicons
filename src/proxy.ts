@@ -11,6 +11,7 @@ export async function proxy(request: NextRequest) {
 }
 
 export const config = {
-  // Match all paths except API/auth routes, Next internals and static files.
-  matcher: ["/((?!api|auth|_next|_vercel|.*\\..*).*)"],
+  // Match all paths except API/auth/admin routes, Next internals and static
+  // files. /admin lives outside the [locale] tree and has its own auth.
+  matcher: ["/((?!api|auth|admin|_next|_vercel|.*\\..*).*)"],
 };

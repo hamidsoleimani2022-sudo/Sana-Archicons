@@ -27,6 +27,8 @@ export function Navbar() {
     { href: "/", label: t("home") },
     { href: "/services", label: t("services") },
     { href: "/about", label: t("about") },
+    { href: "/assistant", label: t("assistant") },
+    { href: "/consult", label: t("consult") },
     { href: "/contact", label: t("contact") },
     { href: "/webinars", label: t("webinars") },
     { href: "/blog", label: t("blog") },

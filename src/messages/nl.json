@@ -16,7 +16,9 @@
     "register": "Registreren",
     "dashboard": "Dashboard",
     "logout": "Uitloggen",
-    "bookCta": "Plan een consult"
+    "bookCta": "Plan een consult",
+    "assistant": "AI-assistent",
+    "consult": "Adviesgesprek"
   },
   "Hero": {
     "badge": "Bouw · Energie · AI Consultancy · Automatisering",
@@ -268,5 +270,89 @@
     "title": "Klaar om samen te bouwen aan de toekomst?",
     "subtitle": "Plan een vrijblijvend consult en ontdek wat Sana Archicons voor uw organisatie kan betekenen.",
     "button": "Plan een consult"
+  },
+  "Consult": {
+    "eyebrow": "Adviesgesprek",
+    "title": "Vraag een adviesgesprek aan",
+    "subtitle": "Vertel ons kort waar u mee bezig bent; wij nemen binnen 24 uur (op werkdagen) contact met u op.",
+    "sideTitle": "Zet hier de eerste stap naar een slimmer project",
+    "sideBody": "Vul het formulier in en het team van Sana Archicons neemt binnen 24 uur (op werkdagen) contact met u op. Het eerste gesprek is vrijblijvend en verplicht u tot niets.",
+    "bullet1": "Reactie binnen 24 uur op werkdagen",
+    "bullet2": "Eerste kennismaking geheel vrijblijvend",
+    "bullet3": "Geen loze beloftes; wel een helder vervolg",
+    "name": "Voor- en achternaam",
+    "phone": "Telefoonnummer",
+    "email": "E-mailadres",
+    "business": "Bedrijf of organisatie",
+    "service": "Waar gaat uw vraag over?",
+    "servicePlaceholder": "Kies een dienst",
+    "services": {
+      "bouwkundig-advies": "Bouwkundig advies",
+      "energieadvies": "Energieadvies / energielabel",
+      "ai-consultancy": "AI consultancy",
+      "procesautomatisering": "Procesautomatisering",
+      "anders": "Anders / weet ik nog niet"
+    },
+    "message": "Omschrijf uw vraag of project",
+    "messagePlaceholder": "Bijvoorbeeld: wij willen ons kantoorpand verduurzamen, maar weten niet waar we moeten beginnen.",
+    "time": "Wanneer kunnen we u het best bereiken?",
+    "timePlaceholder": "Maakt niet uit",
+    "times": {
+      "morning": "Ochtend",
+      "afternoon": "Middag",
+      "evening": "Avond"
+    },
+    "submit": "Aanvraag versturen",
+    "submitting": "Bezig met versturen…",
+    "successTitle": "Uw aanvraag is ontvangen",
+    "successBody": "Bedankt voor uw aanvraag. Sana Archicons neemt binnen 24 uur (op werkdagen) contact met u op.",
+    "another": "Nog een aanvraag indienen",
+    "footnote": "Aan het versturen van dit formulier zijn geen kosten of verplichtingen verbonden.",
+    "errors": {
+      "name_min": "Vul uw voor- en achternaam in.",
+      "name_max": "De ingevulde naam is te lang.",
+      "phone_required": "Een telefoonnummer is verplicht.",
+      "phone_invalid": "Dit telefoonnummer lijkt niet geldig.",
+      "email_invalid": "Dit e-mailadres lijkt niet geldig.",
+      "service_required": "Kies de dienst waar uw vraag over gaat.",
+      "message_min": "Omschrijf uw vraag in minimaal 10 tekens.",
+      "message_max": "De omschrijving is te lang.",
+      "submit_failed": "Het versturen is niet gelukt. Probeer het opnieuw of neem contact met ons op.",
+      "fix_errors": "Controleer de gemarkeerde velden en probeer het opnieuw.",
+      "network": "Geen verbinding. Controleer uw internet en probeer het opnieuw."
+    }
+  },
+  "Assistant": {
+    "welcomeTitle": "Slimme assistent van Sana Archicons",
+    "welcomeBody": "Stel uw vraag over bouwkundig advies, energieadvies, AI-consultancy of procesautomatisering. Klaar voor een gesprek? Vraag dan direct een adviesgesprek aan.",
+    "starter1": "Wat kan Sana Archicons voor mijn organisatie betekenen?",
+    "starter2": "Hoe werkt een energielabel-aanvraag?",
+    "starter3": "Wat kost een AI-consult en wat krijg ik daarvoor?",
+    "starter4": "Hoe start ik met procesautomatisering?",
+    "inputPlaceholder": "Typ uw vraag over Sana Archicons…",
+    "send": "Versturen",
+    "ctaButton": "Adviesgesprek aanvragen",
+    "sourcesLabel": "Bronnen:",
+    "disclaimer": "Antwoorden worden gegenereerd door AI en kunnen onvolledig zijn. Vraag voor definitief advies een adviesgesprek aan.",
+    "errorGeneric": "Er ging iets mis. Probeer het opnieuw.",
+    "errorNetwork": "Geen verbinding. Controleer uw internet en probeer het opnieuw."
+  },
+  "ChatWidget": {
+    "launcher": "Chat openen",
+    "close": "Chat sluiten",
+    "title": "Sana-assistent",
+    "subtitle": "Reageert meestal direct",
+    "welcome": "Hallo! Ik ben de slimme assistent van Sana Archicons. Waarmee kan ik u helpen — bouw, energie of AI?",
+    "hint": "U kunt vragen stellen over onze diensten, tarieven en werkwijze.",
+    "cta": "Adviesgesprek aanvragen",
+    "inputPlaceholder": "Typ uw bericht…",
+    "send": "Versturen",
+    "feedbackQ": "Was dit nuttig?",
+    "feedbackThanks": "Bedankt voor uw feedback 🙏",
+    "helpful": "Nuttig",
+    "notHelpful": "Niet nuttig",
+    "disclaimer": "Antwoorden worden gegenereerd met AI.",
+    "errorGeneric": "Er ging iets mis. Probeer het opnieuw.",
+    "errorNetwork": "Geen verbinding. Probeer het opnieuw."
   }
 }
