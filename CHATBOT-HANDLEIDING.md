@@ -20,7 +20,7 @@ De chatbot antwoordt automatisch in de taal van de bezoeker: **Nederlands, Engel
 ## Inloggen op het admin-panel
 
 - Adres: **https://sana-archicons.vercel.app/admin**
-- Wachtwoord: **SanaAdmin2026!**
+- Wachtwoord: staat in `.env.local` bij `ADMIN_PASSWORD` (nooit in dit bestand of op GitHub zetten!)
   (te wijzigen via de variabele `ADMIN_PASSWORD` in `.env.local` én in Vercel → Settings → Environment Variables)
 - Rechtsboven kun je de taal van het panel kiezen: **Nederlands · فارسی · English**
 
