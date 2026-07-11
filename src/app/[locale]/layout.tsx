@@ -7,6 +7,7 @@ import { routing } from "@/i18n/routing";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { ChatWidget } from "@/components/chat/chat-widget";
+import { ElevenLabsWidget } from "@/components/chat/elevenlabs-widget";
 import "../globals.css";
 
 const geistSans = Geist({
@@ -57,6 +58,8 @@ export default async function LocaleLayout({
           <Footer />
           {/* Eigen Sana-chatwidget (RAG-chatbot, zelfde brein als /assistant) */}
           <ChatWidget />
+          {/* ElevenLabs-spraakagent (verschijnt pas als agent-ID is ingesteld) */}
+          <ElevenLabsWidget />
         </NextIntlClientProvider>
       </body>
     </html>
