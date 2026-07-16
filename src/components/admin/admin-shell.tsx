@@ -9,6 +9,7 @@ import { cn } from "@/lib/utils";
 const TAB_KEYS = [
   "dashboard",
   "leads",
+  "offers",
   "knowledge",
   "models",
   "conversations",
@@ -20,6 +21,7 @@ export type AdminTab = (typeof TAB_KEYS)[number];
 const TAB_HREF: Record<AdminTab, string> = {
   dashboard: "/admin",
   leads: "/admin/leads",
+  offers: "/admin/offers",
   knowledge: "/admin/knowledge",
   models: "/admin/models",
   conversations: "/admin/conversations",

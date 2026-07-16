@@ -70,6 +70,7 @@ export type AdminDict = {
   tabs: {
     dashboard: string;
     leads: string;
+    offers: string;
     knowledge: string;
     models: string;
     conversations: string;
@@ -201,6 +202,48 @@ export type AdminDict = {
     gapsSubtitle: string;
     gapsEmpty: string;
   };
+  offers: {
+    title: string;
+    subtitle: string;
+    docLanguageHint: string;
+    print: string;
+    word: string;
+    reset: string;
+    resetConfirm: string;
+    metaTitle: string;
+    offerNumber: string;
+    date: string;
+    validityDays: string;
+    projectTitle: string;
+    clientTitle: string;
+    clientCompany: string;
+    clientContact: string;
+    clientEmail: string;
+    clientPhone: string;
+    clientCity: string;
+    senderTitle: string;
+    senderContact: string;
+    senderEmail: string;
+    senderPhone: string;
+    senderWebsite: string;
+    servicesTitle: string;
+    serviceDescription: string;
+    serviceAmount: string;
+    addService: string;
+    removeLine: string;
+    vatEnabled: string;
+    paymentTerms: string;
+    investmentNote: string;
+    phasesTitle: string;
+    phasesEnabled: string;
+    phaseName: string;
+    phaseDuration: string;
+    addPhase: string;
+    totalDuration: string;
+    sectionsTitle: string;
+    sectionsHint: string;
+    previewTitle: string;
+  };
 };
 
 const nl: AdminDict = {
@@ -222,6 +265,7 @@ const nl: AdminDict = {
   tabs: {
     dashboard: "Dashboard",
     leads: "Aanvragen",
+    offers: "Offertes",
     knowledge: "Kennisbank",
     models: "Modellen",
     conversations: "Gesprekken",
@@ -371,6 +415,49 @@ const nl: AdminDict = {
     gapsSubtitle: "Deze vragen hadden geen bron in de kennisbank — goede kandidaten voor een nieuw document.",
     gapsEmpty: "Geen onbeantwoorde vragen geregistreerd.",
   },
+  offers: {
+    title: "Offertes",
+    subtitle: "Stel een professionele offerte samen; rechts zie je direct het resultaat.",
+    docLanguageHint: "Het offertedocument zelf is altijd in het Nederlands.",
+    print: "Afdrukken / PDF",
+    word: "Download Word",
+    reset: "Nieuwe offerte",
+    resetConfirm: "Alle velden terugzetten naar de standaardtekst?",
+    metaTitle: "Offertegegevens",
+    offerNumber: "Offertenummer",
+    date: "Datum",
+    validityDays: "Geldigheid (dagen)",
+    projectTitle: "Titel van het project (Betreft)",
+    clientTitle: "Opdrachtgever (klant)",
+    clientCompany: "Bedrijfsnaam",
+    clientContact: "Contactpersoon",
+    clientEmail: "E-mail",
+    clientPhone: "Telefoon",
+    clientCity: "Plaats",
+    senderTitle: "Uw gegevens (afzender)",
+    senderContact: "Naam",
+    senderEmail: "E-mail",
+    senderPhone: "Telefoon",
+    senderWebsite: "Website",
+    servicesTitle: "Diensten en prijzen",
+    serviceDescription: "Omschrijving",
+    serviceAmount: "Bedrag (€, excl. btw)",
+    addService: "+ Regel toevoegen",
+    removeLine: "Verwijderen",
+    vatEnabled: "btw (21%) berekenen en tonen",
+    paymentTerms: "Betalingsvoorwaarden",
+    investmentNote: "Toelichting bij de investering",
+    phasesTitle: "Planning en fasen",
+    phasesEnabled: "Planningstabel opnemen in de offerte",
+    phaseName: "Werkzaamheden",
+    phaseDuration: "Duur",
+    addPhase: "+ Fase toevoegen",
+    totalDuration: "Totale doorlooptijd (zin onder de tabel)",
+    sectionsTitle: "Tekstsecties",
+    sectionsHint:
+      "Pas de teksten per sectie aan; zet een sectie uit om die in deze offerte te verbergen. Begin een regel met \"- \" voor een opsomming.",
+    previewTitle: "Live voorbeeld",
+  },
 };
 
 const en: AdminDict = {
@@ -392,6 +479,7 @@ const en: AdminDict = {
   tabs: {
     dashboard: "Dashboard",
     leads: "Requests",
+    offers: "Quotes",
     knowledge: "Knowledge base",
     models: "Models",
     conversations: "Conversations",
@@ -541,6 +629,49 @@ const en: AdminDict = {
     gapsSubtitle: "These questions had no source in the knowledge base — good candidates for a new document.",
     gapsEmpty: "No unanswered questions recorded.",
   },
+  offers: {
+    title: "Quotes",
+    subtitle: "Compose a professional quote; the live preview on the right updates as you type.",
+    docLanguageHint: "The quote document itself is always in Dutch.",
+    print: "Print / PDF",
+    word: "Download Word",
+    reset: "New quote",
+    resetConfirm: "Reset all fields to the default text?",
+    metaTitle: "Quote details",
+    offerNumber: "Quote number",
+    date: "Date",
+    validityDays: "Validity (days)",
+    projectTitle: "Project title (subject)",
+    clientTitle: "Client",
+    clientCompany: "Company name",
+    clientContact: "Contact person",
+    clientEmail: "Email",
+    clientPhone: "Phone",
+    clientCity: "City",
+    senderTitle: "Your details (sender)",
+    senderContact: "Name",
+    senderEmail: "Email",
+    senderPhone: "Phone",
+    senderWebsite: "Website",
+    servicesTitle: "Services & pricing",
+    serviceDescription: "Description",
+    serviceAmount: "Amount (€, excl. VAT)",
+    addService: "+ Add line",
+    removeLine: "Remove",
+    vatEnabled: "Calculate and show VAT (21%)",
+    paymentTerms: "Payment terms",
+    investmentNote: "Note under the investment table",
+    phasesTitle: "Planning & phases",
+    phasesEnabled: "Include the planning table in the quote",
+    phaseName: "Work",
+    phaseDuration: "Duration",
+    addPhase: "+ Add phase",
+    totalDuration: "Total lead time (sentence under the table)",
+    sectionsTitle: "Text sections",
+    sectionsHint:
+      "Edit the text per section; untick a section to hide it in this quote. Start a line with \"- \" for a bullet list.",
+    previewTitle: "Live preview",
+  },
 };
 
 const fa: AdminDict = {
@@ -562,6 +693,7 @@ const fa: AdminDict = {
   tabs: {
     dashboard: "داشبورد",
     leads: "درخواست‌ها",
+    offers: "پیشنهادها",
     knowledge: "پایگاه دانش",
     models: "مدل‌ها",
     conversations: "گفتگوها",
@@ -709,6 +841,49 @@ const fa: AdminDict = {
     gapsTitle: "سؤالات بی‌جواب",
     gapsSubtitle: "این سؤالات منبعی در پایگاه دانش نداشتند — کاندیدای خوبی برای افزودن سند جدیدند.",
     gapsEmpty: "سؤال بی‌جوابی ثبت نشده است.",
+  },
+  offers: {
+    title: "پیشنهادها (Offertes)",
+    subtitle: "یک پیشنهاد قیمت حرفه‌ای بسازید؛ پیش‌نمایش زنده در سمت دیگر بلافاصله به‌روز می‌شود.",
+    docLanguageHint: "خود سند پیشنهاد همیشه به زبان هلندی است.",
+    print: "چاپ / PDF",
+    word: "دانلود Word",
+    reset: "پیشنهاد جدید",
+    resetConfirm: "همه‌ی فیلدها به متن پیش‌فرض بازگردند؟",
+    metaTitle: "مشخصات پیشنهاد",
+    offerNumber: "شماره‌ی پیشنهاد",
+    date: "تاریخ",
+    validityDays: "اعتبار (روز)",
+    projectTitle: "عنوان پروژه (موضوع)",
+    clientTitle: "کارفرما (مشتری)",
+    clientCompany: "نام شرکت",
+    clientContact: "شخص رابط",
+    clientEmail: "ایمیل",
+    clientPhone: "تلفن",
+    clientCity: "شهر",
+    senderTitle: "مشخصات شما (فرستنده)",
+    senderContact: "نام",
+    senderEmail: "ایمیل",
+    senderPhone: "تلفن",
+    senderWebsite: "وب‌سایت",
+    servicesTitle: "خدمات و قیمت‌ها",
+    serviceDescription: "شرح",
+    serviceAmount: "مبلغ (یورو، بدون مالیات)",
+    addService: "+ افزودن ردیف",
+    removeLine: "حذف",
+    vatEnabled: "محاسبه و نمایش مالیات بر ارزش افزوده (۲۱٪)",
+    paymentTerms: "شرایط پرداخت",
+    investmentNote: "توضیح زیر جدول سرمایه‌گذاری",
+    phasesTitle: "برنامه‌ریزی و مراحل",
+    phasesEnabled: "جدول برنامه‌ریزی در پیشنهاد گنجانده شود",
+    phaseName: "شرح کار",
+    phaseDuration: "مدت",
+    addPhase: "+ افزودن مرحله",
+    totalDuration: "مدت کل (جمله‌ی زیر جدول)",
+    sectionsTitle: "بخش‌های متنی",
+    sectionsHint:
+      "متن هر بخش را ویرایش کنید؛ برای پنهان کردن یک بخش در این پیشنهاد، تیک آن را بردارید. برای فهرست، خط را با «- » شروع کنید.",
+    previewTitle: "پیش‌نمایش زنده",
   },
 };
 
