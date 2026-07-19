@@ -3,6 +3,7 @@
 import { useMemo, useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import { updateLeadStatus, type LeadStatus } from "@/app/admin/actions";
+import { convertLead } from "@/app/admin/crm-actions";
 import { getDict, fmtNum, fmtDate, type AdminLang } from "@/lib/admin/i18n";
 
 export type Lead = {
@@ -103,6 +104,21 @@ export function LeadsManager({
     });
   }
 
+  // Klassieke CRM-flow: aanvraag omzetten naar contact (+ bedrijf) en deal
+  function convert(id: string) {
+    setPendingId(id);
+    startTransition(async () => {
+      const res = await convertLead(id);
+      setPendingId(null);
+      if (res.ok) {
+        alert(d.leads.convertDone);
+        router.refresh();
+      } else {
+        alert(res.error === "not_configured" ? d.common.notConfigured : res.error ?? d.common.error);
+      }
+    });
+  }
+
   return (
     <>
       <div className="mb-6 flex items-start justify-between gap-4">
@@ -168,6 +184,7 @@ export function LeadsManager({
                   lead={lead}
                   pending={pendingId === lead.id}
                   onStatusChange={changeStatus}
+                  onConvert={convert}
                   serviceLabel={serviceLabel}
                   timeLabel={timeLabel}
                 />
@@ -209,6 +226,7 @@ function LeadCard({
   lead,
   pending,
   onStatusChange,
+  onConvert,
   serviceLabel,
   timeLabel,
 }: {
@@ -216,6 +234,7 @@ function LeadCard({
   lead: Lead;
   pending: boolean;
   onStatusChange: (id: string, status: LeadStatus) => void;
+  onConvert: (id: string) => void;
   serviceLabel: (code: string) => string;
   timeLabel: (code: string | null) => string;
 }) {
@@ -309,6 +328,14 @@ function LeadCard({
               </span>
             )}
           </div>
+          <button
+            type="button"
+            disabled={pending}
+            onClick={() => onConvert(lead.id)}
+            className="mt-2.5 w-full rounded-xl border border-emerald/40 px-3.5 py-2 text-sm text-emerald transition-colors hover:bg-emerald/10 disabled:opacity-50"
+          >
+            {pending ? d.leads.converting : d.leads.convert}
+          </button>
         </div>
       </div>
     </article>

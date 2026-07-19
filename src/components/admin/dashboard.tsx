@@ -1,15 +1,23 @@
-import { getDict, fmtNum, fmtCost, type AdminLang } from "@/lib/admin/i18n";
+import Link from "next/link";
+import { getDict, fmtNum, fmtCost, fmtEur, type AdminLang } from "@/lib/admin/i18n";
 import type { Analytics } from "@/lib/rag/analytics";
+import type { CrmSummary } from "@/lib/crm/queries";
+import type { AgentInsight } from "@/lib/crm/types";
+import { InsightList } from "./insight-list";
 
-/** Dashboard met statistiekkaarten, kanaalverdeling en modelkosten. */
+/** Dashboard met CRM-overzicht, agent-meldingen, statistiekkaarten, kanaalverdeling en modelkosten. */
 export function Dashboard({
   lang,
   data,
   error,
+  crm,
+  insights,
 }: {
   lang: AdminLang;
   data: Analytics | null;
   error: string | null;
+  crm: CrmSummary | null;
+  insights: AgentInsight[] | null;
 }) {
   const d = getDict(lang);
   const n = (v: number) => fmtNum(lang, v);
@@ -22,6 +30,42 @@ export function Dashboard({
         <h1 className="text-2xl font-bold text-foreground">{d.dashboard.title}</h1>
         <p className="mt-1 text-sm text-muted">{d.dashboard.subtitle}</p>
       </div>
+
+      {/* CRM-overzicht */}
+      {crm && (
+        <section>
+          <h2 className="mb-3 text-base font-semibold text-foreground">{d.dashboard.crmTitle}</h2>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            <Stat label={d.dashboard.openDeals} value={n(crm.openDeals)} />
+            <Stat label={d.dashboard.pipelineValue} value={fmtEur(lang, crm.pipelineValueEur)} />
+            <Stat label={d.dashboard.contactsTotal} value={n(crm.contacts)} />
+            <Stat
+              label={d.dashboard.openTasks}
+              value={n(crm.openTasks)}
+              hint={crm.overdueTasks > 0 ? `${n(crm.overdueTasks)} ${d.dashboard.overdueSuffix}` : undefined}
+            />
+          </div>
+        </section>
+      )}
+
+      {/* Meldingen van de Agent CRM */}
+      {insights !== null && (
+        <section>
+          <div className="mb-3 flex items-center justify-between gap-3">
+            <h2 className="text-base font-semibold text-foreground">{d.dashboard.agentTitle}</h2>
+            <Link href="/admin/crm/assistant" className="text-sm text-emerald hover:underline">
+              {d.dashboard.agentAll}
+            </Link>
+          </div>
+          {insights.length === 0 ? (
+            <p className="rounded-2xl border border-line/70 bg-navy/40 px-5 py-4 text-sm text-muted">
+              {d.dashboard.agentEmpty}
+            </p>
+          ) : (
+            <InsightList lang={lang} insights={insights} limit={4} />
+          )}
+        </section>
+      )}
 
       {error || !data ? (
         <div className="rounded-2xl border border-red-400/40 bg-red-500/10 px-5 py-4 text-sm text-red-300">

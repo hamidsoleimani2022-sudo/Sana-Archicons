@@ -43,6 +43,16 @@ Tailwind v4 — **no `tailwind.config.ts`**. All brand tokens are defined in `sr
 ### Logo
 `public/logo-mark.png` is the real brand-guide emblem extracted from the PDF (circuit "S" + buildings + AI chip, transparent background). `src/components/logo.tsx` renders it via `<img>` (not `<Image>`). **Never replace this with a hand-drawn SVG** — the user has explicitly rejected that approach.
 
+### Admin panel & CRM
+`/admin` lives outside the `[locale]` routing and has its own root layout ("Admin panel Sana Archicons"). It is trilingual (NL/FA/EN, cookie-based) via `src/lib/admin/i18n.ts` — **every new admin string must be added to all three dicts** (`nl`, `en`, `fa`). `AdminShell` renders a grouped sidebar (Overzicht · CRM · Chatbot · Instellingen) on desktop and group-chips + tabs on mobile; pass the page's `active` tab key.
+
+The CRM module follows the classic flow lead → convert → contact/company/deal:
+- Types + agent-insight templates: `src/lib/crm/types.ts` (stage/label keys are translated via `d.crm.stages`, amounts are `amount_eur`)
+- Read queries: `src/lib/crm/queries.ts` · server actions: `src/app/admin/crm-actions.ts`
+- Pages under `src/app/admin/crm/` (contacts, companies, deals kanban, activities, reports, assistant) + `src/app/admin/channels`
+- **Agent CRM**: `src/lib/crm/agent.ts` computes rule-based insights (overdue tasks, stale deals, unanswered leads) without needing AI; the chat on `/admin/crm/assistant` streams via `/api/admin/agent` (OpenRouter, same model config as the chatbot).
+- DB tables come from `supabase/crm-schema.sql` — until it is run, CRM pages show the standard error state.
+
 ### lucide-react v1 quirk
 The installed version has no `Linkedin` named export. Use the inline SVG already present in `src/components/footer.tsx` and `src/components/auth/oauth-buttons.tsx` as the pattern for any LinkedIn icon.
 
@@ -54,6 +64,7 @@ The installed version has no `Linkedin` named export. Use the inline SVG already
 
 ## Pending setup
 - Add `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` to `.env.local`, then run `supabase/schema.sql` in the Supabase dashboard and enable Google + LinkedIn OAuth providers.
+- Run `supabase/crm-schema.sql` in the (new) "Sana Archicons" Supabase project to activate the CRM module (companies, contacts, pipeline_stages, deals, activities).
 - Replace phone/email placeholders on the contact page with real details.
 - Add real photo to `public/` and wire it into `src/app/[locale]/about/page.tsx`.
 - Deploy to Vercel and connect domain.

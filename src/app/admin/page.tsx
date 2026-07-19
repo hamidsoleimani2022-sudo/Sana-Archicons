@@ -5,6 +5,8 @@ import { getDict } from "@/lib/admin/i18n";
 import { AdminShell } from "@/components/admin/admin-shell";
 import { Dashboard } from "@/components/admin/dashboard";
 import { getAnalytics } from "@/lib/rag/analytics";
+import { getCrmSummary } from "@/lib/crm/queries";
+import { getAgentInsights } from "@/lib/crm/agent";
 
 export const dynamic = "force-dynamic";
 
@@ -22,9 +24,14 @@ export default async function AdminDashboardPage() {
     error = (e as Error).message;
   }
 
+  const [crm, insights] = await Promise.all([
+    getCrmSummary().catch(() => null),
+    getAgentInsights().catch(() => null),
+  ]);
+
   return (
     <AdminShell active="dashboard">
-      <Dashboard lang={lang} data={data} error={error} />
+      <Dashboard lang={lang} data={data} error={error} crm={crm} insights={insights} />
     </AdminShell>
   );
 }
