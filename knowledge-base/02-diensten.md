@@ -1,10 +1,10 @@
 ---
-titel: Diensten van Sana Archicons
+titel: Diensten van Arc Wise
 onderwerp: Dienstenoverzicht
 type: officiële referentie
 ---
 
-# Diensten van Sana Archicons
+# Diensten van Arc Wise
 
 ## 1. Bouwkundig advies
 Professioneel bouwkundig advies voor renovaties, verbouwingen en nieuwbouwprojecten — van technisch onderzoek tot begeleiding op locatie. Denk aan:

@@ -114,7 +114,7 @@ export function defaultOfferData(): OfferData {
     projectTitle: "[Titel van het project]",
     client: { company: "", contact: "", email: "", phone: "", city: "" },
     sender: {
-      company: "SANA ARCHICONS",
+      company: "ARC WISE",
       contact: "Hamid Soleimani",
       email: "hamidsoleimani2022@gmail.com",
       phone: "",
@@ -188,9 +188,9 @@ export function defaultOfferData(): OfferData {
       },
       about: {
         enabled: true,
-        title: "Over Sana Archicons",
+        title: "Over Arc Wise",
         body:
-          "SANA ARCHICONS combineert bouwkundige kennis met moderne technologie. Wij adviseren bedrijven en particulieren op het gebied van bouwkundig advies, energieadvies, AI-consultancy en procesautomatisering — altijd praktisch, transparant en gericht op meetbaar resultaat.",
+          "ARC WISE combineert bouwkundige kennis met moderne technologie. Wij adviseren bedrijven en particulieren op het gebied van bouwkundig advies, energieadvies, AI-consultancy en procesautomatisering — altijd praktisch, transparant en gericht op meetbaar resultaat.",
       },
       terms: {
         enabled: true,

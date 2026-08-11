@@ -214,10 +214,10 @@ body { font-family:Calibri,Arial,sans-serif; font-size:10.5pt; color:${TEXT}; li
 <table width="100%" cellpadding="0" cellspacing="0" style="margin-top:14pt;"><tr>
   <td style="vertical-align:middle;">
     <table cellpadding="0" cellspacing="0"><tr>
-      <td style="padding-right:10pt;">${logoSrc ? `<img src="${logoSrc}" width="${LOGO_W_PT}" height="${LOGO_H_PT}" alt="Sana Archicons">` : ""}</td>
+      <td style="padding-right:10pt;">${logoSrc ? `<img src="${logoSrc}" width="${LOGO_W_PT}" height="${LOGO_H_PT}" alt="Arc Wise">` : ""}</td>
       <td style="vertical-align:middle;">
-        <span style="font-size:16pt;font-weight:bold;color:${DARK};">SANA <span style="color:${EMERALD};">ARCHICONS</span></span><br>
-        <span style="font-size:7.5pt;color:${MUTED};letter-spacing:2pt;text-transform:uppercase;">Bouw · Energie · AI Consultancy</span>
+        <span style="font-size:16pt;font-weight:bold;color:${DARK};">ARC <span style="color:${EMERALD};">WISE</span></span><br>
+        <span style="font-size:7.5pt;color:${MUTED};letter-spacing:2pt;text-transform:uppercase;">Bouwadvies · Energie · AI Consultancy</span>
       </td>
     </tr></table>
   </td>
@@ -279,9 +279,9 @@ function wrap76(b64: string): string {
   return b64.replace(/(.{76})/g, "$1\r\n");
 }
 
-const MHTML_BOUNDARY = "----=_NextPart_SanaArchicons_Offerte";
-const HTML_LOCATION = "file:///C:/sana-archicons/offerte.htm";
-const LOGO_LOCATION = "file:///C:/sana-archicons/logo-mark.png";
+const MHTML_BOUNDARY = "----=_NextPart_ArcWise_Offerte";
+const HTML_LOCATION = "file:///C:/arcwise/offerte.htm";
+const LOGO_LOCATION = "file:///C:/arcwise/logo-mark.png";
 
 /** Verpakt de HTML + het logo als MHTML zodat Word de afbeelding meeneemt. */
 function buildMhtml(html: string, logoBase64: string | null): string {

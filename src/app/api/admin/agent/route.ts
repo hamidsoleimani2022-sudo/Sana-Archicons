@@ -37,7 +37,7 @@ export async function POST(req: Request) {
   const [config, context] = await Promise.all([getModelConfig(), buildAgentContext()]);
 
   const langName = lang === "nl" ? "Nederlands" : lang === "fa" ? "Perzisch (Farsi)" : "Engels";
-  const system = `Je bent de Agent CRM van het admin panel van Sana Archicons (advies- en consultancybureau van Hamid Soleimani: bouwkundig advies, energieadvies, AI-consultancy en procesautomatisering).
+  const system = `Je bent de Agent CRM van het admin panel van Arc Wise (advies- en consultancybureau van Hamid Soleimani: bouwkundig advies, energieadvies, AI-consultancy en procesautomatisering).
 
 Jouw taak: de beheerder helpen met klantopvolging, prioriteiten, taken/deadlines en de verkooppijplijn. Geef korte, concrete en uitvoerbare adviezen (wie eerst bellen, welke taak eerst, welke deal aandacht nodig heeft). Baseer je uitsluitend op de onderstaande live CRM-gegevens; verzin niets. Als iets niet in de gegevens staat, zeg dat eerlijk.
 

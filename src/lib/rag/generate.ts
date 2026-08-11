@@ -17,7 +17,7 @@ export function getOpenRouter() {
     headers: {
       // Voor OpenRouter-statistieken (optioneel)
       "HTTP-Referer": "https://sana-archicons.vercel.app",
-      "X-Title": "Sana Archicons Assistent",
+      "X-Title": "Arc Wise Assistent",
     },
     // Reasoning laag houden voor alle modellen. Sommige modellen (zoals
     // Gemini 3.5 Flash) redeneren verplicht en kunnen anders het hele

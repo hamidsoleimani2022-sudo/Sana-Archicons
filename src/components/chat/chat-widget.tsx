@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { MessageCircle, X, SendHorizonal, Sparkles, ThumbsUp, ThumbsDown } from "lucide-react";
-import { useSanaChat, type ChatMsg } from "@/lib/useSanaChat";
+import { useArcWiseChat, type ChatMsg } from "@/lib/useArcWiseChat";
 import { renderBold } from "./format";
 
 /**
@@ -15,9 +15,9 @@ export function ChatWidget() {
   const t = useTranslations("ChatWidget");
   const locale = useLocale();
   const [open, setOpen] = useState(false);
-  const { messages, loading, conversationId, send } = useSanaChat({
+  const { messages, loading, conversationId, send } = useArcWiseChat({
     channel: "widget",
-    storageKey: "sana_widget_conv",
+    storageKey: "arcwise_widget_conv",
     locale,
     errorText: t("errorGeneric"),
     offlineText: t("errorNetwork"),

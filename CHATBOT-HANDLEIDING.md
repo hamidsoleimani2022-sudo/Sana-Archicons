@@ -1,4 +1,4 @@
-# Sana Archicons — Chatbot, adviesformulier & admin-panel
+# Arc Wise — Chatbot, adviesformulier & admin-panel
 
 *Opgeleverd op 11 juli 2026. Bewaar dit bestand als naslag.*
 
@@ -37,8 +37,8 @@ De chatbot antwoordt automatisch in de taal van de bezoeker: **Nederlands, Engel
 ## Techniek (voor later naslag)
 
 - **Code:** GitHub → `hamidsoleimani2022-sudo/Sana-Archicons`
-- **Hosting:** Vercel, project `sana-archicons` (team hamid-s-projectwebsite)
-- **Database:** Supabase, project **"Website Sana Archicons"** (`nvnpxvxscukkwqxhrztq`)
+- **Hosting:** Vercel, project `arcwise` (team hamid-s-projectwebsite)
+- **Database:** Supabase, project **"Website Arc Wise"** (`nvnpxvxscukkwqxhrztq`)
   - Tabellen: `leads` (aanvragen), `documents`/`chunks` (kennisbank), `conversations`/`messages` (gesprekken), `feedback`, `model_config`, `embedding_config`, `prompt_versions`
 - **AI-modellen:** antwoorden via OpenRouter (standaard Gemini 3.5 Flash), embeddings via Cohere (meertalig)
 - **Alle sleutels** staan lokaal in `.env.local` en op Vercel bij Environment Variables

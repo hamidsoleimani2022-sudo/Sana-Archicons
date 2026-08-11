@@ -59,8 +59,8 @@ export function Footer() {
           <ul className="mt-4 space-y-3 text-sm text-muted">
             <li className="flex items-center gap-2.5">
               <Mail size={16} className="text-emerald" />
-              <a href="mailto:info@sana-archicons.nl" className="hover:text-emerald">
-                info@sana-archicons.nl
+              <a href="mailto:info@arcwise.nl" className="hover:text-emerald">
+                info@arcwise.nl
               </a>
             </li>
             <li className="flex items-center gap-2.5">
@@ -76,10 +76,18 @@ export function Footer() {
       </div>
 
       <div className="relative border-t border-line/50">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-5 py-5 text-xs text-muted sm:flex-row">
-          <p>© {new Date().getFullYear()} Sana Archicons. {t("rights")}</p>
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-5 pb-2 pt-5 text-xs text-muted sm:flex-row">
+          <p>
+            © {new Date().getFullYear()} Arc Wise. {t("rights")}{" "}
+            <Link href="/privacy" className="underline decoration-line underline-offset-2 hover:text-emerald">
+              {t("privacy")}
+            </Link>
+          </p>
           <p className="uppercase tracking-[0.16em]">{t("tagline")}</p>
         </div>
+        <p className="mx-auto max-w-7xl px-5 pb-5 text-center text-[0.7rem] text-muted/70 sm:text-left">
+          {t("aiNotice")}
+        </p>
       </div>
     </footer>
   );

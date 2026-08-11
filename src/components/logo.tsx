@@ -1,17 +1,20 @@
 import { cn } from "@/lib/utils";
 
 /**
- * Sana Archicons brand mark — the actual emblem from the brand guide
- * (circuit "S", building outlines and AI chip), background made transparent.
- * Lives at /public/logo-mark.png.
+ * Arc Wise brand mark — the actual emblem from the brand PDF
+ * (green eye with crosshair, chart bars, leaf and AI chip), background
+ * made transparent. Lives at /public/logo-mark.png.
  */
 export function LogoMark({ className }: { className?: string }) {
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
       src="/logo-mark.png"
-      alt="Sana Archicons"
-      className={cn("h-11 w-auto shrink-0", className)}
+      alt="Arc Wise"
+      className={cn(
+        "h-12 w-auto shrink-0 drop-shadow-[0_0_14px_rgba(46,204,113,0.35)]",
+        className,
+      )}
     />
   );
 }
@@ -19,20 +22,28 @@ export function LogoMark({ className }: { className?: string }) {
 export function Logo({
   className,
   withText = true,
+  taglineClass = "hidden sm:block",
 }: {
   className?: string;
   withText?: boolean;
+  /** Visibility classes for the tagline; the navbar hides it on smaller screens. */
+  taglineClass?: string;
 }) {
   return (
-    <span className={cn("flex items-center gap-2", className)}>
+    <span className={cn("flex items-center gap-3", className)}>
       <LogoMark />
       {withText && (
         <span className="flex flex-col leading-none">
-          <span className="text-base font-extrabold tracking-tight text-foreground">
-            SANA <span className="text-emerald">ARCHICONS</span>
+          <span className="text-xl font-extrabold tracking-[0.08em] text-foreground">
+            ARC <span className="text-emerald">WISE</span>
           </span>
-          <span className="mt-1 text-[9px] font-medium uppercase tracking-[0.16em] text-muted">
-            Bouw · Energie · AI Consultancy
+          <span
+            className={cn(
+              "mt-1.5 whitespace-nowrap text-[10px] font-semibold uppercase tracking-[0.18em] text-muted",
+              taglineClass,
+            )}
+          >
+            Bouwadvies · Energie · AI Consultancy
           </span>
         </span>
       )}

@@ -98,10 +98,10 @@ export function OfferDocument({ data }: { data: OfferData }) {
             <LogoMark className="h-14" />
             <span className="flex flex-col leading-none">
               <span className="text-xl font-extrabold tracking-tight text-slate-900">
-                SANA <span className="text-emerald-deep">ARCHICONS</span>
+                ARC <span className="text-emerald-deep">WISE</span>
               </span>
               <span className="mt-1.5 text-[10px] font-medium uppercase tracking-[0.18em] text-slate-500">
-                Bouw · Energie · AI Consultancy
+                Bouwadvies · Energie · AI Consultancy
               </span>
             </span>
           </div>

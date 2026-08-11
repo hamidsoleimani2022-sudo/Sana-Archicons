@@ -4,7 +4,7 @@ onderwerp: FAQ
 type: officiële referentie
 ---
 
-# Veelgestelde vragen aan Sana Archicons
+# Veelgestelde vragen aan Arc Wise
 
 **Wat kost een eerste gesprek?**
 Niets. Het eerste kennismakingsgesprek is gratis en vrijblijvend. U vraagt het aan via het formulier "Adviesgesprek aanvragen" op de website.
@@ -16,7 +16,7 @@ Binnen 24 uur op werkdagen nemen wij contact met u op, telefonisch of per e-mail
 Het AI-consult duurt 60 minuten en kost €85. Het kan telefonisch of op locatie. U boekt het direct online via de pagina "Plan een consult".
 
 **Heb ik een energielabel nodig?**
-Ja, bij verkoop of verhuur van een woning is een geregistreerd energielabel verplicht. Sana Archicons is erkend adviseur en stelt het officiële label op, inclusief het nieuwe energielabel dat vanaf 29 mei 2026 geldt.
+Ja, bij verkoop of verhuur van een woning is een geregistreerd energielabel verplicht. Arc Wise is erkend adviseur en stelt het officiële label op, inclusief het nieuwe energielabel dat vanaf 29 mei 2026 geldt.
 
 **Werken jullie ook buiten Tilburg?**
 Ja, wij werken in heel Nederland. Ons kantoor staat in Tilburg (Sinopelstraat 68, 5044 KS).

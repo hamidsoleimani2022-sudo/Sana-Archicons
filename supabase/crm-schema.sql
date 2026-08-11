@@ -1,5 +1,5 @@
 -- ───────────────────────────────────────────────────────────────
--- Sana Archicons — CRM-schema
+-- Arc Wise — CRM-schema
 -- Voer dit bestand uit in de SQL Editor van het Supabase-project
 -- (dezelfde database als schema.sql en chatbot-schema.sql).
 -- Bevat: bedrijven, contacten, pijplijnfasen, deals en activiteiten.

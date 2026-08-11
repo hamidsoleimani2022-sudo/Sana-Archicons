@@ -8,20 +8,20 @@ import crypto from "node:crypto";
  * vervalsen is; geen zware auth-bibliotheek nodig.
  */
 
-export const ADMIN_COOKIE = "sana_admin";
+export const ADMIN_COOKIE = "arcwise_admin";
 
 function secret(): string {
   return (
     process.env.ADMIN_SESSION_SECRET ||
     process.env.ADMIN_PASSWORD ||
-    "sana-insecure-dev-secret"
+    "arcwise-insecure-dev-secret"
   );
 }
 
 export function makeSessionToken(): string {
   return crypto
     .createHmac("sha256", secret())
-    .update("sana-admin-session-v1")
+    .update("arcwise-admin-session-v1")
     .digest("hex");
 }
 

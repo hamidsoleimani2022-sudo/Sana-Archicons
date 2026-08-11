@@ -1,6 +1,6 @@
 {
   "Brand": {
-    "name": "Sana Archicons",
+    "name": "Arc Wise",
     "role": "Construction · Energy · AI Consultancy",
     "tagline": "Building the future with intelligence"
   },
@@ -25,7 +25,7 @@
     "badge": "Construction · Energy · AI Consultancy · Automation",
     "titleLead": "Building the future with",
     "titleHighlight": "intelligence",
-    "subtitle": "Sana Archicons combines construction advisory, energy consulting and AI consultancy with process automation — for smarter, more sustainable and future-proof results.",
+    "subtitle": "Arc Wise combines construction advisory, energy consulting and AI consultancy with process automation — for smarter, more sustainable and future-proof results.",
     "ctaPrimary": "Book a consult",
     "ctaSecondary": "Explore services",
     "stat1Value": "10+",
@@ -137,8 +137,8 @@
   },
   "About": {
     "title": "About us",
-    "subtitle": "Sana Archicons",
-    "lead": "Sana Archicons is a Dutch advisory firm specialising in construction advisory, energy consulting and AI consultancy. We combine technical expertise with innovative technology for sustainable and future-oriented solutions.",
+    "subtitle": "Arc Wise",
+    "lead": "Arc Wise is a Dutch advisory firm specialising in construction advisory, energy consulting and AI consultancy. We combine technical expertise with innovative technology for sustainable and future-oriented solutions.",
     "missionTitle": "Mission",
     "mission": "To help companies and property owners make smarter, more sustainable and more efficient decisions — by combining the power of AI with practical construction and energy knowledge.",
     "visionTitle": "Vision",
@@ -242,8 +242,8 @@
   },
   "Contact": {
     "title": "Contact",
-    "subtitle": "Get in touch with Sana Archicons for a no-obligation conversation about your project or question.",
-    "eyebrow": "Sana Archicons",
+    "subtitle": "Get in touch with Arc Wise for a no-obligation conversation about your project or question.",
+    "eyebrow": "Arc Wise",
     "formTitle": "Send us a message",
     "name": "Name",
     "email": "Email address",
@@ -265,11 +265,13 @@
     "servicesTitle": "Services",
     "contactTitle": "Contact",
     "rights": "All rights reserved.",
-    "madeWith": "Construction · Energy · AI Consultancy"
+    "madeWith": "Construction · Energy · AI Consultancy",
+    "privacy": "Privacy & cookies",
+    "aiNotice": "This website was built with the help of AI technology and uses an AI chat assistant. Read more in our privacy statement."
   },
   "Cta": {
     "title": "Ready to build the future together?",
-    "subtitle": "Book a no-obligation consult and discover what Sana Archicons can mean for your organisation.",
+    "subtitle": "Book a no-obligation consult and discover what Arc Wise can mean for your organisation.",
     "button": "Book a consult"
   },
   "Consult": {
@@ -277,7 +279,7 @@
     "title": "Request a consultation",
     "subtitle": "Tell us briefly what you are working on; we will contact you within 24 hours on business days.",
     "sideTitle": "Take the first step towards a smarter project",
-    "sideBody": "Fill in the form and the Sana Archicons team will contact you within 24 hours on business days. The first conversation is free of obligation.",
+    "sideBody": "Fill in the form and the Arc Wise team will contact you within 24 hours on business days. The first conversation is free of obligation.",
     "bullet1": "Response within 24 hours on business days",
     "bullet2": "First meeting entirely without obligation",
     "bullet3": "No empty promises; just a clear next step",
@@ -306,7 +308,7 @@
     "submit": "Send request",
     "submitting": "Sending…",
     "successTitle": "Your request has been received",
-    "successBody": "Thank you for your request. Sana Archicons will contact you within 24 hours on business days.",
+    "successBody": "Thank you for your request. Arc Wise will contact you within 24 hours on business days.",
     "another": "Submit another request",
     "footnote": "Sending this form involves no costs or obligations.",
     "errors": {
@@ -324,13 +326,13 @@
     }
   },
   "Assistant": {
-    "welcomeTitle": "Sana Archicons smart assistant",
+    "welcomeTitle": "Arc Wise smart assistant",
     "welcomeBody": "Ask your question about building consultancy, energy advice, AI consultancy or process automation. Ready to talk? Request a consultation right away.",
-    "starter1": "What can Sana Archicons do for my organisation?",
+    "starter1": "What can Arc Wise do for my organisation?",
     "starter2": "How does an energy label request work?",
     "starter3": "What does an AI consult cost and what do I get?",
     "starter4": "How do I start with process automation?",
-    "inputPlaceholder": "Type your question about Sana Archicons…",
+    "inputPlaceholder": "Type your question about Arc Wise…",
     "send": "Send",
     "ctaButton": "Request a consultation",
     "sourcesLabel": "Sources:",
@@ -341,9 +343,9 @@
   "ChatWidget": {
     "launcher": "Open chat",
     "close": "Close chat",
-    "title": "Sana Assistant",
-    "subtitle": "Usually replies instantly",
-    "welcome": "Hello! I am the smart assistant of Sana Archicons. How can I help you — building, energy or AI?",
+    "title": "Arc Wise Assistant",
+    "subtitle": "AI assistant · usually replies instantly",
+    "welcome": "Hello! I am the smart assistant of Arc Wise. How can I help you — building, energy or AI?",
     "hint": "You can ask about our services, rates and way of working.",
     "cta": "Request a consultation",
     "inputPlaceholder": "Type your message…",
@@ -357,8 +359,8 @@
     "errorNetwork": "No connection. Please try again."
   },
   "Academy": {
-    "eyebrow": "Sana Archicons Academy",
-    "title": "Sana Archicons Academy",
+    "eyebrow": "Arc Wise Academy",
+    "title": "Arc Wise Academy",
     "subtitle": "Learn everything about energy labels with interactive lessons. Upload a hand-out and AI turns it into a complete lesson — with key points, examples and practice questions.",
     "teacherCardTitle": "For teachers",
     "teacherCardDesc": "Upload the text hand-out of your lesson and turn it into an interactive lesson with key points, examples and a quiz.",
@@ -366,7 +368,7 @@
     "studentCardTitle": "For students",
     "studentCardDesc": "View a lesson via the link you received from your teacher — no account needed.",
     "studentCardCta": "View sample lesson",
-    "homeTitle": "New: Sana Archicons Academy",
+    "homeTitle": "New: Arc Wise Academy",
     "homeDesc": "Interactive lessons about energy labels — from hand-out to lesson with AI. For teachers and students.",
     "homeCta": "Go to the academy",
     "howTitle": "How does it work?",

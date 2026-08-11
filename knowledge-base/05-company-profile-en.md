@@ -1,12 +1,12 @@
 ---
-title: Sana Archicons company profile (English)
+title: Arc Wise company profile (English)
 topic: About the company
 type: official reference
 ---
 
-# Sana Archicons — Building · Energy · AI Consultancy
+# Arc Wise — Building · Energy · AI Consultancy
 
-Sana Archicons is a consultancy firm based in Tilburg, the Netherlands, combining building expertise with energy advice and artificial intelligence. Owner and lead consultant is **Hamid Soleimani**. Our motto: **"Building the future with intelligence."**
+Arc Wise is a consultancy firm based in Tilburg, the Netherlands, combining building expertise with energy advice and artificial intelligence. Owner and lead consultant is **Hamid Soleimani**. Our motto: **"Building the future with intelligence."**
 
 ## Services
 1. **Building consultancy** — technical advice for renovations, conversions and new construction, from technical surveys to on-site guidance.
@@ -19,7 +19,7 @@ Sana Archicons is a consultancy firm based in Tilburg, the Netherlands, combinin
 - More than 10 years of experience, over 50 completed projects
 - 100% data-driven approach
 - Office: Sinopelstraat 68, 5044 KS Tilburg, the Netherlands; working across the whole country
-- Email: info@sana-archicons.nl · Phone: +31 6 55861642
+- Email: info@arcwise.nl · Phone: +31 6 55861642
 - Available on business days from 09:00 to 17:00
 
 ## How to start

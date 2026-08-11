@@ -42,9 +42,11 @@ export function Navbar() {
         scrolled ? "glass shadow-lg shadow-black/30" : "bg-transparent",
       )}
     >
-      <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3.5">
-        <Link href="/" aria-label="Home">
-          <Logo />
+      <nav className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-5 py-3.5">
+        <Link href="/" aria-label="Home" className="shrink-0">
+          {/* Tussen lg en xl staan alle menulinks naast het logo — dan de
+              tagline verbergen zodat het menu niet tegen het logo drukt. */}
+          <Logo taglineClass="hidden sm:block lg:hidden xl:block" />
         </Link>
 
         <div className="hidden items-center gap-1 lg:flex">
@@ -56,7 +58,7 @@ export function Navbar() {
                 key={l.href}
                 href={l.href}
                 className={cn(
-                  "rounded-full px-4 py-2 text-sm font-medium transition-colors",
+                  "whitespace-nowrap rounded-full px-3 py-2 text-sm font-medium transition-colors",
                   active
                     ? "text-emerald"
                     : "text-muted hover:text-foreground",

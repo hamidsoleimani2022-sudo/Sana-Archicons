@@ -4,16 +4,16 @@ import { useEffect, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Sparkles, SendHorizonal, FileText } from "lucide-react";
-import { useSanaChat, type ChatMsg, type Source } from "@/lib/useSanaChat";
+import { useArcWiseChat, type ChatMsg, type Source } from "@/lib/useArcWiseChat";
 import { renderBold } from "./format";
 
-/** Volledige chatpagina-ervaring in de huisstijl van Sana Archicons. */
+/** Volledige chatpagina-ervaring in de huisstijl van Arc Wise. */
 export function ChatPanel() {
   const t = useTranslations("Assistant");
   const locale = useLocale();
-  const { messages, loading, send } = useSanaChat({
+  const { messages, loading, send } = useArcWiseChat({
     channel: "web",
-    storageKey: "sana_conv",
+    storageKey: "arcwise_conv",
     locale,
     errorText: t("errorGeneric"),
     offlineText: t("errorNetwork"),

@@ -4,7 +4,7 @@ onderwerp: Proces en prijzen
 type: officiële referentie
 ---
 
-# Werkwijze en tarieven van Sana Archicons
+# Werkwijze en tarieven van Arc Wise
 
 ## Hoe een samenwerking start
 1. **Adviesaanvraag** — u vult het formulier "Adviesgesprek aanvragen" op de website in (naam, telefoonnummer, dienst en een korte omschrijving van uw vraag). Dit kost niets en verplicht u tot niets.
@@ -25,7 +25,7 @@ type: officiële referentie
 - Geen garanties die we niet kunnen waarmaken; wel een helder en realistisch pad
 
 ## Contact en bereikbaarheid
-- E-mail: info@sana-archicons.nl
+- E-mail: info@arcwise.nl
 - Telefoon: +31 6 55861642
 - Bereikbaar op werkdagen van 09:00 tot 17:00
 - Bezoekadres: Sinopelstraat 68, 5044 KS Tilburg

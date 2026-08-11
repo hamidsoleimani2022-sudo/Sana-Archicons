@@ -1,9 +1,9 @@
 @echo off
-title Sana Archicons - Website
+title Arc Wise - Website
 set "PATH=%PATH%;%LOCALAPPDATA%\Programs\nodejs"
 cd /d "%~dp0"
 echo ================================================
-echo   Sana Archicons - website wordt gestart...
+echo   Arc Wise - website wordt gestart...
 echo   Een moment, de browser opent automatisch.
 echo   (Laat dit venster open zolang je werkt.)
 echo ================================================
