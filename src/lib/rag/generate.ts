@@ -16,8 +16,8 @@ export function getOpenRouter() {
     apiKey: process.env.OPENROUTER_API_KEY ?? "",
     headers: {
       // Voor OpenRouter-statistieken (optioneel)
-      "HTTP-Referer": "https://sana-archicons.vercel.app",
-      "X-Title": "Arc Wise Assistent",
+      "HTTP-Referer": "https://seifecon.vercel.app",
+      "X-Title": "Seifecon Assistent",
     },
     // Reasoning laag houden voor alle modellen. Sommige modellen (zoals
     // Gemini 3.5 Flash) redeneren verplicht en kunnen anders het hele

@@ -18,7 +18,7 @@ export default function ContactPage() {
     const subject = (form.elements.namedItem("subject") as HTMLInputElement).value;
     const message = (form.elements.namedItem("message") as HTMLTextAreaElement).value;
     const body = `Naam: ${name}\nE-mail: ${email}\n\n${message}`;
-    window.location.href = `mailto:info@arcwise.nl?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = `mailto:info@seifecon.nl?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     setSent(true);
   }
 
@@ -117,10 +117,10 @@ export default function ContactPage() {
                   <div>
                     <p className="text-xs uppercase tracking-widest text-muted">{t("emailLabel")}</p>
                     <a
-                      href="mailto:info@arcwise.nl"
+                      href="mailto:info@seifecon.nl"
                       className="mt-0.5 text-sm font-medium text-foreground transition-colors hover:text-emerald"
                     >
-                      info@arcwise.nl
+                      info@seifecon.nl
                     </a>
                   </div>
                 </li>

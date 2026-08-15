@@ -28,7 +28,7 @@ const nextId = () => `m${++idCounter}`;
  * en bronnen op één plek voor zowel de chatpagina als de widget.
  * Foutteksten komen uit de aanroeper zodat ze vertaald kunnen worden.
  */
-export function useArcWiseChat(opts: {
+export function useSeifeconChat(opts: {
   channel?: string;
   storageKey?: string;
   locale?: string;
@@ -36,7 +36,7 @@ export function useArcWiseChat(opts: {
   offlineText?: string;
 } = {}) {
   const channel = opts.channel ?? "web";
-  const storageKey = opts.storageKey ?? "arcwise_conv";
+  const storageKey = opts.storageKey ?? "seifecon_conv";
   const locale = opts.locale ?? "nl";
   const errorText = opts.errorText ?? "Er ging iets mis. Probeer het opnieuw.";
   const offlineText = opts.offlineText ?? "Geen verbinding. Controleer uw internet en probeer opnieuw.";
@@ -68,7 +68,7 @@ export function useArcWiseChat(opts: {
           body: JSON.stringify({ message: trimmed, conversationId, channel, locale }),
         });
 
-        const metaB64 = res.headers.get("x-arcwise-meta");
+        const metaB64 = res.headers.get("x-seifecon-meta");
         const meta = metaB64 ? decodeMeta(metaB64) : { conversationId: null, sources: [] };
         if (meta.conversationId) {
           setConversationId(meta.conversationId);

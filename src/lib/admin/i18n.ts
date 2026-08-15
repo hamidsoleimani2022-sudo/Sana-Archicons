@@ -1,13 +1,13 @@
 /**
  * Drietalige vertalingen voor het admin-panel (NL / FA / EN).
  * Bewust los van next-intl: het panel leeft buiten de [locale]-routing en
- * schakelt via een cookie (arcwise_admin_lang). Dit bestand is client- én
+ * schakelt via een cookie (seifecon_admin_lang). Dit bestand is client- én
  * server-safe (geen "server-only").
  */
 
 export type AdminLang = "nl" | "fa" | "en";
 
-export const ADMIN_LANG_COOKIE = "arcwise_admin_lang";
+export const ADMIN_LANG_COOKIE = "seifecon_admin_lang";
 
 export const ADMIN_LANGS: { code: AdminLang; label: string; dir: "ltr" | "rtl" }[] = [
   { code: "nl", label: "Nederlands", dir: "ltr" },
@@ -423,7 +423,7 @@ export type AdminDict = {
 
 const nl: AdminDict = {
   common: {
-    panelTitle: "Admin panel Arc Wise",
+    panelTitle: "Admin panel Seifecon",
     logout: "Uitloggen",
     save: "Opslaan",
     saving: "Bezig met opslaan…",
@@ -455,7 +455,7 @@ const nl: AdminDict = {
   },
   navGroups: { overview: "Overzicht", crm: "CRM", chatbot: "Chatbot", settings: "Instellingen" },
   login: {
-    title: "Admin panel Arc Wise",
+    title: "Admin panel Seifecon",
     subtitle: "Log in om adviesaanvragen en de chatbot te beheren.",
     password: "Wachtwoord",
     submit: "Inloggen",
@@ -540,7 +540,7 @@ const nl: AdminDict = {
     tabUrl: "Webadres",
     tabFile: "Bestand",
     docTitle: "Documenttitel",
-    docTitlePlaceholder: "Bijv.: Diensten van Arc Wise",
+    docTitlePlaceholder: "Bijv.: Diensten van Seifecon",
     text: "Tekst",
     textPlaceholder: "Plak hier de brontekst…",
     tags: "Labels (optioneel, komma-gescheiden)",
@@ -813,7 +813,7 @@ const nl: AdminDict = {
 
 const en: AdminDict = {
   common: {
-    panelTitle: "Admin panel Arc Wise",
+    panelTitle: "Admin panel Seifecon",
     logout: "Log out",
     save: "Save",
     saving: "Saving…",
@@ -845,7 +845,7 @@ const en: AdminDict = {
   },
   navGroups: { overview: "Overview", crm: "CRM", chatbot: "Chatbot", settings: "Settings" },
   login: {
-    title: "Admin panel Arc Wise",
+    title: "Admin panel Seifecon",
     subtitle: "Log in to manage consultation requests and the chatbot.",
     password: "Password",
     submit: "Log in",
@@ -930,7 +930,7 @@ const en: AdminDict = {
     tabUrl: "Web address",
     tabFile: "File",
     docTitle: "Document title",
-    docTitlePlaceholder: "E.g.: Arc Wise services",
+    docTitlePlaceholder: "E.g.: Seifecon services",
     text: "Text",
     textPlaceholder: "Paste the source text here…",
     tags: "Tags (optional, comma-separated)",

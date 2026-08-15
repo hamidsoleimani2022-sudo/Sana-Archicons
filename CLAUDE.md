@@ -41,10 +41,10 @@ Tailwind v4 — **no `tailwind.config.ts`**. All brand tokens are defined in `sr
 - Custom utilities: `.text-gradient`, `.glass`, `.glow-emerald`, `.tech-grid` — defined with `@utility` in globals.css, use these instead of repeating the inline styles.
 
 ### Logo
-`public/logo-mark.png` is the real brand-guide emblem extracted from the PDF (circuit "S" + buildings + AI chip, transparent background). `src/components/logo.tsx` renders it via `<img>` (not `<Image>`). **Never replace this with a hand-drawn SVG** — the user has explicitly rejected that approach.
+`public/logo-mark.png` (536×544, transparent) is the official Seifecon emblem — green house with energy-label bars and leaf — rasterized from `public/logo-mark.svg`, which is extracted from the user-supplied `public/seifecon-logo.svg` (full logo with wordmark + tagline "Duurzaam bouwen. Slim besparen."). `src/components/logo.tsx` renders it via `<img>` (not `<Image>`). **Never replace this with a hand-drawn SVG** — always derive from the official Seifecon logo files.
 
 ### Admin panel & CRM
-`/admin` lives outside the `[locale]` routing and has its own root layout ("Admin panel Arc Wise"). It is trilingual (NL/FA/EN, cookie-based) via `src/lib/admin/i18n.ts` — **every new admin string must be added to all three dicts** (`nl`, `en`, `fa`). `AdminShell` renders a grouped sidebar (Overzicht · CRM · Chatbot · Instellingen) on desktop and group-chips + tabs on mobile; pass the page's `active` tab key.
+`/admin` lives outside the `[locale]` routing and has its own root layout ("Admin panel Seifecon"). It is trilingual (NL/FA/EN, cookie-based) via `src/lib/admin/i18n.ts` — **every new admin string must be added to all three dicts** (`nl`, `en`, `fa`). `AdminShell` renders a grouped sidebar (Overzicht · CRM · Chatbot · Instellingen) on desktop and group-chips + tabs on mobile; pass the page's `active` tab key.
 
 The CRM module follows the classic flow lead → convert → contact/company/deal:
 - Types + agent-insight templates: `src/lib/crm/types.ts` (stage/label keys are translated via `d.crm.stages`, amounts are `amount_eur`)
@@ -57,14 +57,14 @@ The CRM module follows the classic flow lead → convert → contact/company/dea
 The installed version has no `Linkedin` named export. Use the inline SVG already present in `src/components/footer.tsx` and `src/components/auth/oauth-buttons.tsx` as the pattern for any LinkedIn icon.
 
 ### Key business rules
-- Company: **ARC WISE** — owner is **Hamid** (not "Hamed")
+- Company: **SEIFECON** — owner is **Hamid** (not "Hamed")
 - Four services: Bouwkundig Advies · Energieadvies · AI Consultancy · Procesautomatisering
 - AI consult booking: 60 min · €85 · phone or on-site — wired in `src/components/booking/booking-flow.tsx`
 - Payment gateway (Mollie/Stripe) not yet connected — step 3 of the booking flow is a placeholder
 
 ## Pending setup
 - Add `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` to `.env.local`, then run `supabase/schema.sql` in the Supabase dashboard and enable Google + LinkedIn OAuth providers.
-- Run `supabase/crm-schema.sql` in the (new) "Arc Wise" Supabase project to activate the CRM module (companies, contacts, pipeline_stages, deals, activities).
+- Run `supabase/crm-schema.sql` in the (new) "Seifecon" Supabase project to activate the CRM module (companies, contacts, pipeline_stages, deals, activities).
 - Replace phone/email placeholders on the contact page with real details.
 - Add real photo to `public/` and wire it into `src/app/[locale]/about/page.tsx`.
 - Deploy to Vercel and connect domain.

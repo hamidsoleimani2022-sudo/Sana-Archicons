@@ -4,16 +4,16 @@ import { useEffect, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Sparkles, SendHorizonal, FileText } from "lucide-react";
-import { useArcWiseChat, type ChatMsg, type Source } from "@/lib/useArcWiseChat";
+import { useSeifeconChat, type ChatMsg, type Source } from "@/lib/useSeifeconChat";
 import { renderBold } from "./format";
 
-/** Volledige chatpagina-ervaring in de huisstijl van Arc Wise. */
+/** Volledige chatpagina-ervaring in de huisstijl van Seifecon. */
 export function ChatPanel() {
   const t = useTranslations("Assistant");
   const locale = useLocale();
-  const { messages, loading, send } = useArcWiseChat({
+  const { messages, loading, send } = useSeifeconChat({
     channel: "web",
-    storageKey: "arcwise_conv",
+    storageKey: "seifecon_conv",
     locale,
     errorText: t("errorGeneric"),
     offlineText: t("errorNetwork"),

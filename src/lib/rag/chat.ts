@@ -138,12 +138,12 @@ async function prepareTurn(input: ChatTurnInput): Promise<PreparedTurn> {
   return { result, conversationId, sources };
 }
 
-/** Streaming antwoord (chatpagina/widget). Metadata in header x-arcwise-meta (base64). */
+/** Streaming antwoord (chatpagina/widget). Metadata in header x-seifecon-meta (base64). */
 export async function handleChatTurn(input: ChatTurnInput): Promise<Response> {
   const p = await prepareTurn(input);
   if (!p.result) return fallbackResponse(p.fallbackText ?? NOT_CONFIGURED.nl);
   return p.result.toTextStreamResponse({
-    headers: { "x-arcwise-meta": toBase64({ conversationId: p.conversationId, sources: p.sources }) },
+    headers: { "x-seifecon-meta": toBase64({ conversationId: p.conversationId, sources: p.sources }) },
   });
 }
 
@@ -205,7 +205,7 @@ function buildTools(
         return {
           ok: true,
           message:
-            "De adviesaanvraag is geregistreerd. Arc Wise neemt binnen 24 uur (op werkdagen) contact op.",
+            "De adviesaanvraag is geregistreerd. Seifecon neemt binnen 24 uur (op werkdagen) contact op.",
         };
       },
     }),
@@ -216,7 +216,7 @@ function fallbackResponse(message: string): Response {
   return new Response(message, {
     headers: {
       "Content-Type": "text/plain; charset=utf-8",
-      "x-arcwise-meta": toBase64({ conversationId: null, sources: [] }),
+      "x-seifecon-meta": toBase64({ conversationId: null, sources: [] }),
     },
   });
 }

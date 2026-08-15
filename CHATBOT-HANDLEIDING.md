@@ -1,4 +1,4 @@
-# Arc Wise — Chatbot, adviesformulier & admin-panel
+# Seifecon — Chatbot, adviesformulier & admin-panel
 
 *Opgeleverd op 11 juli 2026. Bewaar dit bestand als naslag.*
 
@@ -6,20 +6,20 @@
 
 ## Wat er live staat
 
-**Website:** https://sana-archicons.vercel.app
+**Website:** https://seifecon.vercel.app
 
 | Onderdeel | Waar |
 |---|---|
-| Adviesaanvraag-formulier (NL/EN) | https://sana-archicons.vercel.app/nl/consult |
-| Chatpagina (AI-assistent) | https://sana-archicons.vercel.app/nl/assistant |
+| Adviesaanvraag-formulier (NL/EN) | https://seifecon.vercel.app/nl/consult |
+| Chatpagina (AI-assistent) | https://seifecon.vercel.app/nl/assistant |
 | Chatbot-widget | knop rechtsonder op elke pagina |
-| Admin-panel (beheer) | https://sana-archicons.vercel.app/admin |
+| Admin-panel (beheer) | https://seifecon.vercel.app/admin |
 
 De chatbot antwoordt automatisch in de taal van de bezoeker: **Nederlands, Engels of Farsi**.
 
 ## Inloggen op het admin-panel
 
-- Adres: **https://sana-archicons.vercel.app/admin**
+- Adres: **https://seifecon.vercel.app/admin**
 - Wachtwoord: staat in `.env.local` bij `ADMIN_PASSWORD` (nooit in dit bestand of op GitHub zetten!)
   (te wijzigen via de variabele `ADMIN_PASSWORD` in `.env.local` én in Vercel → Settings → Environment Variables)
 - Rechtsboven kun je de taal van het panel kiezen: **Nederlands · فارسی · English**
@@ -36,9 +36,9 @@ De chatbot antwoordt automatisch in de taal van de bezoeker: **Nederlands, Engel
 
 ## Techniek (voor later naslag)
 
-- **Code:** GitHub → `hamidsoleimani2022-sudo/Sana-Archicons`
-- **Hosting:** Vercel, project `arcwise` (team hamid-s-projectwebsite)
-- **Database:** Supabase, project **"Website Arc Wise"** (`nvnpxvxscukkwqxhrztq`)
+- **Code:** GitHub → `hamidsoleimani2022-sudo/Seifecon`
+- **Hosting:** Vercel, project `seifecon` (team hamid-s-projectwebsite)
+- **Database:** Supabase, project **"Website Seifecon"** (`nvnpxvxscukkwqxhrztq`)
   - Tabellen: `leads` (aanvragen), `documents`/`chunks` (kennisbank), `conversations`/`messages` (gesprekken), `feedback`, `model_config`, `embedding_config`, `prompt_versions`
 - **AI-modellen:** antwoorden via OpenRouter (standaard Gemini 3.5 Flash), embeddings via Cohere (meertalig)
 - **Alle sleutels** staan lokaal in `.env.local` en op Vercel bij Environment Variables
@@ -56,7 +56,7 @@ node node_modules/next/dist/bin/next build           # productie-build testen
 
 ### Als er iets mis lijkt
 - Chatbot geeft "service niet geconfigureerd" → controleer de environment variables op Vercel
-- Nieuwe deploy maar oude site zichtbaar → in de terminal: `npx vercel alias set <deployment-url> sana-archicons.vercel.app`
+- Nieuwe deploy maar oude site zichtbaar → in de terminal: `npx vercel alias set <deployment-url> seifecon.vercel.app`
 - Aanvragen komen niet binnen → check in Supabase-dashboard of het project actief is (gratis projecten pauzeren na ±1 week zonder gebruik!)
 
 > ⚠️ **Belangrijk:** het gratis Supabase-plan pauzeert een project na een periode zonder activiteit. Krijg je een melding of doet de bot het niet meer, ga dan naar het Supabase-dashboard en klik op "Restore project".

@@ -16,7 +16,7 @@ export default async function ServicesPage({
 
   return (
     <>
-      <PageHeader title={t("title")} subtitle={t("subtitle")} eyebrow="Arc Wise" />
+      <PageHeader title={t("title")} subtitle={t("subtitle")} eyebrow="Seifecon" />
       <Services full />
       <EnergyLabel />
       <EnergyPlan />

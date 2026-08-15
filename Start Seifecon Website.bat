@@ -1,9 +1,9 @@
 @echo off
-title Arc Wise - Website
+title Seifecon - Website
 set "PATH=%PATH%;%LOCALAPPDATA%\Programs\nodejs"
 cd /d "%~dp0"
 echo ================================================
-echo   Arc Wise - website wordt gestart...
+echo   Seifecon - website wordt gestart...
 echo   Een moment, de browser opent automatisch.
 echo   (Laat dit venster open zolang je werkt.)
 echo ================================================

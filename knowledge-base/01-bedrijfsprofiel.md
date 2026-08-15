@@ -1,13 +1,13 @@
 ---
-titel: Bedrijfsprofiel Arc Wise
+titel: Bedrijfsprofiel Seifecon
 onderwerp: Wie wij zijn
 type: officiële referentie
 ---
 
-# Arc Wise — Bouwadvies · Energie · AI Consultancy
+# Seifecon — Bouwadvies · Energie · AI Consultancy
 
 ## Wie wij zijn
-Arc Wise is een advies- en consultancybureau in Tilburg (Nederland) dat bouwkundige expertise combineert met energieadvies en kunstmatige intelligentie. Eigenaar en hoofdadviseur is **Hamid Soleimani**. Ons motto: **"Bouwen aan de toekomst met intelligentie."**
+Seifecon is een advies- en consultancybureau in Tilburg (Nederland) dat bouwkundige expertise combineert met energieadvies en kunstmatige intelligentie. Eigenaar en hoofdadviseur is **Hamid Soleimani**. Ons motto: **"Bouwen aan de toekomst met intelligentie."**
 
 Wij helpen woningeigenaren, bedrijven en organisaties met vier dingen: bouwkundig advies, energieadvies (inclusief officiële energielabels), AI-consultancy en procesautomatisering. Geen dikke rapporten die in een la verdwijnen, maar concreet, meetbaar advies op maat.
 
@@ -32,7 +32,7 @@ Wij helpen woningeigenaren, bedrijven en organisaties met vier dingen: bouwkundi
 - **Procesautomatisering** — slimme workflows en integraties die handwerk schelen.
 
 ## Contact
-- **E-mail:** info@arcwise.nl
+- **E-mail:** info@seifecon.nl
 - **Telefoon:** +31 6 55861642
 - **Adres:** Sinopelstraat 68, 5044 KS Tilburg
 - **Bereikbaar:** op werkdagen van 09:00 tot 17:00

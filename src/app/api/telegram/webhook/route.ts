@@ -11,7 +11,7 @@ import {
 export const runtime = "nodejs";
 export const maxDuration = 60;
 
-const SITE_URL = "https://sana-archicons.vercel.app";
+const SITE_URL = "https://seifecon.vercel.app";
 const CONSULT_URL = `${SITE_URL}/nl/consult`;
 
 // ── eenvoudige rate-limit per chat ──
@@ -28,10 +28,10 @@ function rateLimited(chatId: number): boolean {
 
 // Snelkeuzevragen (callback-knoppen) + link naar het aanvraagformulier
 const QUICK_QUESTIONS: Record<string, string> = {
-  q_services: "Welke diensten biedt Arc Wise aan?",
+  q_services: "Welke diensten biedt Seifecon aan?",
   q_energy: "Hoe werkt een energielabel-aanvraag?",
   q_ai: "Wat kost een AI-consult en wat krijg ik daarvoor?",
-  q_process: "Hoe verloopt een samenwerking met Arc Wise?",
+  q_process: "Hoe verloopt een samenwerking met Seifecon?",
 };
 function startKeyboard(): InlineButton[][] {
   return [
@@ -48,9 +48,9 @@ function startKeyboard(): InlineButton[][] {
 }
 
 const WELCOME =
-  "Hallo! 👋 Ik ben de slimme assistent van Arc Wise — bouwkundig advies, energieadvies, AI-consultancy en procesautomatisering.\n\nStel uw vraag in het Nederlands, Engels of Farsi, of kies een van de opties hieronder.";
+  "Hallo! 👋 Ik ben de slimme assistent van Seifecon — bouwkundig advies, energieadvies, AI-consultancy en procesautomatisering.\n\nStel uw vraag in het Nederlands, Engels of Farsi, of kies een van de opties hieronder.";
 const HELP =
-  "Ik help u graag met vragen over Arc Wise:\n\n• Typ uw vraag gewoon als bericht (Nederlands, Engels of Farsi).\n• /start — opnieuw beginnen met het keuzemenu\n• /reset — gespreksgeheugen wissen\n\nKlaar voor een gesprek? Vraag een gratis adviesgesprek aan: " +
+  "Ik help u graag met vragen over Seifecon:\n\n• Typ uw vraag gewoon als bericht (Nederlands, Engels of Farsi).\n• /start — opnieuw beginnen met het keuzemenu\n• /reset — gespreksgeheugen wissen\n\nKlaar voor een gesprek? Vraag een gratis adviesgesprek aan: " +
   CONSULT_URL;
 
 export async function POST(req: Request) {

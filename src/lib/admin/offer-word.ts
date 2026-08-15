@@ -20,9 +20,9 @@ const TEXT = "#334155";
 const MUTED = "#64748b";
 const LINE = "#e2e8f0";
 
-// logo-mark.png is 536 × 332 px → hoogte 44pt in de kop
+// logo-mark.png is 536 × 544 px → hoogte 44pt in de kop
 const LOGO_H_PT = 44;
-const LOGO_W_PT = Math.round((44 * 536) / 332);
+const LOGO_W_PT = Math.round((44 * 536) / 544);
 
 function esc(s: string): string {
   return s
@@ -214,7 +214,7 @@ body { font-family:Calibri,Arial,sans-serif; font-size:10.5pt; color:${TEXT}; li
 <table width="100%" cellpadding="0" cellspacing="0" style="margin-top:14pt;"><tr>
   <td style="vertical-align:middle;">
     <table cellpadding="0" cellspacing="0"><tr>
-      <td style="padding-right:10pt;">${logoSrc ? `<img src="${logoSrc}" width="${LOGO_W_PT}" height="${LOGO_H_PT}" alt="Arc Wise">` : ""}</td>
+      <td style="padding-right:10pt;">${logoSrc ? `<img src="${logoSrc}" width="${LOGO_W_PT}" height="${LOGO_H_PT}" alt="Seifecon">` : ""}</td>
       <td style="vertical-align:middle;">
         <span style="font-size:16pt;font-weight:bold;color:${DARK};">ARC <span style="color:${EMERALD};">WISE</span></span><br>
         <span style="font-size:7.5pt;color:${MUTED};letter-spacing:2pt;text-transform:uppercase;">Bouwadvies · Energie · AI Consultancy</span>
@@ -279,9 +279,9 @@ function wrap76(b64: string): string {
   return b64.replace(/(.{76})/g, "$1\r\n");
 }
 
-const MHTML_BOUNDARY = "----=_NextPart_ArcWise_Offerte";
-const HTML_LOCATION = "file:///C:/arcwise/offerte.htm";
-const LOGO_LOCATION = "file:///C:/arcwise/logo-mark.png";
+const MHTML_BOUNDARY = "----=_NextPart_Seifecon_Offerte";
+const HTML_LOCATION = "file:///C:/seifecon/offerte.htm";
+const LOGO_LOCATION = "file:///C:/seifecon/logo-mark.png";
 
 /** Verpakt de HTML + het logo als MHTML zodat Word de afbeelding meeneemt. */
 function buildMhtml(html: string, logoBase64: string | null): string {

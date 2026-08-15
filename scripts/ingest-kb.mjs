@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Bulk-ingestie van de Arc Wise-kennisbank in het RAG-systeem
+ * Bulk-ingestie van de Seifecon-kennisbank in het RAG-systeem
  * (Supabase + pgvector).
  *
  * Leest alle .md-bestanden uit knowledge-base/, haalt de titel uit de

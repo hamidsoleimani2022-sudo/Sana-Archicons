@@ -183,7 +183,7 @@ export async function reindexDocument(documentId: string): Promise<IngestResult>
 // ── Tekst extraheren uit bronnen ─────────────────────────────────
 
 async function extractFromUrl(url: string): Promise<{ title: string; text: string }> {
-  const res = await fetch(url, { headers: { "User-Agent": "ArcWiseBot/1.0" } });
+  const res = await fetch(url, { headers: { "User-Agent": "SeifeconBot/1.0" } });
   if (!res.ok) throw new Error(`URL ophalen mislukt (${res.status}).`);
   const html = await res.text();
   const titleMatch = html.match(/<title[^>]*>([^<]*)<\/title>/i);

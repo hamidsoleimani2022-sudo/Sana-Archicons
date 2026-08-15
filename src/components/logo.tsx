@@ -1,16 +1,16 @@
 import { cn } from "@/lib/utils";
 
 /**
- * Arc Wise brand mark — the actual emblem from the brand PDF
- * (green eye with crosshair, chart bars, leaf and AI chip), background
- * made transparent. Lives at /public/logo-mark.png.
+ * Seifecon brand mark — the official emblem from the Seifecon logo
+ * (green house with energy-label bars and leaf, transparent background).
+ * Lives at /public/logo-mark.png (raster) and /public/logo-mark.svg (vector).
  */
 export function LogoMark({ className }: { className?: string }) {
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
       src="/logo-mark.png"
-      alt="Arc Wise"
+      alt="Seifecon"
       className={cn(
         "h-12 w-auto shrink-0 drop-shadow-[0_0_14px_rgba(46,204,113,0.35)]",
         className,
@@ -34,8 +34,8 @@ export function Logo({
       <LogoMark />
       {withText && (
         <span className="flex flex-col leading-none">
-          <span className="text-xl font-extrabold tracking-[0.08em] text-foreground">
-            ARC <span className="text-emerald">WISE</span>
+          <span className="text-xl font-extrabold tracking-[0.02em] text-foreground">
+            Seif<span className="text-emerald">econ</span>
           </span>
           <span
             className={cn(
@@ -43,7 +43,7 @@ export function Logo({
               taglineClass,
             )}
           >
-            Bouwadvies · Energie · AI Consultancy
+            Duurzaam bouwen. Slim besparen.
           </span>
         </span>
       )}

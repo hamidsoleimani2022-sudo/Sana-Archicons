@@ -17,14 +17,14 @@ const CONTENT: Record<
   nl: {
     title: "Privacy & cookies",
     subtitle:
-      "Hoe Arc Wise omgaat met uw persoonsgegevens — volgens de Algemene Verordening Gegevensbescherming (AVG/GDPR).",
+      "Hoe Seifecon omgaat met uw persoonsgegevens — volgens de Algemene Verordening Gegevensbescherming (AVG/GDPR).",
     updated: "Laatst bijgewerkt: 12 augustus 2026",
     sections: [
       {
         title: "1. Wie zijn wij",
         body: [
-          "Arc Wise is een Nederlands advies- en consultancybureau voor bouwadvies, energieadvies, AI-consultancy en procesautomatisering. Arc Wise is de verwerkingsverantwoordelijke voor de verwerking van persoonsgegevens die in deze verklaring wordt beschreven.",
-          "Contact: info@arcwise.nl · Nederland.",
+          "Seifecon is een Nederlands advies- en consultancybureau voor bouwadvies, energieadvies, AI-consultancy en procesautomatisering. Seifecon is de verwerkingsverantwoordelijke voor de verwerking van persoonsgegevens die in deze verklaring wordt beschreven.",
+          "Contact: info@seifecon.nl · Nederland.",
         ],
       },
       {
@@ -92,7 +92,7 @@ const CONTENT: Record<
         title: "8. Uw rechten",
         body: [
           "Op grond van de AVG heeft u het recht op inzage, rectificatie, verwijdering (“recht op vergetelheid”), beperking van de verwerking, overdraagbaarheid van gegevens en bezwaar tegen de verwerking.",
-          "Stuur uw verzoek naar info@arcwise.nl; wij reageren binnen één maand. Bent u niet tevreden over hoe wij met uw gegevens omgaan, dan kunt u een klacht indienen bij de Autoriteit Persoonsgegevens (autoriteitpersoonsgegevens.nl).",
+          "Stuur uw verzoek naar info@seifecon.nl; wij reageren binnen één maand. Bent u niet tevreden over hoe wij met uw gegevens omgaan, dan kunt u een klacht indienen bij de Autoriteit Persoonsgegevens (autoriteitpersoonsgegevens.nl).",
         ],
       },
       {
@@ -112,14 +112,14 @@ const CONTENT: Record<
   en: {
     title: "Privacy & cookies",
     subtitle:
-      "How Arc Wise handles your personal data — in accordance with the EU General Data Protection Regulation (GDPR).",
+      "How Seifecon handles your personal data — in accordance with the EU General Data Protection Regulation (GDPR).",
     updated: "Last updated: 12 August 2026",
     sections: [
       {
         title: "1. Who we are",
         body: [
-          "Arc Wise is a Dutch advisory and consultancy firm for construction advice, energy consulting, AI consultancy and process automation. Arc Wise is the data controller for the processing of personal data described in this statement.",
-          "Contact: info@arcwise.nl · The Netherlands.",
+          "Seifecon is a Dutch advisory and consultancy firm for construction advice, energy consulting, AI consultancy and process automation. Seifecon is the data controller for the processing of personal data described in this statement.",
+          "Contact: info@seifecon.nl · The Netherlands.",
         ],
       },
       {
@@ -187,7 +187,7 @@ const CONTENT: Record<
         title: "8. Your rights",
         body: [
           "Under the GDPR you have the right of access, rectification, erasure (“right to be forgotten”), restriction of processing, data portability and objection to processing.",
-          "Send your request to info@arcwise.nl; we will respond within one month. If you are not satisfied with how we handle your data, you can lodge a complaint with the Dutch Data Protection Authority (Autoriteit Persoonsgegevens, autoriteitpersoonsgegevens.nl).",
+          "Send your request to info@seifecon.nl; we will respond within one month. If you are not satisfied with how we handle your data, you can lodge a complaint with the Dutch Data Protection Authority (Autoriteit Persoonsgegevens, autoriteitpersoonsgegevens.nl).",
         ],
       },
       {
@@ -227,7 +227,7 @@ export default async function PrivacyPage({
 
   return (
     <>
-      <PageHeader title={c.title} subtitle={c.subtitle} eyebrow="Arc Wise" />
+      <PageHeader title={c.title} subtitle={c.subtitle} eyebrow="Seifecon" />
       <section className="mx-auto max-w-3xl px-5 py-14">
         <p className="text-xs uppercase tracking-[0.16em] text-emerald/80">
           {c.updated}

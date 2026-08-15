@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Admin panel Arc Wise",
-    template: "%s · Arc Wise Admin",
+    default: "Admin panel Seifecon",
+    template: "%s · Seifecon Admin",
   },
   robots: { index: false, follow: false },
 };

@@ -59,8 +59,8 @@ export function Footer() {
           <ul className="mt-4 space-y-3 text-sm text-muted">
             <li className="flex items-center gap-2.5">
               <Mail size={16} className="text-emerald" />
-              <a href="mailto:info@arcwise.nl" className="hover:text-emerald">
-                info@arcwise.nl
+              <a href="mailto:info@seifecon.nl" className="hover:text-emerald">
+                info@seifecon.nl
               </a>
             </li>
             <li className="flex items-center gap-2.5">
@@ -78,7 +78,7 @@ export function Footer() {
       <div className="relative border-t border-line/50">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-5 pb-2 pt-5 text-xs text-muted sm:flex-row">
           <p>
-            © {new Date().getFullYear()} Arc Wise. {t("rights")}{" "}
+            © {new Date().getFullYear()} Seifecon. {t("rights")}{" "}
             <Link href="/privacy" className="underline decoration-line underline-offset-2 hover:text-emerald">
               {t("privacy")}
             </Link>

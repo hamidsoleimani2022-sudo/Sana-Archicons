@@ -22,8 +22,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Arc Wise — Bouwadvies · Energie · AI Consultancy",
-    template: "%s · Arc Wise",
+    default: "Seifecon — Bouwadvies · Energie · AI Consultancy",
+    template: "%s · Seifecon",
   },
   description:
     "Bouwkundig advies, energieadvies en AI consultancy. Bouwen aan de toekomst met intelligentie.",
@@ -56,7 +56,7 @@ export default async function LocaleLayout({
           <Navbar />
           <main className="flex-1">{children}</main>
           <Footer />
-          {/* Eigen Arc Wise-chatwidget (RAG-chatbot, zelfde brein als /assistant) */}
+          {/* Eigen Seifecon-chatwidget (RAG-chatbot, zelfde brein als /assistant) */}
           <ChatWidget />
           {/* ElevenLabs-spraakagent (verschijnt pas als agent-ID is ingesteld) */}
           <ElevenLabsWidget />

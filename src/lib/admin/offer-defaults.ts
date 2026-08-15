@@ -108,17 +108,17 @@ export function defaultOfferData(): OfferData {
   const iso = now.toISOString().slice(0, 10);
 
   return {
-    offerNumber: `SA-${year}-001`,
+    offerNumber: `SF-${year}-001`,
     date: iso,
     validityDays: 14,
     projectTitle: "[Titel van het project]",
     client: { company: "", contact: "", email: "", phone: "", city: "" },
     sender: {
-      company: "ARC WISE",
+      company: "SEIFECON",
       contact: "Hamid Soleimani",
       email: "hamidsoleimani2022@gmail.com",
       phone: "",
-      website: "sana-archicons.vercel.app",
+      website: "www.seifecon.nl",
     },
     sections: {
       summary: {
@@ -188,9 +188,9 @@ export function defaultOfferData(): OfferData {
       },
       about: {
         enabled: true,
-        title: "Over Arc Wise",
+        title: "Over Seifecon",
         body:
-          "ARC WISE combineert bouwkundige kennis met moderne technologie. Wij adviseren bedrijven en particulieren op het gebied van bouwkundig advies, energieadvies, AI-consultancy en procesautomatisering — altijd praktisch, transparant en gericht op meetbaar resultaat.",
+          "SEIFECON combineert bouwkundige kennis met moderne technologie. Wij adviseren bedrijven en particulieren op het gebied van bouwkundig advies, energieadvies, AI-consultancy en procesautomatisering — altijd praktisch, transparant en gericht op meetbaar resultaat.",
       },
       terms: {
         enabled: true,

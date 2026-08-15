@@ -92,7 +92,7 @@ export async function AdminShell({
       {/* Zijbalk (desktop) */}
       <aside className="sticky top-0 hidden h-dvh w-64 shrink-0 flex-col border-e border-line/60 bg-navy/30 lg:flex">
         <div className="flex items-center gap-3 border-b border-line/60 px-5 py-5">
-          <Link href="/" aria-label="Arc Wise">
+          <Link href="/" aria-label="Seifecon">
             <Logo />
           </Link>
         </div>
@@ -146,7 +146,7 @@ export async function AdminShell({
           <div className="px-5">
             <div className="flex items-center justify-between gap-4 py-3.5">
               <div className="flex items-center gap-3">
-                <Link href="/" aria-label="Arc Wise">
+                <Link href="/" aria-label="Seifecon">
                   <Logo />
                 </Link>
                 <span className="hidden text-sm text-muted sm:inline">{d.common.panelTitle}</span>

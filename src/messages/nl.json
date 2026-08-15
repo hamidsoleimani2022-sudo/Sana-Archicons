@@ -1,6 +1,6 @@
 {
   "Brand": {
-    "name": "Arc Wise",
+    "name": "Seifecon",
     "role": "Bouwadvies · Energie · AI Consultancy",
     "tagline": "Bouwen aan de toekomst met intelligentie"
   },
@@ -25,7 +25,7 @@
     "badge": "Bouwadvies · Energie · AI Consultancy · Automatisering",
     "titleLead": "Bouwen aan de toekomst met",
     "titleHighlight": "intelligentie",
-    "subtitle": "Arc Wise combineert bouwkundig advies, energieadvies en AI consultancy met procesautomatisering — voor slimmere, duurzamere en toekomstbestendige resultaten.",
+    "subtitle": "Seifecon combineert bouwkundig advies, energieadvies en AI consultancy met procesautomatisering — voor slimmere, duurzamere en toekomstbestendige resultaten.",
     "ctaPrimary": "Plan een consult",
     "ctaSecondary": "Bekijk diensten",
     "stat1Value": "10+",
@@ -137,8 +137,8 @@
   },
   "About": {
     "title": "Over ons",
-    "subtitle": "Arc Wise",
-    "lead": "Arc Wise is een Nederlands adviesbureau gespecialiseerd in bouwkundig advies, energieadvies en AI consultancy. Wij combineren technische expertise met innovatieve technologie voor duurzame en toekomstgerichte oplossingen.",
+    "subtitle": "Seifecon",
+    "lead": "Seifecon is een Nederlands adviesbureau gespecialiseerd in bouwkundig advies, energieadvies en AI consultancy. Wij combineren technische expertise met innovatieve technologie voor duurzame en toekomstgerichte oplossingen.",
     "missionTitle": "Missie",
     "mission": "Bedrijven en vastgoedeigenaren helpen om slimmere, duurzamere en efficiëntere keuzes te maken — door de kracht van AI te combineren met praktische bouw- en energiekennis.",
     "visionTitle": "Visie",
@@ -242,8 +242,8 @@
   },
   "Contact": {
     "title": "Contact",
-    "subtitle": "Neem contact op met Arc Wise voor een vrijblijvend gesprek over uw project of vraagstuk.",
-    "eyebrow": "Arc Wise",
+    "subtitle": "Neem contact op met Seifecon voor een vrijblijvend gesprek over uw project of vraagstuk.",
+    "eyebrow": "Seifecon",
     "formTitle": "Stuur ons een bericht",
     "name": "Naam",
     "email": "E-mailadres",
@@ -271,7 +271,7 @@
   },
   "Cta": {
     "title": "Klaar om samen te bouwen aan de toekomst?",
-    "subtitle": "Plan een vrijblijvend consult en ontdek wat Arc Wise voor uw organisatie kan betekenen.",
+    "subtitle": "Plan een vrijblijvend consult en ontdek wat Seifecon voor uw organisatie kan betekenen.",
     "button": "Plan een consult"
   },
   "Consult": {
@@ -279,7 +279,7 @@
     "title": "Vraag een adviesgesprek aan",
     "subtitle": "Vertel ons kort waar u mee bezig bent; wij nemen binnen 24 uur (op werkdagen) contact met u op.",
     "sideTitle": "Zet hier de eerste stap naar een slimmer project",
-    "sideBody": "Vul het formulier in en het team van Arc Wise neemt binnen 24 uur (op werkdagen) contact met u op. Het eerste gesprek is vrijblijvend en verplicht u tot niets.",
+    "sideBody": "Vul het formulier in en het team van Seifecon neemt binnen 24 uur (op werkdagen) contact met u op. Het eerste gesprek is vrijblijvend en verplicht u tot niets.",
     "bullet1": "Reactie binnen 24 uur op werkdagen",
     "bullet2": "Eerste kennismaking geheel vrijblijvend",
     "bullet3": "Geen loze beloftes; wel een helder vervolg",
@@ -308,7 +308,7 @@
     "submit": "Aanvraag versturen",
     "submitting": "Bezig met versturen…",
     "successTitle": "Uw aanvraag is ontvangen",
-    "successBody": "Bedankt voor uw aanvraag. Arc Wise neemt binnen 24 uur (op werkdagen) contact met u op.",
+    "successBody": "Bedankt voor uw aanvraag. Seifecon neemt binnen 24 uur (op werkdagen) contact met u op.",
     "another": "Nog een aanvraag indienen",
     "footnote": "Aan het versturen van dit formulier zijn geen kosten of verplichtingen verbonden.",
     "errors": {
@@ -326,13 +326,13 @@
     }
   },
   "Assistant": {
-    "welcomeTitle": "Slimme assistent van Arc Wise",
+    "welcomeTitle": "Slimme assistent van Seifecon",
     "welcomeBody": "Stel uw vraag over bouwkundig advies, energieadvies, AI-consultancy of procesautomatisering. Klaar voor een gesprek? Vraag dan direct een adviesgesprek aan.",
-    "starter1": "Wat kan Arc Wise voor mijn organisatie betekenen?",
+    "starter1": "Wat kan Seifecon voor mijn organisatie betekenen?",
     "starter2": "Hoe werkt een energielabel-aanvraag?",
     "starter3": "Wat kost een AI-consult en wat krijg ik daarvoor?",
     "starter4": "Hoe start ik met procesautomatisering?",
-    "inputPlaceholder": "Typ uw vraag over Arc Wise…",
+    "inputPlaceholder": "Typ uw vraag over Seifecon…",
     "send": "Versturen",
     "ctaButton": "Adviesgesprek aanvragen",
     "sourcesLabel": "Bronnen:",
@@ -343,9 +343,9 @@
   "ChatWidget": {
     "launcher": "Chat openen",
     "close": "Chat sluiten",
-    "title": "Arc Wise-assistent",
+    "title": "Seifecon-assistent",
     "subtitle": "AI-assistent · reageert meestal direct",
-    "welcome": "Hallo! Ik ben de slimme assistent van Arc Wise. Waarmee kan ik u helpen — bouw, energie of AI?",
+    "welcome": "Hallo! Ik ben de slimme assistent van Seifecon. Waarmee kan ik u helpen — bouw, energie of AI?",
     "hint": "U kunt vragen stellen over onze diensten, tarieven en werkwijze.",
     "cta": "Adviesgesprek aanvragen",
     "inputPlaceholder": "Typ uw bericht…",
@@ -359,8 +359,8 @@
     "errorNetwork": "Geen verbinding. Probeer het opnieuw."
   },
   "Academy": {
-    "eyebrow": "Academie Arc Wise",
-    "title": "Academie Arc Wise",
+    "eyebrow": "Academie Seifecon",
+    "title": "Academie Seifecon",
     "subtitle": "Leer alles over energielabels met interactieve lessen. Upload een hand-out en AI maakt er een complete les van — met kernpunten, voorbeelden en oefenvragen.",
     "teacherCardTitle": "Voor docenten",
     "teacherCardDesc": "Upload de tekstuele hand-out van uw les en zet deze om in een interactieve les met kernpunten, voorbeelden en een quiz.",
@@ -368,7 +368,7 @@
     "studentCardTitle": "Voor studenten",
     "studentCardDesc": "Bekijk een les via de link die u van uw docent heeft ontvangen — geen account nodig.",
     "studentCardCta": "Voorbeeldles bekijken",
-    "homeTitle": "Nieuw: Academie Arc Wise",
+    "homeTitle": "Nieuw: Academie Seifecon",
     "homeDesc": "Interactieve lessen over energielabels — van hand-out naar les met AI. Voor docenten én studenten.",
     "homeCta": "Naar de academie",
     "howTitle": "Hoe werkt het?",

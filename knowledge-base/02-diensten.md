@@ -1,10 +1,10 @@
 ---
-titel: Diensten van Arc Wise
+titel: Diensten van Seifecon
 onderwerp: Dienstenoverzicht
 type: officiële referentie
 ---
 
-# Diensten van Arc Wise
+# Diensten van Seifecon
 
 ## 1. Bouwkundig advies
 Professioneel bouwkundig advies voor renovaties, verbouwingen en nieuwbouwprojecten — van technisch onderzoek tot begeleiding op locatie. Denk aan:
